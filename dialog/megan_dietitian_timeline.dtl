@@ -1,0 +1,23 @@
+megan_character: Hello, how may I assist you? In which are you interested in?
+- General Dietary Advice
+	megan_character: You should stay hydrated throughout the day, limit processed foods and those high in sugar, get enough sleep and maintain a balanced diet. Be mindful of portion sizes as well. These are good starting points, along with regular exercise, of course!
+	jump megan_dietitian_timeline/
+- Store
+	megan_character: Of course!
+	- Bottled Water
+	- Supplement
+	- Electrolyte Drink
+	- Recipe books for healthy meals
+	- Body Composition Analysis
+	- Nutrition Plans
+	megan_character: Here!
+	jump megan_dietitian_timeline/
+- Personalised Nutrition Plan
+	megan_character: These are our personalised nutrition plans you can choose from, based on your needs.
+	- Weight Loss Plan
+	- Muscle Gain Plan
+	- Balanced Plan
+	- Plant-Based Plan
+	megan_character: Here you are.
+	jump megan_dietitian_timeline/
+- Nothing

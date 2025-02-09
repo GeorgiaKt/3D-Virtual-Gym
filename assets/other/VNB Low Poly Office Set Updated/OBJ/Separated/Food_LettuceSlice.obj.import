@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://1mnk5mwvijrt"
+path="res://.godot/imported/Food_LettuceSlice.obj-89b130cdc529cd3ac06beca703ad4c6c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Food_LettuceSlice.obj-89b130cdc529cd3ac06beca703ad4c6c.mesh"]
+
+source_file="res://assets/other/VNB Low Poly Office Set Updated/OBJ/Separated/Food_LettuceSlice.obj"
+dest_files=["res://.godot/imported/Food_LettuceSlice.obj-89b130cdc529cd3ac06beca703ad4c6c.mesh", "res://.godot/imported/Food_LettuceSlice.obj-89b130cdc529cd3ac06beca703ad4c6c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

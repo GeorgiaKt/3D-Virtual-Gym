@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cmeewyv2enmqq"
+path="res://.godot/imported/Tape.obj-b869e0de425f46d8383480cde0da6489.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Tape.obj-b869e0de425f46d8383480cde0da6489.mesh"]
+
+source_file="res://assets/other/VNB Low Poly Office Set Updated/OBJ/Separated/Tape.obj"
+dest_files=["res://.godot/imported/Tape.obj-b869e0de425f46d8383480cde0da6489.mesh", "res://.godot/imported/Tape.obj-b869e0de425f46d8383480cde0da6489.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

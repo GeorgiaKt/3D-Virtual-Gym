@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dd8i3mj73ex8j"
+path="res://.godot/imported/Fruit_Apple.obj-00194d2fda02ea659717d009483103e3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Fruit_Apple.obj-00194d2fda02ea659717d009483103e3.mesh"]
+
+source_file="res://assets/other/VNB Low Poly Office Set Updated/OBJ/Separated/Fruit_Apple.obj"
+dest_files=["res://.godot/imported/Fruit_Apple.obj-00194d2fda02ea659717d009483103e3.mesh", "res://.godot/imported/Fruit_Apple.obj-00194d2fda02ea659717d009483103e3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,155 @@
+[gd_scene load_steps=6 format=3 uid="uid://dou5mqswecegh"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_i3sok"]
+font_size = 27
+outline_size = 2
+outline_color = Color(0.0117647, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_7314i"]
+font_size = 25
+outline_size = 1
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oja4k"]
+bg_color = Color(0.510933, 0.525332, 1, 0.698039)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b5jek"]
+bg_color = Color(0.4, 0.341176, 0.607843, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0, 0, 0, 0.490196)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="LabelSettings" id="LabelSettings_2d1bq"]
+font_size = 20
+outline_size = 1
+outline_color = Color(0, 0, 0, 1)
+
+[node name="UI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="BottomPanel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_top = -100.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="InteractLabel" type="Label" parent="BottomPanel"]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -16.5
+offset_top = -18.5
+offset_right = 16.5
+offset_bottom = 18.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "[E]"
+label_settings = SubResource("LabelSettings_i3sok")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TopPanel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+grow_horizontal = 2
+
+[node name="ScorePanel" type="Panel" parent="TopPanel"]
+self_modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+offset_left = 38.0
+offset_top = 41.0
+offset_right = 78.0
+offset_bottom = 81.0
+
+[node name="ScoreLabel" type="Label" parent="TopPanel/ScorePanel"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -17.5
+offset_right = 67.0
+offset_bottom = 17.5
+grow_vertical = 2
+text = "Score"
+label_settings = SubResource("LabelSettings_7314i")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ProgressBar" type="ProgressBar" parent="TopPanel/ScorePanel"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 40.0
+offset_top = -14.0
+offset_right = 190.0
+offset_bottom = 16.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_oja4k")
+theme_override_styles/fill = SubResource("StyleBoxFlat_b5jek")
+value = 70.0
+
+[node name="ReturnLabel" type="Label" parent="TopPanel"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -170.0
+offset_top = 54.0
+offset_right = -29.0
+offset_bottom = 82.0
+grow_horizontal = 0
+text = "[Esc] to Return"
+label_settings = SubResource("LabelSettings_2d1bq")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InfoLabel" type="Label" parent="TopPanel"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -57.0
+offset_top = 33.0
+offset_right = 54.0
+offset_bottom = 61.0
+grow_horizontal = 2
+text = "Info"
+label_settings = SubResource("LabelSettings_2d1bq")
+horizontal_alignment = 1
+vertical_alignment = 1

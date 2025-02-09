@@ -1,0 +1,749 @@
+[gd_scene load_steps=39 format=3 uid="uid://bmv0mjcuveeim"]
+
+[ext_resource type="Texture2D" uid="uid://cqjbj2x45qx3w" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_diff_4k.png" id="1_0k5q7"]
+[ext_resource type="Texture2D" uid="uid://dkwpfx433ulrm" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_nor_gl_4k.png" id="2_1myl3"]
+[ext_resource type="Texture2D" uid="uid://dequ18ilxwub" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_rough_4k.png" id="3_1js67"]
+[ext_resource type="Texture2D" uid="uid://r3n4cv4as0ed" path="res://textures/plastered_wall_4k/plastered_wall_diff_4k.png" id="4_tyxlr"]
+[ext_resource type="Texture2D" uid="uid://68pnnimgy55y" path="res://textures/plastered_wall_4k/plastered_wall_nor_gl_4k.png" id="5_hvrr2"]
+[ext_resource type="Texture2D" uid="uid://cd7g10dwi5q0w" path="res://textures/plastered_wall_4k/plastered_wall_rough_4k.png" id="6_ficrx"]
+[ext_resource type="PackedScene" uid="uid://o8cbarwqn7xw" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Drawer_2.fbx" id="7_l5iae"]
+[ext_resource type="PackedScene" uid="uid://bb4fcwgwyarsn" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Drawer_D.fbx" id="8_xnacc"]
+[ext_resource type="PackedScene" uid="uid://dlx23g2ps4l1s" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Chair_B.fbx" id="10_xixeb"]
+[ext_resource type="PackedScene" uid="uid://dftts84gx5to" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Sofa_1.fbx" id="11_n116d"]
+[ext_resource type="PackedScene" uid="uid://b8egp0rbho0ja" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Sofa_2.fbx" id="12_ag2wv"]
+[ext_resource type="PackedScene" uid="uid://cwt57qwlg6jnt" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Office_Desk_4_Two.fbx" id="12_y3ufi"]
+[ext_resource type="PackedScene" uid="uid://d2raxviu4twck" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/CoffeeCup.fbx" id="13_mldhh"]
+[ext_resource type="PackedScene" uid="uid://kily4ym56ci4" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Sofa_3.fbx" id="13_vnh7s"]
+[ext_resource type="PackedScene" uid="uid://bih1tcodchryh" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Fruit_Apple.fbx" id="14_5fn81"]
+[ext_resource type="PackedScene" uid="uid://cd5sfwveeo216" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/CTable_2.fbx" id="14_qb8rb"]
+[ext_resource type="PackedScene" uid="uid://bc0u7a4ttvvtc" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Lamp_1_Small.fbx" id="15_i5ruy"]
+[ext_resource type="PackedScene" uid="uid://h5kktqawjmrv" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Notepad.fbx" id="16_e6qvi"]
+[ext_resource type="PackedScene" uid="uid://dw28lcvqxkf6e" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Painting.fbx" id="17_lj61m"]
+[ext_resource type="PackedScene" uid="uid://bhbdwmnv87888" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Office_Files_A.fbx" id="18_7yhvr"]
+[ext_resource type="PackedScene" uid="uid://br0au4assfrjw" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Phone_A Base.fbx" id="20_reenb"]
+[ext_resource type="PackedScene" uid="uid://bdr1s7s553ee1" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Phone_B.fbx" id="21_vcjn4"]
+[ext_resource type="PackedScene" uid="uid://df8oc8hpcg244" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/PC_Screen.fbx" id="23_mkxlh"]
+[ext_resource type="PackedScene" uid="uid://b8ksqpn61rgxf" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Keyboard.fbx" id="24_0fe1a"]
+[ext_resource type="PackedScene" uid="uid://bg4378ohxw336" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Mouse.fbx" id="25_pw4ys"]
+[ext_resource type="PackedScene" uid="uid://p5mkr3ypnnkg" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Kettlebell.fbx" id="27_yt6ac"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6l572"]
+size = Vector3(24, 0.2, 32)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_370wi"]
+albedo_texture = ExtResource("1_0k5q7")
+roughness = 0.7
+roughness_texture = ExtResource("3_1js67")
+normal_enabled = true
+normal_texture = ExtResource("2_1myl3")
+uv1_scale = Vector3(12, 12, 12)
+
+[sub_resource type="BoxMesh" id="BoxMesh_blrrn"]
+material = SubResource("StandardMaterial3D_370wi")
+size = Vector3(24, 0.2, 32)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_frgai"]
+size = Vector3(0.1, 4, 32)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_inojq"]
+albedo_texture = ExtResource("4_tyxlr")
+roughness_texture = ExtResource("6_ficrx")
+normal_enabled = true
+normal_texture = ExtResource("5_hvrr2")
+heightmap_enabled = true
+heightmap_scale = 16.0
+uv1_scale = Vector3(5, 5, 5)
+
+[sub_resource type="BoxMesh" id="BoxMesh_fn0hq"]
+material = SubResource("StandardMaterial3D_inojq")
+size = Vector3(0.1, 4, 32)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_w3vcf"]
+size = Vector3(24, 4, 0.1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qp63w"]
+albedo_texture = ExtResource("4_tyxlr")
+roughness_texture = ExtResource("6_ficrx")
+emission_energy_multiplier = 13.66
+normal_enabled = true
+normal_texture = ExtResource("5_hvrr2")
+heightmap_enabled = true
+heightmap_scale = 16.0
+uv1_scale = Vector3(5, 5, 5)
+
+[sub_resource type="BoxMesh" id="BoxMesh_copof"]
+lightmap_size_hint = Vector2i(124, 166)
+material = SubResource("StandardMaterial3D_qp63w")
+size = Vector3(24, 4, 0.1)
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_rvv8s"]
+viewport_path = NodePath("Lobby/Office_Desk_4_Two/Office_Files_A/Sprite3D/SubViewport")
+
+[sub_resource type="LabelSettings" id="LabelSettings_74fys"]
+font_size = 40
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_0h5va"]
+font_size = 30
+font_color = Color(0, 0, 0, 1)
+
+[node name="GymRoom" type="Node3D"]
+
+[node name="Floor" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Floor"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.1, 0)
+shape = SubResource("BoxShape3D_6l572")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Floor"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.1, 0)
+mesh = SubResource("BoxMesh_blrrn")
+
+[node name="Walls" type="Node3D" parent="."]
+
+[node name="Wall0" type="StaticBody3D" parent="Walls"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/Wall0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 1.5, 0)
+shape = SubResource("BoxShape3D_frgai")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Walls/Wall0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 1.5, 0)
+mesh = SubResource("BoxMesh_fn0hq")
+
+[node name="Wall1" type="StaticBody3D" parent="Walls"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/Wall1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 1.5, 0)
+shape = SubResource("BoxShape3D_frgai")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Walls/Wall1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 1.5, 0)
+mesh = SubResource("BoxMesh_fn0hq")
+
+[node name="Wall2" type="StaticBody3D" parent="Walls"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/Wall2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 16)
+shape = SubResource("BoxShape3D_w3vcf")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Walls/Wall2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 16)
+mesh = SubResource("BoxMesh_copof")
+
+[node name="Wall3" type="StaticBody3D" parent="Walls"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/Wall3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, -16)
+shape = SubResource("BoxShape3D_w3vcf")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Walls/Wall3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, -16)
+mesh = SubResource("BoxMesh_copof")
+
+[node name="Lobby" type="Node3D" parent="."]
+
+[node name="Sofa_1" parent="Lobby" instance=ExtResource("11_n116d")]
+transform = Transform3D(1.15845, 0, 0, 0, 1, 0, 0, 0, 1, 2.48304, 3.7998e-07, 11.3717)
+
+[node name="Sofa_2" parent="Lobby" instance=ExtResource("12_ag2wv")]
+transform = Transform3D(-1.46309, 0, -8.74228e-08, 0, 1, 0, 1.27907e-07, 0, -1, 2.87801, -9.68575e-08, 15.2962)
+
+[node name="Sofa_3" parent="Lobby" instance=ExtResource("13_vnh7s")]
+transform = Transform3D(-0.766044, 0, -0.642788, 0, 1, 0, 0.642788, 0, -0.766044, 5.71552, 3.7998e-07, 15.0001)
+
+[node name="CTable_2" parent="Lobby" instance=ExtResource("14_qb8rb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.79102, 1.41561e-07, 13.3446)
+
+[node name="Sofa_4" parent="Lobby" instance=ExtResource("13_vnh7s")]
+transform = Transform3D(0.96803, 0, -0.250836, 0, 1, 0, 0.250836, 0, 0.96803, 5.12681, 3.7998e-07, 11.5232)
+
+[node name="Painting" parent="Lobby" instance=ExtResource("17_lj61m")]
+transform = Transform3D(-1.87159, 0, 3.17865e-08, 0, 1.79691, 0, -5.94914e-08, 0, -1, 3.07376, 2.37718, 15.9228)
+
+[node name="Office_Desk_4_Two" parent="Lobby" instance=ExtResource("12_y3ufi")]
+transform = Transform3D(1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, -2.71959, -9.68575e-08, 10.5546)
+
+[node name="Chair_B" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("10_xixeb")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1.09744, 0, -8.74228e-08, 0, -1, 0.0731497, 4.9738e-14, 0.796224)
+
+[node name="Chair_B2" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("10_xixeb")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1.10059, 0, 1, 0, -4.37114e-08, -0.09, 0, 2.057)
+
+[node name="CoffeeCup" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("13_mldhh")]
+transform = Transform3D(0.890499, 0, -0.454986, 0, 1, 0, 0.454986, 0, 0.890499, 0.886112, 0.953123, 0.0241077)
+
+[node name="Fruit_Apple" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("14_5fn81")]
+transform = Transform3D(1.19249e-08, 0, 1, 0, 1, 0, -1, 0, 1.19249e-08, 1.0703, 0.955952, -0.191747)
+
+[node name="Fruit_Apple2" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("14_5fn81")]
+transform = Transform3D(1.19249e-08, 0, 1, 0, 1, 0, -1, 0, 1.19249e-08, 0.972409, 0.955952, -0.241477)
+
+[node name="Lamp_1_Small" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("15_i5ruy")]
+transform = Transform3D(1.19249e-08, 0, 1, 0, 1, 0, -1, 0, 1.19249e-08, -1.07106, 0.951362, 0.41491)
+
+[node name="Notepad" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("16_e6qvi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0658731, 0.955526, 0.144754)
+
+[node name="Office_Files_A" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("18_7yhvr")]
+transform = Transform3D(0.906308, 0, 0.422618, 0, 1, 0, -0.422618, 0, 0.906308, -0.867389, 0.95347, 0.0234625)
+
+[node name="Sprite3D" type="Sprite3D" parent="Lobby/Office_Desk_4_Two/Office_Files_A"]
+transform = Transform3D(0.0390889, 0.00219532, -1.79157e-09, 3.42192e-17, -2.34128e-09, -1, -0.00160346, 0.0535172, -4.36747e-08, 0.0078578, 0.145622, 0.00366735)
+flip_h = true
+texture = SubResource("ViewportTexture_rvv8s")
+
+[node name="SubViewport" type="SubViewport" parent="Lobby/Office_Desk_4_Two/Office_Files_A/Sprite3D"]
+transparent_bg = true
+
+[node name="Label" type="Label" parent="Lobby/Office_Desk_4_Two/Office_Files_A/Sprite3D/SubViewport"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -302.5
+offset_right = 302.5
+offset_bottom = 229.0
+grow_horizontal = 2
+text = "
+[W],[S],[A],[D]: movement
+[E]: interact
+[Esc]: Exit"
+label_settings = SubResource("LabelSettings_74fys")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="Lobby/Office_Desk_4_Two/Office_Files_A/Sprite3D/SubViewport"]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -87.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "*Arrow keys can be used as well"
+label_settings = SubResource("LabelSettings_0h5va")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Phone_A Base" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("20_reenb")]
+transform = Transform3D(0.325568, 0, 0.945519, 0, 1, 0, -0.945519, 0, 0.325568, -0.906826, 0.952642, 0.780539)
+
+[node name="Phone_B" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("21_vcjn4")]
+transform = Transform3D(0.34202, 0, 0.939693, 0, 1, 0, -0.939693, 0, 0.34202, -0.930804, 1.01195, 0.826502)
+
+[node name="Kettlebell" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("27_yt6ac")]
+transform = Transform3D(0.791746, 0, 0.61085, 0, 1, 0, -0.61085, 0, 0.791746, -1.03131, 1.04932, 2.82564)
+
+[node name="Kettlebell2" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("27_yt6ac")]
+transform = Transform3D(0.557599, 0, 0.221546, 0, 0.6, 0, -0.221546, 0, 0.557599, -1.02761, 1.00943, 2.65895)
+
+[node name="Kettlebell3" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("27_yt6ac")]
+transform = Transform3D(0.364931, 0, 0.163785, 0, 0.4, 0, -0.163785, 0, 0.364931, -1.14223, 0.989009, 2.71007)
+
+[node name="PC_Screen" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("23_mkxlh")]
+transform = Transform3D(-0.331733, 0, 0.943373, 0, 1, 0, -0.943373, 0, -0.331733, -0.903971, 0.952232, 2.36868)
+
+[node name="Keyboard" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("24_0fe1a")]
+transform = Transform3D(1.19249e-08, 0, 1, 0, 1, 0, -1, 0, 1.19249e-08, -0.662338, 0.953, 2.155)
+
+[node name="Mouse" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("25_pw4ys")]
+transform = Transform3D(0.123324, 0, -0.992366, 0, 1, 0, 0.992366, 0, 0.123324, -0.729291, 0.952, 1.82023)
+
+[node name="LockerRoom" type="Node3D" parent="."]
+
+[node name="group1" type="Node3D" parent="LockerRoom"]
+
+[node name="Drawer_3" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.7321, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group1/Drawer_3" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_4" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.3287, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group1/Drawer_4" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_5" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.9257, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group1/Drawer_5" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_6" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.5214, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group1/Drawer_6" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_7" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.1182, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group1/Drawer_7" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_8" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.71488, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group1/Drawer_8" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_9" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.31268, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group1/Drawer_9" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_10" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.90656, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group1/Drawer_10" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_11" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.50254, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group1/Drawer_11" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_12" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.09852, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group1/Drawer_12" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_13" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.69429, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group1/Drawer_13" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_14" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.29006, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group1/Drawer_14" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_15" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.88422, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group1/Drawer_15" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_16" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.48046, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group1/Drawer_16" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="group2" type="Node3D" parent="LockerRoom"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -21.713, 0, 0.837)
+
+[node name="Drawer_3" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.7321, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group2/Drawer_3" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_4" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.3287, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group2/Drawer_4" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_5" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.9257, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group2/Drawer_5" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_6" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.5214, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group2/Drawer_6" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_7" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.1182, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group2/Drawer_7" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_8" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.71488, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group2/Drawer_8" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_9" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.31268, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group2/Drawer_9" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_10" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.90656, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group2/Drawer_10" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_11" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.50254, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group2/Drawer_11" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_12" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.09852, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group2/Drawer_12" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_13" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.69429, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group2/Drawer_13" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_14" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.29006, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group2/Drawer_14" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_15" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.88422, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group2/Drawer_15" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_16" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.48046, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group2/Drawer_16" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="group3" type="Node3D" parent="LockerRoom"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -18.1481, 0, 23.0343)
+
+[node name="Drawer_3" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.7321, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group3/Drawer_3" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_4" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.3287, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group3/Drawer_4" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_5" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.9257, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group3/Drawer_5" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_6" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.5214, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group3/Drawer_6" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_7" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.1182, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group3/Drawer_7" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_8" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.71488, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group3/Drawer_8" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_9" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.31268, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group3/Drawer_9" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_10" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.90656, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group3/Drawer_10" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_11" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.50254, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group3/Drawer_11" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_12" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.09852, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group3/Drawer_12" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_13" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.69429, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group3/Drawer_13" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_14" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.29006, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group3/Drawer_14" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_15" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.88422, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group3/Drawer_15" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_16" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.48046, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group3/Drawer_16" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="group4" type="Node3D" parent="LockerRoom"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -25.0971, 0, 1.90305)
+
+[node name="Drawer_3" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.7321, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group4/Drawer_3" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_4" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.3287, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group4/Drawer_4" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_5" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.9257, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group4/Drawer_5" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_6" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.5214, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group4/Drawer_6" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_7" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.1182, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group4/Drawer_7" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_8" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.71488, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group4/Drawer_8" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_9" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.31268, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group4/Drawer_9" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_10" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.90656, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group4/Drawer_10" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_11" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.50254, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group4/Drawer_11" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_12" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.09852, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group4/Drawer_12" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_13" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.69429, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group4/Drawer_13" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_14" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.29006, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group4/Drawer_14" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="group5" type="Node3D" parent="LockerRoom"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 6.764, 0, 20.923)
+
+[node name="Drawer_3" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.7321, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group5/Drawer_3" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_4" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.3287, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group5/Drawer_4" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_5" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.9257, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group5/Drawer_5" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_6" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.5214, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group5/Drawer_6" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_7" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.1182, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group5/Drawer_7" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_8" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.71488, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group5/Drawer_8" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_9" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.31268, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group5/Drawer_9" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_10" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.90656, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group5/Drawer_10" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_11" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.50254, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group5/Drawer_11" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_12" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.09852, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group5/Drawer_12" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_13" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.69429, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group5/Drawer_13" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_14" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.29006, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group5/Drawer_14" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="group6" type="Node3D" parent="LockerRoom"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3.95592, 0, 20.7594)
+
+[node name="Drawer_3" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.7321, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group6/Drawer_3" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_4" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.3287, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group6/Drawer_4" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_5" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.9257, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group6/Drawer_5" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_6" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.5214, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group6/Drawer_6" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_7" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.1182, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group6/Drawer_7" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_8" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.71488, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group6/Drawer_8" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_9" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.31268, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group6/Drawer_9" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_10" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.90656, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group6/Drawer_10" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_11" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.50254, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group6/Drawer_11" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_12" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.09852, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group6/Drawer_12" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_13" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.69429, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group6/Drawer_13" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_14" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.29006, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group6/Drawer_14" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_15" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.88422, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group6/Drawer_15" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Drawer_16" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.48046, 3.7998e-07, 15.7183)
+
+[node name="Drawer_D" parent="LockerRoom/group6/Drawer_16" instance=ExtResource("8_xnacc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)

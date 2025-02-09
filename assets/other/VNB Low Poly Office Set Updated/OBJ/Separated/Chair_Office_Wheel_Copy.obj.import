@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bckyuwsl0ireb"
+path="res://.godot/imported/Chair_Office_Wheel_Copy.obj-95a8a06a26c529b50c8ce90cfae2394e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Chair_Office_Wheel_Copy.obj-95a8a06a26c529b50c8ce90cfae2394e.mesh"]
+
+source_file="res://assets/other/VNB Low Poly Office Set Updated/OBJ/Separated/Chair_Office_Wheel_Copy.obj"
+dest_files=["res://.godot/imported/Chair_Office_Wheel_Copy.obj-95a8a06a26c529b50c8ce90cfae2394e.mesh", "res://.godot/imported/Chair_Office_Wheel_Copy.obj-95a8a06a26c529b50c8ce90cfae2394e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

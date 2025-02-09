@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b8vmg8vh2ic0o"
+path="res://.godot/imported/Lamp_1.obj-be6e4bcdeeccb5ff745a2dcd112b0708.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Lamp_1.obj-be6e4bcdeeccb5ff745a2dcd112b0708.mesh"]
+
+source_file="res://assets/other/VNB Low Poly Office Set Updated/OBJ/Separated/Lamp_1.obj"
+dest_files=["res://.godot/imported/Lamp_1.obj-be6e4bcdeeccb5ff745a2dcd112b0708.mesh", "res://.godot/imported/Lamp_1.obj-be6e4bcdeeccb5ff745a2dcd112b0708.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

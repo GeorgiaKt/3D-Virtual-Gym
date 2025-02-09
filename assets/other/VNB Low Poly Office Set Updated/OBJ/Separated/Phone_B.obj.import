@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dby7lde6kmjll"
+path="res://.godot/imported/Phone_B.obj-7736f85e393890895a42e349e3e378fc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Phone_B.obj-7736f85e393890895a42e349e3e378fc.mesh"]
+
+source_file="res://assets/other/VNB Low Poly Office Set Updated/OBJ/Separated/Phone_B.obj"
+dest_files=["res://.godot/imported/Phone_B.obj-7736f85e393890895a42e349e3e378fc.mesh", "res://.godot/imported/Phone_B.obj-7736f85e393890895a42e349e3e378fc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

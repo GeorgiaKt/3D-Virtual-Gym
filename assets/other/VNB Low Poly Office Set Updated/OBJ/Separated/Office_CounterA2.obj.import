@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dv3lcaydlvua5"
+path="res://.godot/imported/Office_CounterA2.obj-16c15e23a87b3febe7cea99388fe7dbf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Office_CounterA2.obj-16c15e23a87b3febe7cea99388fe7dbf.mesh"]
+
+source_file="res://assets/other/VNB Low Poly Office Set Updated/OBJ/Separated/Office_CounterA2.obj"
+dest_files=["res://.godot/imported/Office_CounterA2.obj-16c15e23a87b3febe7cea99388fe7dbf.mesh", "res://.godot/imported/Office_CounterA2.obj-16c15e23a87b3febe7cea99388fe7dbf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

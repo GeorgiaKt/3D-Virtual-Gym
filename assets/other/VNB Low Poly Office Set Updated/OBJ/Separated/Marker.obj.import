@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://tcd4vvkhi40h"
+path="res://.godot/imported/Marker.obj-8490d5ad65a1886e44dbcbb2b8ec10b0.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Marker.obj-8490d5ad65a1886e44dbcbb2b8ec10b0.mesh"]
+
+source_file="res://assets/other/VNB Low Poly Office Set Updated/OBJ/Separated/Marker.obj"
+dest_files=["res://.godot/imported/Marker.obj-8490d5ad65a1886e44dbcbb2b8ec10b0.mesh", "res://.godot/imported/Marker.obj-8490d5ad65a1886e44dbcbb2b8ec10b0.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

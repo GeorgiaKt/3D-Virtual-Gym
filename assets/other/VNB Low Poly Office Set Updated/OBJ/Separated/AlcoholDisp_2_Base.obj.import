@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://i1k2vjhjidwg"
+path="res://.godot/imported/AlcoholDisp_2_Base.obj-8395da364fcfa45c6d1429db3f7e9240.mesh"
+
+[deps]
+
+files=["res://.godot/imported/AlcoholDisp_2_Base.obj-8395da364fcfa45c6d1429db3f7e9240.mesh"]
+
+source_file="res://assets/other/VNB Low Poly Office Set Updated/OBJ/Separated/AlcoholDisp_2_Base.obj"
+dest_files=["res://.godot/imported/AlcoholDisp_2_Base.obj-8395da364fcfa45c6d1429db3f7e9240.mesh", "res://.godot/imported/AlcoholDisp_2_Base.obj-8395da364fcfa45c6d1429db3f7e9240.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

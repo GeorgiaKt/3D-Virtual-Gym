@@ -1,0 +1,39 @@
+jody_character: Hello, how could I assist you today? In which of those are you interested in?
+- Information
+	- What areas are available in the gym?
+		jody_character: We have a Calisthenics Area, a Cardio Area, consisting mostly of treadmills and bikes and a Muscle Gain Area, consisting of Pull Down Machines, Bench Presses and Sm Machines, suitable for weightlifting! We also have two Group Fitness Classes, A and B. These classes take place on specific days and times each week. You can refer to our weekly schedule for details.
+	- I would like to know about the available gym memberships
+		jody_character: We have a monthly and a yearly membership.
+	- What are the available Group Fitness Classes?
+		jody_character: Refer to our weekly schedule for those! You can book a spot, if you like to!
+		- Pilates
+		- Strength Training
+		- Functional Training
+		- Burning Fat Training
+		- Flexibility and Balance
+	- Weekly Schedule of the Group Fitness Classes
+		jody_character: Here. Keep in mind, it changes every once a month!
+	- How often is it advised to exercise?
+		jody_character: It generally varies from person to person. We advise our clients to exercise at least twice per week.
+	jump jody_trainer_timeline/
+- Store
+	- Gym Membership
+		jody_character: Sure!
+		- Monthly
+		- Yearly
+	- Towels
+	- Gym Gloves
+	- Lifting Straps
+	- Resistance Bands
+	- Gym Bag
+	jody_character: There you go.
+	jump jody_trainer_timeline/
+- Personalised Training Program
+	jody_character: What type of program are you interested in?
+	- Weight Loss Program
+	- Muscle Gain Program
+	- Endurance Training Program
+	jody_character: There you go.
+	jump jody_trainer_timeline/
+- Assessment and Advice
+- Nothing

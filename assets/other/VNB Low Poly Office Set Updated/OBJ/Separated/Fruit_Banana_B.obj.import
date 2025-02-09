@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dt7ews4s2kchw"
+path="res://.godot/imported/Fruit_Banana_B.obj-2e419e4f3568f60d83193cc8432c32b3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Fruit_Banana_B.obj-2e419e4f3568f60d83193cc8432c32b3.mesh"]
+
+source_file="res://assets/other/VNB Low Poly Office Set Updated/OBJ/Separated/Fruit_Banana_B.obj"
+dest_files=["res://.godot/imported/Fruit_Banana_B.obj-2e419e4f3568f60d83193cc8432c32b3.mesh", "res://.godot/imported/Fruit_Banana_B.obj-2e419e4f3568f60d83193cc8432c32b3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

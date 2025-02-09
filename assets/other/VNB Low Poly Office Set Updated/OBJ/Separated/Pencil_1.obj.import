@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d0k0apiexx4go"
+path="res://.godot/imported/Pencil_1.obj-42ad5e8e7d1059e9c7e53bb015ace8ee.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Pencil_1.obj-42ad5e8e7d1059e9c7e53bb015ace8ee.mesh"]
+
+source_file="res://assets/other/VNB Low Poly Office Set Updated/OBJ/Separated/Pencil_1.obj"
+dest_files=["res://.godot/imported/Pencil_1.obj-42ad5e8e7d1059e9c7e53bb015ace8ee.mesh", "res://.godot/imported/Pencil_1.obj-42ad5e8e7d1059e9c7e53bb015ace8ee.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

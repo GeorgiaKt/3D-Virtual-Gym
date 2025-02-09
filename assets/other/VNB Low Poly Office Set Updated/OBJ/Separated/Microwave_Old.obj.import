@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c0crnt6d5hcpg"
+path="res://.godot/imported/Microwave_Old.obj-6bb2734d73151209fe4938e0c2877ec4.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Microwave_Old.obj-6bb2734d73151209fe4938e0c2877ec4.mesh"]
+
+source_file="res://assets/other/VNB Low Poly Office Set Updated/OBJ/Separated/Microwave_Old.obj"
+dest_files=["res://.godot/imported/Microwave_Old.obj-6bb2734d73151209fe4938e0c2877ec4.mesh", "res://.godot/imported/Microwave_Old.obj-6bb2734d73151209fe4938e0c2877ec4.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
