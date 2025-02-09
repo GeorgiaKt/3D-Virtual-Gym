@@ -1,5 +1,7 @@
 class_name Player extends CharacterBody3D
 
+@onready var general_progress_bar: ProgressBar = $UI/TopPanel/ScorePanel/ProgressBar
+
 @export_category("Player")
 @export_range(1, 35, 1) var speed: float = 10 # m/s
 @export_range(10, 400, 1) var acceleration: float = 100 # m/s^2
@@ -25,6 +27,7 @@ var jump_vel: Vector3 # Jumping velocity
 #flags to determine whether the player interacted or has entered in specific area
 var has_interacted:bool =  false
 var has_entered:bool = false
+var minigame_isVisible = false
 var calisthenics_entered:bool = false
 var groupFitnessClassA_entered:bool = false
 var groupFitnessClassB_entered:bool = false
@@ -39,8 +42,6 @@ var jody_trainer_entered:bool = false
 
 func _ready() -> void:
 	capture_mouse()
-	#$UI/BottomPanel/InteractLabel.hide()
-	#$UI/TopPanel/InfoLabel.hide()
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
@@ -87,9 +88,7 @@ func _gravity(delta: float) -> Vector3:
 	#return jump_vel
 
 func _process(delta: float) -> void:
-	if Dialogic.current_timeline == null: #check if a dialog is still running
-		has_interacted = false
-		capture_mouse()
+	general_progress_bar.value = Global.general_progress #continuously update the bar based on global progress
 	if has_interacted and has_entered: #when player has entered and interacted with an are, hide UI
 		$UI/BottomPanel/InteractLabel.hide()
 		$UI/TopPanel/InfoLabel.hide()
@@ -98,14 +97,24 @@ func _process(delta: float) -> void:
 		$UI/BottomPanel/InteractLabel.show()
 		$UI/TopPanel/InfoLabel.show()
 		$UI/TopPanel/ReturnLabel.hide()
+		
+	Dialogic.VAR.score_perc = Global.general_progress #update variable for fitness score used in dialog
+
 
 func handle_exit():
-	if not has_interacted: #close game if player has not interacted with anything
-		get_tree().quit()
-	else: #close dialog if there is one running
-		if Dialogic.current_timeline !=null:
+	if minigame_isVisible: #if mini game is running, close it
+		$UI/MiddlePanel.hide()
+		$UI/BottomPanel/PlayLabel.hide()
+		minigame_isVisible = false
+		has_interacted = false
+	elif not minigame_isVisible: #if mini game is closed
+		if Dialogic.current_timeline !=null: #close dialog if there is one running
 			Dialogic.end_timeline()
 			capture_mouse()
+			has_interacted = false
+		else: #else close app
+			get_tree().quit()
+
 
 
 func handle_interaction():
@@ -115,9 +124,9 @@ func handle_interaction():
 	elif megan_dietitian_entered:
 		prepareForDialog("megan_dietitian_timeline")
 	elif calisthenics_entered or groupFitnessClassA_entered or groupFitnessClassB_entered or cardio_entered:
-		pass
+		prepareForMiniGame()
 	elif pullDownMachines_entered or benchPresses_entered or benches_entered or smMachines_entered:
-		pass
+		prepareForMiniGame()
 
 
 
@@ -125,6 +134,10 @@ func prepareForDialog(timeline:String):
 	Dialogic.start(timeline)
 	release_mouse()
 
+func prepareForMiniGame():
+	minigame_isVisible = true
+	$UI/MiddlePanel.show()
+	$UI/BottomPanel/PlayLabel.show()
 
 func _on_calisthenics_area_3d_body_entered(body: Node3D) -> void:
 	calisthenics_entered = true

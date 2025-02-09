@@ -20,4 +20,3 @@ megan_character: Hello, how may I assist you? In which are you interested in?
 	- Plant-Based Plan
 	megan_character: Here you are.
 	jump megan_dietitian_timeline/
-- Nothing

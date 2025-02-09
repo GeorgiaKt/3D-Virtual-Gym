@@ -36,4 +36,12 @@ jody_character: Hello, how could I assist you today? In which of those are you i
 	jody_character: There you go.
 	jump jody_trainer_timeline/
 - Assessment and Advice
-- Nothing
+	if {score_perc} >= 85:
+		jody_character: Well done! You're doing an excellent work! Keep it up!
+	elif {score_perc} >= 65:
+		jody_character: Good job! Pay attention to your diet, it can make the difference here!
+	elif {score_perc} >= 30:
+		jody_character: Nice work! Try to attend more of the Group Fitness Classes that we have available, they're more fun.
+	else:
+		jody_character: Since you're still at the beginning, talk to our dietitian, Megan, and get her advice on how to set up your diet. Also check our personalised training programs for more results.
+	jump jody_trainer_timeline/

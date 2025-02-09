@@ -8,6 +8,7 @@ const MAX_FALL_SPEED = 200  # Maximum falling speed
 @export var scaleY = 1  # Allows modification of the scale in the editor
 var dumbbell_inside = false  # Tracks if the character is inside a detection area
 var completion_perc = 0  # Progress percentage
+var  completion_counter = 0 # Counte how many times manage to get the dumbbell
 
 signal update_progress(value)  # Signal to notify progress updates
 
@@ -39,11 +40,22 @@ func update_completion_perc():
 		completion_perc += 1
 		if completion_perc > 100:
 			completion_perc = 100
+			
+		if completion_perc >= 99:
+			completion_counter += 1 #Update counter
+			# Update global progress 1 percentage for every 200 times the player gets the dumbbell
+			if completion_counter == 200: 
+				Global.general_progress += 1
+				completion_counter = 0
+	
+
 	else:
 		completion_perc -= 1
 		if completion_perc < 0:
 			completion_perc = 0
+		
 
+		
 	# Emit signal to notify about progress changes
 	update_progress.emit(completion_perc)
 

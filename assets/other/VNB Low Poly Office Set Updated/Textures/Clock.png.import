@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0wwgs6o73b5j"
-path.s3tc="res://.godot/imported/Clock.png-368588c87d74ddc94a504ce14a180682.s3tc.ctex"
+uid="uid://djatgued1i2bj"
+path.s3tc="res://.godot/imported/Clock.png-25faf5927c6c8ad1aaf0faae49bebb15.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/other/VNB Low Poly Office Set Updated/Textures/Clock.png"
-dest_files=["res://.godot/imported/Clock.png-368588c87d74ddc94a504ce14a180682.s3tc.ctex"]
+source_file="res://assets/other/VNB Low Poly Office Set Updated/textures/Clock.png"
+dest_files=["res://.godot/imported/Clock.png-25faf5927c6c8ad1aaf0faae49bebb15.s3tc.ctex"]
 
 [params]
 

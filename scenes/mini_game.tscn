@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://uwmws0udq3t4"]
+[gd_scene load_steps=14 format=3 uid="uid://joxy2716q7mc"]
 
 [ext_resource type="Script" path="res://scripts/mini game/mini_game.gd" id="1_8ll55"]
 [ext_resource type="Texture2D" uid="uid://yvp4wywbb7wb" path="res://icons/black-rounded-square.png" id="1_v68nw"]
@@ -6,8 +6,8 @@
 [ext_resource type="Texture2D" uid="uid://cyhu8vlg8j8ok" path="res://icons/dumbbell.png" id="2_lraex"]
 [ext_resource type="Script" path="res://scripts/mini game/moving_body.gd" id="4_4diwg"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jxo6d"]
-bg_color = Color(0.196078, 0.282353, 0.541176, 0.584314)
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_acpb0"]
+bg_color = Color(0.1944, 0.2808, 0.54, 1)
 border_width_left = 2
 border_width_top = 2
 border_width_right = 2
@@ -18,7 +18,7 @@ corner_radius_top_right = 14
 corner_radius_bottom_right = 14
 corner_radius_bottom_left = 14
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_01acy"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_c25qn"]
 bg_color = Color(0.4067, 0.51958, 0.83, 1)
 border_width_left = 2
 border_width_top = 2
@@ -30,7 +30,7 @@ corner_radius_top_right = 14
 corner_radius_bottom_right = 14
 corner_radius_bottom_left = 14
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i4and"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_annow"]
 bg_color = Color(0.4536, 0.5202, 0.72, 0.584314)
 border_width_left = 2
 border_width_top = 2
@@ -43,8 +43,8 @@ corner_radius_top_right = 20
 corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wy6cw"]
-bg_color = Color(0.196078, 0.282353, 0.541176, 0.584314)
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e0khg"]
+bg_color = Color(0.1944, 0.2808, 0.54, 1)
 border_width_left = 2
 border_width_top = 2
 border_width_right = 2
@@ -56,52 +56,47 @@ corner_radius_top_right = 20
 corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_25il3"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_voy6c"]
 size = Vector2(56, 59)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_jl5uq"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_34h5k"]
 size = Vector2(56, 59)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_gj0i5"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t3o6g"]
 size = Vector2(49, 49)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_hugbu"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j4al0"]
 size = Vector2(59, 20)
 
-[node name="MiniGame" type="Node"]
-script = ExtResource("1_8ll55")
-
-[node name="MiniGameUI" type="Control" parent="."]
+[node name="MiniGameUI" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_8ll55")
 
-[node name="MainGameBar" type="ProgressBar" parent="MiniGameUI"]
+[node name="MainGameBar" type="ProgressBar" parent="."]
 custom_minimum_size = Vector2(50, 70)
 layout_mode = 0
 offset_left = 567.0
 offset_top = 175.0
 offset_right = 627.0
 offset_bottom = 595.0
-theme_override_styles/background = SubResource("StyleBoxFlat_jxo6d")
-theme_override_styles/fill = SubResource("StyleBoxFlat_01acy")
-rounded = true
+theme_override_styles/background = SubResource("StyleBoxFlat_acpb0")
+theme_override_styles/fill = SubResource("StyleBoxFlat_c25qn")
 fill_mode = 3
 show_percentage = false
 
-[node name="ProgressBar" type="ProgressBar" parent="MiniGameUI"]
+[node name="ProgressBar" type="ProgressBar" parent="."]
 layout_mode = 0
 offset_left = 688.0
 offset_top = 210.0
 offset_right = 738.0
 offset_bottom = 550.0
-theme_override_styles/background = SubResource("StyleBoxFlat_i4and")
-theme_override_styles/fill = SubResource("StyleBoxFlat_wy6cw")
-value = 70.0
-rounded = true
+theme_override_styles/background = SubResource("StyleBoxFlat_annow")
+theme_override_styles/fill = SubResource("StyleBoxFlat_e0khg")
 fill_mode = 3
 show_percentage = false
 
@@ -112,7 +107,7 @@ metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 position = Vector2(597, 260)
-shape = SubResource("RectangleShape2D_25il3")
+shape = SubResource("RectangleShape2D_voy6c")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player"]
 position = Vector2(597, 260)
@@ -124,14 +119,12 @@ collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player/DetectionArea2D"]
 position = Vector2(597, 260)
-shape = SubResource("RectangleShape2D_jl5uq")
+shape = SubResource("RectangleShape2D_34h5k")
 
 [node name="MovingBody" type="CharacterBody2D" parent="."]
 collision_layer = 2
 collision_mask = 4
 script = ExtResource("4_4diwg")
-maxTop = 60.0
-maxBottom = 100.0
 metadata/_edit_group_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="MovingBody"]
@@ -141,7 +134,7 @@ texture = ExtResource("2_lraex")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="MovingBody"]
 position = Vector2(596.5, 383.5)
-shape = SubResource("RectangleShape2D_gj0i5")
+shape = SubResource("RectangleShape2D_t3o6g")
 
 [node name="TopStaticBody" type="StaticBody2D" parent="."]
 position = Vector2(578, 167)
@@ -151,7 +144,7 @@ metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TopStaticBody"]
 position = Vector2(18.5, 0)
-shape = SubResource("RectangleShape2D_hugbu")
+shape = SubResource("RectangleShape2D_j4al0")
 
 [node name="BottomStaticBody" type="StaticBody2D" parent="."]
 position = Vector2(578, 603)
@@ -161,7 +154,7 @@ metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="BottomStaticBody"]
 position = Vector2(18.5, 0)
-shape = SubResource("RectangleShape2D_hugbu")
+shape = SubResource("RectangleShape2D_j4al0")
 
 [connection signal="body_entered" from="Player/DetectionArea2D" to="Player" method="_on_detection_area_2d_body_entered"]
 [connection signal="body_exited" from="Player/DetectionArea2D" to="Player" method="_on_detection_area_2d_body_exited"]

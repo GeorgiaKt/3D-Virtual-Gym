@@ -1537,11 +1537,8 @@ transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 10.798
 [node name="Dumbbells_17" parent="GymRoom/Muscle Gain Area/extra equipment for muscle gain group/Small Dumbbells" instance=ExtResource("7_jr6l7")]
 transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 10.7982, 0.180734, -1.56054)
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(0.960755, 0.262437, 0.0898687, -0.121948, 0.108595, 0.986578, 0.249156, -0.958819, 0.136337, 1.04202, 6.89896, 7.19269)
-
 [node name="Player" parent="." instance=ExtResource("2_lfp2a")]
-transform = Transform3D(-0.429991, 0, 0.902833, 0, 1, 0, -0.902833, 0, -0.429991, -1.76025, 0, 9.24186)
+transform = Transform3D(-0.429991, 0, 0.902833, 0, 1, 0, -0.902833, 0, -0.429991, -2.06634, 0, 9.42405)
 speed = 4.0
 acceleration = 25.0
 

@@ -11,13 +11,14 @@ config_version=5
 [application]
 
 config/name="Gym"
-run/main_scene="res://scenes/minigametest.tscn"
+run/main_scene="res://scenes/main.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icons/gym_icon.svg"
 
 [autoload]
 
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+Global="*res://scripts/Global.gd"
 
 [dialogic]
 
@@ -50,6 +51,9 @@ choices/reveal_delay=0
 choices/reveal_by_input=false
 save/autosave_delay=60.0
 save/encryption_on_exports_only=true
+variables={
+"score_perc": 0
+}
 
 [display]
 

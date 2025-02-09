@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ceiling Lamp - 11MB
+* source:	https://sketchfab.com/3d-models/ceiling-lamp-11mb-571df22b34534ea0ac61dbbc5ff80f1e
+* author:	Mehdi Shahsavan (https://sketchfab.com/ahmagh2e)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ceiling Lamp - 11MB" (https://sketchfab.com/3d-models/ceiling-lamp-11mb-571df22b34534ea0ac61dbbc5ff80f1e) by Mehdi Shahsavan (https://sketchfab.com/ahmagh2e) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

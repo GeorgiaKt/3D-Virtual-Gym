@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=3 uid="uid://bmv0mjcuveeim"]
+[gd_scene load_steps=46 format=3 uid="uid://bmv0mjcuveeim"]
 
 [ext_resource type="Texture2D" uid="uid://cqjbj2x45qx3w" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_diff_4k.png" id="1_0k5q7"]
 [ext_resource type="Texture2D" uid="uid://dkwpfx433ulrm" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_nor_gl_4k.png" id="2_1myl3"]
@@ -25,7 +25,11 @@
 [ext_resource type="PackedScene" uid="uid://df8oc8hpcg244" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/PC_Screen.fbx" id="23_mkxlh"]
 [ext_resource type="PackedScene" uid="uid://b8ksqpn61rgxf" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Keyboard.fbx" id="24_0fe1a"]
 [ext_resource type="PackedScene" uid="uid://bg4378ohxw336" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Mouse.fbx" id="25_pw4ys"]
+[ext_resource type="Texture2D" uid="uid://ic7xpge1yd8h" path="res://textures/plastered_wall_04_4k/plastered_wall_04_diff_4k.png" id="27_hq5tp"]
 [ext_resource type="PackedScene" uid="uid://p5mkr3ypnnkg" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Kettlebell.fbx" id="27_yt6ac"]
+[ext_resource type="Texture2D" uid="uid://b81o1g44pmn1x" path="res://textures/plastered_wall_04_4k/plastered_wall_04_nor_gl_4k.png" id="28_nh61p"]
+[ext_resource type="Texture2D" uid="uid://ml4xpfr6q8oa" path="res://textures/plastered_wall_04_4k/plastered_wall_04_rough_4k.png" id="29_lidnv"]
+[ext_resource type="PackedScene" uid="uid://ovlub8v0nd2n" path="res://assets/other/ceiling_lamp_/scene.gltf" id="30_6c3au"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_6l572"]
 size = Vector3(24, 0.2, 32)
@@ -86,6 +90,22 @@ font_color = Color(0, 0, 0, 1)
 [sub_resource type="LabelSettings" id="LabelSettings_0h5va"]
 font_size = 30
 font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xalst"]
+size = Vector3(24, 0.2, 32)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sqauo"]
+albedo_texture = ExtResource("27_hq5tp")
+roughness_texture = ExtResource("29_lidnv")
+normal_enabled = true
+normal_texture = ExtResource("28_nh61p")
+heightmap_enabled = true
+heightmap_scale = 16.0
+uv1_scale = Vector3(2, 2, 2)
+
+[sub_resource type="QuadMesh" id="QuadMesh_swpea"]
+material = SubResource("StandardMaterial3D_sqauo")
+size = Vector2(24, 32)
 
 [node name="GymRoom" type="Node3D"]
 
@@ -207,7 +227,7 @@ grow_horizontal = 2
 text = "
 [W],[S],[A],[D]: movement
 [E]: interact
-[Esc]: Exit"
+[Esc]: Exit/Return"
 label_settings = SubResource("LabelSettings_74fys")
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -747,3 +767,40 @@ transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.480
 
 [node name="Drawer_D" parent="LockerRoom/group6/Drawer_16" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="Roof" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Roof"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.6, 0)
+shape = SubResource("BoxShape3D_xalst")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Roof"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 3.5, 0)
+mesh = SubResource("QuadMesh_swpea")
+
+[node name="Lights" type="Node3D" parent="Roof"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.84094)
+
+[node name="light1" parent="Roof/Lights" instance=ExtResource("30_6c3au")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 5.95071, 3.29476, 11.9409)
+
+[node name="light2" parent="Roof/Lights" instance=ExtResource("30_6c3au")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -6.35965, 3.29476, 11.9409)
+
+[node name="light3" parent="Roof/Lights" instance=ExtResource("30_6c3au")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -6.35965, 3.29476, 4.73807)
+
+[node name="light4" parent="Roof/Lights" instance=ExtResource("30_6c3au")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 5.95071, 3.29476, 4.78297)
+
+[node name="light5" parent="Roof/Lights" instance=ExtResource("30_6c3au")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 5.95071, 3.29476, -2.507)
+
+[node name="light6" parent="Roof/Lights" instance=ExtResource("30_6c3au")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -6.35219, 3.29476, -2.507)
+
+[node name="light7" parent="Roof/Lights" instance=ExtResource("30_6c3au")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -6.35219, 3.29476, -9.60137)
+
+[node name="light8" parent="Roof/Lights" instance=ExtResource("30_6c3au")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 5.95071, 3.29476, -9.60137)

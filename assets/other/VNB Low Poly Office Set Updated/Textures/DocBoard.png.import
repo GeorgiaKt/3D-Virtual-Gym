@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ub557gutlyl2"
-path.s3tc="res://.godot/imported/DocBoard.png-d76649bf58b3e13cc80abfb7e1d86c58.s3tc.ctex"
+uid="uid://bt8s7f4c7mhgo"
+path.s3tc="res://.godot/imported/DocBoard.png-73621e3acaeb8621d6126ce85d1255b6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/other/VNB Low Poly Office Set Updated/Textures/DocBoard.png"
-dest_files=["res://.godot/imported/DocBoard.png-d76649bf58b3e13cc80abfb7e1d86c58.s3tc.ctex"]
+source_file="res://assets/other/VNB Low Poly Office Set Updated/textures/DocBoard.png"
+dest_files=["res://.godot/imported/DocBoard.png-73621e3acaeb8621d6126ce85d1255b6.s3tc.ctex"]
 
 [params]
 
