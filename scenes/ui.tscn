@@ -4,17 +4,17 @@
 
 [sub_resource type="LabelSettings" id="LabelSettings_i3sok"]
 font_size = 32
-outline_size = 2
+outline_size = 5
 outline_color = Color(0.0117647, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_caobq"]
 font_size = 32
-outline_size = 2
+outline_size = 5
 outline_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_7314i"]
 font_size = 25
-outline_size = 1
+outline_size = 5
 outline_color = Color(0, 0, 0, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oja4k"]
@@ -44,7 +44,7 @@ corner_radius_bottom_left = 10
 
 [sub_resource type="LabelSettings" id="LabelSettings_2d1bq"]
 font_size = 20
-outline_size = 1
+outline_size = 5
 outline_color = Color(0, 0, 0, 1)
 
 [node name="UI" type="Control"]

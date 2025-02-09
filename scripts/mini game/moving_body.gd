@@ -1,8 +1,8 @@
 extends CharacterBody2D
 
 @export var speed: float = 80  # Movement speed
-@export var maxTop: float = 60  # Upper boundary for movement
-@export var maxBottom: float = 100  # Lower boundary for movement
+@export var maxTop: float = 10  # Upper boundary for movement
+@export var maxBottom: float = 150  # Lower boundary for movement
 
 var target: Vector2  # Target position for movement
 

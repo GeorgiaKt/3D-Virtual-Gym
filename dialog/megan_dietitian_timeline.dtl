@@ -5,11 +5,11 @@ megan_character: Hello, how may I assist you? In which are you interested in?
 - Store
 	megan_character: Of course!
 	- Bottled Water
-	- Supplement
+	- Supplements
 	- Electrolyte Drink
-	- Recipe books for healthy meals
+	- Recipe book for healthy meals
 	- Body Composition Analysis
-	- Nutrition Plans
+	- Nutrition Plan
 	megan_character: Here!
 	jump megan_dietitian_timeline/
 - Personalised Nutrition Plan
