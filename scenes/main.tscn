@@ -1549,7 +1549,7 @@ MainCamPath = NodePath("../../../Player/PlayerCamera")
 [node name="MirrorB" type="Node3D" parent="GymRoom/Mirrors"]
 transform = Transform3D(4.76971, 0, 0, 0, 1.52962, 0, 0, 0, 1, 6.93465, 1.60626, -15.9031)
 script = ExtResource("29_jvn4a")
-ResolutionPerUnit = -130
+ResolutionPerUnit = 700
 MainCamPath = NodePath("../../../Player/PlayerCamera")
 
 [node name="Player" parent="." instance=ExtResource("2_lfp2a")]

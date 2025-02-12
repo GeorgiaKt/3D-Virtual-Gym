@@ -47,7 +47,7 @@ material = SubResource("StandardMaterial3D_370wi")
 size = Vector3(24, 0.2, 32)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_frgai"]
-size = Vector3(0.1, 4, 32)
+size = Vector3(0.1, 5, 32)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_inojq"]
 albedo_texture = ExtResource("4_tyxlr")
@@ -60,10 +60,10 @@ uv1_scale = Vector3(5, 5, 5)
 
 [sub_resource type="BoxMesh" id="BoxMesh_fn0hq"]
 material = SubResource("StandardMaterial3D_inojq")
-size = Vector3(0.1, 4, 32)
+size = Vector3(0.1, 5, 32)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_w3vcf"]
-size = Vector3(24, 4, 0.1)
+size = Vector3(24, 5, 0.1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qp63w"]
 albedo_texture = ExtResource("4_tyxlr")
@@ -78,7 +78,7 @@ uv1_scale = Vector3(5, 5, 5)
 [sub_resource type="BoxMesh" id="BoxMesh_copof"]
 lightmap_size_hint = Vector2i(124, 166)
 material = SubResource("StandardMaterial3D_qp63w")
-size = Vector3(24, 4, 0.1)
+size = Vector3(24, 5, 0.1)
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_rvv8s"]
 viewport_path = NodePath("Lobby/Office_Desk_4_Two/Office_Files_A/Sprite3D/SubViewport")
@@ -124,41 +124,41 @@ mesh = SubResource("BoxMesh_blrrn")
 [node name="Wall0" type="StaticBody3D" parent="Walls"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/Wall0"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 1.5, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 2.5, 0)
 shape = SubResource("BoxShape3D_frgai")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Walls/Wall0"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 1.5, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 2.5, 0)
 mesh = SubResource("BoxMesh_fn0hq")
 
 [node name="Wall1" type="StaticBody3D" parent="Walls"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/Wall1"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 1.5, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 2.5, 0)
 shape = SubResource("BoxShape3D_frgai")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Walls/Wall1"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 1.5, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 2.5, 0)
 mesh = SubResource("BoxMesh_fn0hq")
 
 [node name="Wall2" type="StaticBody3D" parent="Walls"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/Wall2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 16)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 16)
 shape = SubResource("BoxShape3D_w3vcf")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Walls/Wall2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 16)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 16)
 mesh = SubResource("BoxMesh_copof")
 
 [node name="Wall3" type="StaticBody3D" parent="Walls"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/Wall3"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, -16)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, -16)
 shape = SubResource("BoxShape3D_w3vcf")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Walls/Wall3"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, -16)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, -16)
 mesh = SubResource("BoxMesh_copof")
 
 [node name="Lobby" type="Node3D" parent="."]
@@ -782,18 +782,18 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.20
 [node name="Roof" type="StaticBody3D" parent="."]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Roof"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.6, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)
 shape = SubResource("BoxShape3D_xalst")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Roof"]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 3.5, 0)
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 5, 0)
 mesh = SubResource("QuadMesh_swpea")
 
 [node name="Lights" type="Node3D" parent="Roof"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.84094)
 
 [node name="OmniLight3D" type="OmniLight3D" parent="Roof/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.96371, 2.60467, 11.9409)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.96371, 3.30968, 11.9409)
 light_energy = 5.0
 omni_range = 10.0
 
@@ -801,7 +801,7 @@ omni_range = 10.0
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0129986, 0.690083, 0)
 
 [node name="OmniLight3D2" type="OmniLight3D" parent="Roof/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.26135, 2.60467, 11.9409)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.261, 3.31, 11.941)
 light_energy = 5.0
 omni_range = 10.0
 
@@ -809,7 +809,7 @@ omni_range = 10.0
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0983009, 0.690083, 0)
 
 [node name="OmniLight3D3" type="OmniLight3D" parent="Roof/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.26135, 2.60467, 4.71468)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.261, 3.31, 4.715)
 light_energy = 5.0
 omni_range = 10.0
 
@@ -817,7 +817,7 @@ omni_range = 10.0
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0983009, 0.690083, 0.023386)
 
 [node name="OmniLight3D4" type="OmniLight3D" parent="Roof/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.92069, 2.60467, 4.71468)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.921, 3.31, 4.715)
 light_energy = 5.0
 omni_range = 10.0
 
@@ -825,7 +825,7 @@ omni_range = 10.0
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.0300217, 0.690083, 0.0682869)
 
 [node name="OmniLight3D5" type="OmniLight3D" parent="Roof/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.0077, 2.60467, -2.55904)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.008, 3.31, -2.559)
 light_energy = 5.0
 omni_range = 10.0
 
@@ -833,7 +833,7 @@ omni_range = 10.0
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0569925, 0.690083, 0.0520329)
 
 [node name="OmniLight3D6" type="OmniLight3D" parent="Roof/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.34836, 2.60467, -2.55904)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.348, 3.31, -2.559)
 light_energy = 5.0
 omni_range = 10.0
 
@@ -841,7 +841,7 @@ omni_range = 10.0
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0038271, 0.690083, 0.0520329)
 
 [node name="OmniLight3D7" type="OmniLight3D" parent="Roof/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.34836, 2.60467, -9.57821)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.348, 3.31, -9.578)
 light_energy = 5.0
 omni_range = 10.0
 
@@ -849,7 +849,7 @@ omni_range = 10.0
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0038271, 0.690083, -0.0231667)
 
 [node name="OmniLight3D8" type="OmniLight3D" parent="Roof/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.89168, 2.60467, -9.57821)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.892, 3.31, -9.578)
 light_energy = 5.0
 omni_range = 10.0
 
