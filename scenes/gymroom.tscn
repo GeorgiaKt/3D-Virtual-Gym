@@ -1,4 +1,4 @@
-[gd_scene load_steps=46 format=3 uid="uid://bmv0mjcuveeim"]
+[gd_scene load_steps=52 format=3 uid="uid://bmv0mjcuveeim"]
 
 [ext_resource type="Texture2D" uid="uid://cqjbj2x45qx3w" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_diff_4k.png" id="1_0k5q7"]
 [ext_resource type="Texture2D" uid="uid://dkwpfx433ulrm" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_nor_gl_4k.png" id="2_1myl3"]
@@ -90,6 +90,38 @@ font_color = Color(0, 0, 0, 1)
 [sub_resource type="LabelSettings" id="LabelSettings_0h5va"]
 font_size = 25
 font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7om2x"]
+size = Vector3(6.4, 2.4, 0.2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i8vus"]
+albedo_texture = ExtResource("4_tyxlr")
+roughness_texture = ExtResource("6_ficrx")
+normal_enabled = true
+normal_texture = ExtResource("5_hvrr2")
+heightmap_enabled = true
+heightmap_scale = 16.0
+uv1_scale = Vector3(2, 2, 2)
+
+[sub_resource type="BoxMesh" id="BoxMesh_5u2ec"]
+material = SubResource("StandardMaterial3D_i8vus")
+size = Vector3(6.4, 2.4, 0.2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0c56k"]
+size = Vector3(7, 2.4, 0.2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wne1e"]
+albedo_texture = ExtResource("4_tyxlr")
+roughness_texture = ExtResource("6_ficrx")
+normal_enabled = true
+normal_texture = ExtResource("5_hvrr2")
+heightmap_enabled = true
+heightmap_scale = 16.0
+uv1_scale = Vector3(3, 3, 3)
+
+[sub_resource type="BoxMesh" id="BoxMesh_nxswc"]
+material = SubResource("StandardMaterial3D_wne1e")
+size = Vector3(7, 2.4, 0.2)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_xalst"]
 size = Vector3(24, 0.2, 32)
@@ -282,502 +314,527 @@ transform = Transform3D(0.123324, 0, -0.992366, 0, 1, 0, 0.992366, 0, 0.123324, 
 
 [node name="LockerRoom" type="Node3D" parent="."]
 
-[node name="group1" type="Node3D" parent="LockerRoom"]
+[node name="Lockers" type="Node3D" parent="LockerRoom"]
 
-[node name="Drawer_3" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+[node name="group1" type="Node3D" parent="LockerRoom/Lockers"]
+
+[node name="Drawer_3" parent="LockerRoom/Lockers/group1" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.7321, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group1/Drawer_3" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group1/Drawer_3" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_4" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+[node name="Drawer_4" parent="LockerRoom/Lockers/group1" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.3287, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group1/Drawer_4" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group1/Drawer_4" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_5" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+[node name="Drawer_5" parent="LockerRoom/Lockers/group1" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.9257, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group1/Drawer_5" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group1/Drawer_5" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_6" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+[node name="Drawer_6" parent="LockerRoom/Lockers/group1" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.5214, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group1/Drawer_6" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group1/Drawer_6" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_7" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+[node name="Drawer_7" parent="LockerRoom/Lockers/group1" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.1182, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group1/Drawer_7" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group1/Drawer_7" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_8" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+[node name="Drawer_8" parent="LockerRoom/Lockers/group1" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.71488, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group1/Drawer_8" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group1/Drawer_8" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_9" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+[node name="Drawer_9" parent="LockerRoom/Lockers/group1" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.31268, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group1/Drawer_9" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group1/Drawer_9" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_10" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+[node name="Drawer_10" parent="LockerRoom/Lockers/group1" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.90656, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group1/Drawer_10" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group1/Drawer_10" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_11" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+[node name="Drawer_11" parent="LockerRoom/Lockers/group1" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.50254, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group1/Drawer_11" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group1/Drawer_11" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_12" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+[node name="Drawer_12" parent="LockerRoom/Lockers/group1" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.09852, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group1/Drawer_12" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group1/Drawer_12" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_13" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+[node name="Drawer_13" parent="LockerRoom/Lockers/group1" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.69429, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group1/Drawer_13" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group1/Drawer_13" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_14" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+[node name="Drawer_14" parent="LockerRoom/Lockers/group1" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.29006, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group1/Drawer_14" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group1/Drawer_14" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_15" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+[node name="Drawer_15" parent="LockerRoom/Lockers/group1" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.88422, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group1/Drawer_15" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group1/Drawer_15" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_16" parent="LockerRoom/group1" instance=ExtResource("7_l5iae")]
+[node name="Drawer_16" parent="LockerRoom/Lockers/group1" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.48046, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group1/Drawer_16" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group1/Drawer_16" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="group2" type="Node3D" parent="LockerRoom"]
+[node name="group2" type="Node3D" parent="LockerRoom/Lockers"]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -21.713, 0, 0.837)
 
-[node name="Drawer_3" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+[node name="Drawer_3" parent="LockerRoom/Lockers/group2" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.7321, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group2/Drawer_3" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group2/Drawer_3" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_4" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+[node name="Drawer_4" parent="LockerRoom/Lockers/group2" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.3287, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group2/Drawer_4" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group2/Drawer_4" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_5" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+[node name="Drawer_5" parent="LockerRoom/Lockers/group2" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.9257, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group2/Drawer_5" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group2/Drawer_5" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_6" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+[node name="Drawer_6" parent="LockerRoom/Lockers/group2" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.5214, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group2/Drawer_6" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group2/Drawer_6" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_7" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+[node name="Drawer_7" parent="LockerRoom/Lockers/group2" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.1182, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group2/Drawer_7" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group2/Drawer_7" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_8" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+[node name="Drawer_8" parent="LockerRoom/Lockers/group2" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.71488, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group2/Drawer_8" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group2/Drawer_8" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_9" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+[node name="Drawer_9" parent="LockerRoom/Lockers/group2" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.31268, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group2/Drawer_9" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group2/Drawer_9" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_10" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+[node name="Drawer_10" parent="LockerRoom/Lockers/group2" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.90656, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group2/Drawer_10" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group2/Drawer_10" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_11" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+[node name="Drawer_11" parent="LockerRoom/Lockers/group2" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.50254, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group2/Drawer_11" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group2/Drawer_11" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_12" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+[node name="Drawer_12" parent="LockerRoom/Lockers/group2" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.09852, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group2/Drawer_12" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group2/Drawer_12" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_13" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+[node name="Drawer_13" parent="LockerRoom/Lockers/group2" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.69429, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group2/Drawer_13" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group2/Drawer_13" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_14" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+[node name="Drawer_14" parent="LockerRoom/Lockers/group2" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.29006, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group2/Drawer_14" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group2/Drawer_14" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_15" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+[node name="Drawer_15" parent="LockerRoom/Lockers/group2" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.88422, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group2/Drawer_15" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group2/Drawer_15" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_16" parent="LockerRoom/group2" instance=ExtResource("7_l5iae")]
+[node name="Drawer_16" parent="LockerRoom/Lockers/group2" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.48046, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group2/Drawer_16" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group2/Drawer_16" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="group3" type="Node3D" parent="LockerRoom"]
+[node name="group3" type="Node3D" parent="LockerRoom/Lockers"]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -18.1481, 0, 23.0343)
 
-[node name="Drawer_3" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+[node name="Drawer_3" parent="LockerRoom/Lockers/group3" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.7321, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group3/Drawer_3" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group3/Drawer_3" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_4" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+[node name="Drawer_4" parent="LockerRoom/Lockers/group3" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.3287, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group3/Drawer_4" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group3/Drawer_4" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_5" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+[node name="Drawer_5" parent="LockerRoom/Lockers/group3" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.9257, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group3/Drawer_5" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group3/Drawer_5" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_6" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+[node name="Drawer_6" parent="LockerRoom/Lockers/group3" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.5214, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group3/Drawer_6" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group3/Drawer_6" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_7" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+[node name="Drawer_7" parent="LockerRoom/Lockers/group3" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.1182, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group3/Drawer_7" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group3/Drawer_7" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_8" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+[node name="Drawer_8" parent="LockerRoom/Lockers/group3" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.71488, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group3/Drawer_8" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group3/Drawer_8" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_9" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+[node name="Drawer_9" parent="LockerRoom/Lockers/group3" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.31268, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group3/Drawer_9" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group3/Drawer_9" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_10" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+[node name="Drawer_10" parent="LockerRoom/Lockers/group3" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.90656, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group3/Drawer_10" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group3/Drawer_10" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_11" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+[node name="Drawer_11" parent="LockerRoom/Lockers/group3" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.50254, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group3/Drawer_11" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group3/Drawer_11" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_12" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+[node name="Drawer_12" parent="LockerRoom/Lockers/group3" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.09852, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group3/Drawer_12" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group3/Drawer_12" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_13" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+[node name="Drawer_13" parent="LockerRoom/Lockers/group3" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.69429, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group3/Drawer_13" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group3/Drawer_13" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_14" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+[node name="Drawer_14" parent="LockerRoom/Lockers/group3" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.29006, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group3/Drawer_14" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group3/Drawer_14" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_15" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+[node name="Drawer_15" parent="LockerRoom/Lockers/group3" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.88422, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group3/Drawer_15" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group3/Drawer_15" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_16" parent="LockerRoom/group3" instance=ExtResource("7_l5iae")]
+[node name="Drawer_16" parent="LockerRoom/Lockers/group3" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.48046, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group3/Drawer_16" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group3/Drawer_16" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="group4" type="Node3D" parent="LockerRoom"]
+[node name="group4" type="Node3D" parent="LockerRoom/Lockers"]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -25.0971, 0, 1.90305)
 
-[node name="Drawer_3" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+[node name="Drawer_3" parent="LockerRoom/Lockers/group4" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.7321, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group4/Drawer_3" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group4/Drawer_3" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_4" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+[node name="Drawer_4" parent="LockerRoom/Lockers/group4" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.3287, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group4/Drawer_4" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group4/Drawer_4" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_5" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+[node name="Drawer_5" parent="LockerRoom/Lockers/group4" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.9257, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group4/Drawer_5" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group4/Drawer_5" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_6" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+[node name="Drawer_6" parent="LockerRoom/Lockers/group4" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.5214, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group4/Drawer_6" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group4/Drawer_6" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_7" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+[node name="Drawer_7" parent="LockerRoom/Lockers/group4" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.1182, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group4/Drawer_7" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group4/Drawer_7" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_8" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+[node name="Drawer_8" parent="LockerRoom/Lockers/group4" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.71488, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group4/Drawer_8" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group4/Drawer_8" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_9" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+[node name="Drawer_9" parent="LockerRoom/Lockers/group4" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.31268, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group4/Drawer_9" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group4/Drawer_9" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_10" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+[node name="Drawer_10" parent="LockerRoom/Lockers/group4" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.90656, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group4/Drawer_10" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group4/Drawer_10" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_11" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+[node name="Drawer_11" parent="LockerRoom/Lockers/group4" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.50254, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group4/Drawer_11" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group4/Drawer_11" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_12" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+[node name="Drawer_12" parent="LockerRoom/Lockers/group4" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.09852, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group4/Drawer_12" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group4/Drawer_12" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_13" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+[node name="Drawer_13" parent="LockerRoom/Lockers/group4" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.69429, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group4/Drawer_13" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group4/Drawer_13" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_14" parent="LockerRoom/group4" instance=ExtResource("7_l5iae")]
+[node name="Drawer_14" parent="LockerRoom/Lockers/group4" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.29006, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group4/Drawer_14" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group4/Drawer_14" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="group5" type="Node3D" parent="LockerRoom"]
+[node name="group5" type="Node3D" parent="LockerRoom/Lockers"]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 6.764, 0, 20.923)
 
-[node name="Drawer_3" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+[node name="Drawer_3" parent="LockerRoom/Lockers/group5" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.7321, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group5/Drawer_3" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group5/Drawer_3" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_4" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+[node name="Drawer_4" parent="LockerRoom/Lockers/group5" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.3287, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group5/Drawer_4" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group5/Drawer_4" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_5" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+[node name="Drawer_5" parent="LockerRoom/Lockers/group5" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.9257, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group5/Drawer_5" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group5/Drawer_5" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_6" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+[node name="Drawer_6" parent="LockerRoom/Lockers/group5" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.5214, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group5/Drawer_6" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group5/Drawer_6" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_7" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+[node name="Drawer_7" parent="LockerRoom/Lockers/group5" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.1182, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group5/Drawer_7" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group5/Drawer_7" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_8" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+[node name="Drawer_8" parent="LockerRoom/Lockers/group5" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.71488, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group5/Drawer_8" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group5/Drawer_8" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_9" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+[node name="Drawer_9" parent="LockerRoom/Lockers/group5" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.31268, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group5/Drawer_9" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group5/Drawer_9" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_10" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+[node name="Drawer_10" parent="LockerRoom/Lockers/group5" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.90656, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group5/Drawer_10" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group5/Drawer_10" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_11" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+[node name="Drawer_11" parent="LockerRoom/Lockers/group5" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.50254, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group5/Drawer_11" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group5/Drawer_11" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_12" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+[node name="Drawer_12" parent="LockerRoom/Lockers/group5" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.09852, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group5/Drawer_12" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group5/Drawer_12" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_13" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+[node name="Drawer_13" parent="LockerRoom/Lockers/group5" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.69429, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group5/Drawer_13" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group5/Drawer_13" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_14" parent="LockerRoom/group5" instance=ExtResource("7_l5iae")]
+[node name="Drawer_14" parent="LockerRoom/Lockers/group5" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.29006, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group5/Drawer_14" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group5/Drawer_14" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="group6" type="Node3D" parent="LockerRoom"]
+[node name="group6" type="Node3D" parent="LockerRoom/Lockers"]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3.95592, 0, 20.7594)
 
-[node name="Drawer_3" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+[node name="Drawer_3" parent="LockerRoom/Lockers/group6" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.7321, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group6/Drawer_3" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group6/Drawer_3" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_4" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+[node name="Drawer_4" parent="LockerRoom/Lockers/group6" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.3287, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group6/Drawer_4" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group6/Drawer_4" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_5" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+[node name="Drawer_5" parent="LockerRoom/Lockers/group6" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.9257, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group6/Drawer_5" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group6/Drawer_5" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_6" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+[node name="Drawer_6" parent="LockerRoom/Lockers/group6" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.5214, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group6/Drawer_6" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group6/Drawer_6" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_7" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+[node name="Drawer_7" parent="LockerRoom/Lockers/group6" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.1182, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group6/Drawer_7" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group6/Drawer_7" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_8" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+[node name="Drawer_8" parent="LockerRoom/Lockers/group6" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.71488, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group6/Drawer_8" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group6/Drawer_8" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_9" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+[node name="Drawer_9" parent="LockerRoom/Lockers/group6" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -9.31268, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group6/Drawer_9" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group6/Drawer_9" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_10" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+[node name="Drawer_10" parent="LockerRoom/Lockers/group6" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.90656, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group6/Drawer_10" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group6/Drawer_10" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_11" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+[node name="Drawer_11" parent="LockerRoom/Lockers/group6" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.50254, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group6/Drawer_11" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group6/Drawer_11" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_12" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+[node name="Drawer_12" parent="LockerRoom/Lockers/group6" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8.09852, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group6/Drawer_12" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group6/Drawer_12" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_13" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+[node name="Drawer_13" parent="LockerRoom/Lockers/group6" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.69429, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group6/Drawer_13" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group6/Drawer_13" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_14" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+[node name="Drawer_14" parent="LockerRoom/Lockers/group6" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.29006, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group6/Drawer_14" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group6/Drawer_14" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_15" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+[node name="Drawer_15" parent="LockerRoom/Lockers/group6" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.88422, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group6/Drawer_15" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group6/Drawer_15" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
-[node name="Drawer_16" parent="LockerRoom/group6" instance=ExtResource("7_l5iae")]
+[node name="Drawer_16" parent="LockerRoom/Lockers/group6" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.48046, 3.7998e-07, 15.7183)
 
-[node name="Drawer_D" parent="LockerRoom/group6/Drawer_16" instance=ExtResource("8_xnacc")]
+[node name="Drawer_D" parent="LockerRoom/Lockers/group6/Drawer_16" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="LockerRoomWalls" type="Node3D" parent="LockerRoom"]
+
+[node name="wall1" type="StaticBody3D" parent="LockerRoom/LockerRoomWalls"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="LockerRoom/LockerRoomWalls/wall1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.779, 1.2, 6.99)
+shape = SubResource("BoxShape3D_7om2x")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="LockerRoom/LockerRoomWalls/wall1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.77946, 1.2, 6.99029)
+mesh = SubResource("BoxMesh_5u2ec")
+skeleton = NodePath("")
+
+[node name="wall2" type="StaticBody3D" parent="LockerRoom/LockerRoomWalls"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="LockerRoom/LockerRoomWalls/wall2"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -5.676, 1.2, 10.39)
+shape = SubResource("BoxShape3D_0c56k")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="LockerRoom/LockerRoomWalls/wall2"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -5.676, 1.2, 10.39)
+mesh = SubResource("BoxMesh_nxswc")
 
 [node name="Roof" type="StaticBody3D" parent="."]
 
