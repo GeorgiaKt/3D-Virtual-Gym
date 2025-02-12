@@ -8,20 +8,20 @@
 [ext_resource type="Texture2D" uid="uid://cd7g10dwi5q0w" path="res://textures/plastered_wall_4k/plastered_wall_rough_4k.png" id="6_ficrx"]
 [ext_resource type="PackedScene" uid="uid://o8cbarwqn7xw" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Drawer_2.fbx" id="7_l5iae"]
 [ext_resource type="PackedScene" uid="uid://bb4fcwgwyarsn" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Drawer_D.fbx" id="8_xnacc"]
-[ext_resource type="PackedScene" uid="uid://dlx23g2ps4l1s" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Chair_B.fbx" id="10_xixeb"]
+[ext_resource type="PackedScene" uid="uid://dlx23g2ps4l1s" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Chair_B.fbx" id="10_xixeb"]
 [ext_resource type="PackedScene" uid="uid://dftts84gx5to" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Sofa_1.fbx" id="11_n116d"]
 [ext_resource type="PackedScene" uid="uid://b8egp0rbho0ja" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Sofa_2.fbx" id="12_ag2wv"]
-[ext_resource type="PackedScene" uid="uid://cwt57qwlg6jnt" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Office_Desk_4_Two.fbx" id="12_y3ufi"]
-[ext_resource type="PackedScene" uid="uid://d2raxviu4twck" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/CoffeeCup.fbx" id="13_mldhh"]
+[ext_resource type="PackedScene" uid="uid://cwt57qwlg6jnt" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Office_Desk_4_Two.fbx" id="12_y3ufi"]
+[ext_resource type="PackedScene" uid="uid://d2raxviu4twck" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/CoffeeCup.fbx" id="13_mldhh"]
 [ext_resource type="PackedScene" uid="uid://kily4ym56ci4" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Sofa_3.fbx" id="13_vnh7s"]
-[ext_resource type="PackedScene" uid="uid://bih1tcodchryh" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Fruit_Apple.fbx" id="14_5fn81"]
+[ext_resource type="PackedScene" uid="uid://bih1tcodchryh" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Fruit_Apple.fbx" id="14_5fn81"]
 [ext_resource type="PackedScene" uid="uid://cd5sfwveeo216" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/CTable_2.fbx" id="14_qb8rb"]
-[ext_resource type="PackedScene" uid="uid://bc0u7a4ttvvtc" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Lamp_1_Small.fbx" id="15_i5ruy"]
-[ext_resource type="PackedScene" uid="uid://h5kktqawjmrv" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Notepad.fbx" id="16_e6qvi"]
-[ext_resource type="PackedScene" uid="uid://dw28lcvqxkf6e" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Painting.fbx" id="17_lj61m"]
-[ext_resource type="PackedScene" uid="uid://bhbdwmnv87888" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Office_Files_A.fbx" id="18_7yhvr"]
-[ext_resource type="PackedScene" uid="uid://br0au4assfrjw" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Phone_A Base.fbx" id="20_reenb"]
-[ext_resource type="PackedScene" uid="uid://bdr1s7s553ee1" path="res://assets/other/VNB Low Poly Office Set Updated/FBX/Separated/Phone_B.fbx" id="21_vcjn4"]
+[ext_resource type="PackedScene" uid="uid://bc0u7a4ttvvtc" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Lamp_1_Small.fbx" id="15_i5ruy"]
+[ext_resource type="PackedScene" uid="uid://h5kktqawjmrv" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Notepad.fbx" id="16_e6qvi"]
+[ext_resource type="PackedScene" uid="uid://dw28lcvqxkf6e" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Painting.fbx" id="17_lj61m"]
+[ext_resource type="PackedScene" uid="uid://bhbdwmnv87888" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Office_Files_A.fbx" id="18_7yhvr"]
+[ext_resource type="PackedScene" uid="uid://br0au4assfrjw" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Phone_A Base.fbx" id="20_reenb"]
+[ext_resource type="PackedScene" uid="uid://bdr1s7s553ee1" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Phone_B.fbx" id="21_vcjn4"]
 [ext_resource type="PackedScene" uid="uid://df8oc8hpcg244" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/PC_Screen.fbx" id="23_mkxlh"]
 [ext_resource type="PackedScene" uid="uid://b8ksqpn61rgxf" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Keyboard.fbx" id="24_0fe1a"]
 [ext_resource type="PackedScene" uid="uid://bg4378ohxw336" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Mouse.fbx" id="25_pw4ys"]
@@ -29,7 +29,7 @@
 [ext_resource type="PackedScene" uid="uid://p5mkr3ypnnkg" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Kettlebell.fbx" id="27_yt6ac"]
 [ext_resource type="Texture2D" uid="uid://b81o1g44pmn1x" path="res://textures/plastered_wall_04_4k/plastered_wall_04_nor_gl_4k.png" id="28_nh61p"]
 [ext_resource type="Texture2D" uid="uid://ml4xpfr6q8oa" path="res://textures/plastered_wall_04_4k/plastered_wall_04_rough_4k.png" id="29_lidnv"]
-[ext_resource type="PackedScene" uid="uid://ovlub8v0nd2n" path="res://assets/other/ceiling_lamp_/scene.gltf" id="30_6c3au"]
+[ext_resource type="PackedScene" uid="uid://ovlub8v0nd2n" path="res://assets/ceiling_lamp_/scene.gltf" id="30_6c3au"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_6l572"]
 size = Vector3(24, 0.2, 32)
@@ -214,7 +214,7 @@ transform = Transform3D(0.96803, 0, -0.250836, 0, 1, 0, 0.250836, 0, 0.96803, 5.
 transform = Transform3D(-1.87159, 0, 3.17865e-08, 0, 1.79691, 0, -5.94914e-08, 0, -1, 3.07376, 2.37718, 15.9228)
 
 [node name="Office_Desk_4_Two" parent="Lobby" instance=ExtResource("12_y3ufi")]
-transform = Transform3D(1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, -2.71959, -9.68575e-08, 10.5546)
+transform = Transform3D(1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, -2.54762, -9.68575e-08, 10.5546)
 
 [node name="Chair_B" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("10_xixeb")]
 transform = Transform3D(-1, 0, 8.74228e-08, 0, 1.09744, 0, -8.74228e-08, 0, -1, 0.0731497, 4.9738e-14, 0.796224)

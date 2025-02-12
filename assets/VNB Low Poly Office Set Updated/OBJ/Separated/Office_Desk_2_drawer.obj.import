@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b6lipubfnf03y"
+path="res://.godot/imported/Office_Desk_2_drawer.obj-30ff67bb612b72905654cd75de5aedab.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Office_Desk_2_drawer.obj-30ff67bb612b72905654cd75de5aedab.mesh"]
+
+source_file="res://assets/VNB Low Poly Office Set Updated/OBJ/Separated/Office_Desk_2_drawer.obj"
+dest_files=["res://.godot/imported/Office_Desk_2_drawer.obj-30ff67bb612b72905654cd75de5aedab.mesh", "res://.godot/imported/Office_Desk_2_drawer.obj-30ff67bb612b72905654cd75de5aedab.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

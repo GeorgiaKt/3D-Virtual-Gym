@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d21yyv617fpal"
+path="res://.godot/imported/Stool_B.obj-9e6207284930c55fa70ee7cde32e02b8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Stool_B.obj-9e6207284930c55fa70ee7cde32e02b8.mesh"]
+
+source_file="res://assets/VNB Low Poly Office Set Updated/OBJ/Separated/Stool_B.obj"
+dest_files=["res://.godot/imported/Stool_B.obj-9e6207284930c55fa70ee7cde32e02b8.mesh", "res://.godot/imported/Stool_B.obj-9e6207284930c55fa70ee7cde32e02b8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

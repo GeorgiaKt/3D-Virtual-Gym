@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b6ybhicifdoyj"
+path="res://.godot/imported/Office_Desk_Door.obj-f8e6caea7abab57f07376f2531b7245d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Office_Desk_Door.obj-f8e6caea7abab57f07376f2531b7245d.mesh"]
+
+source_file="res://assets/VNB Low Poly Office Set Updated/OBJ/Separated/Office_Desk_Door.obj"
+dest_files=["res://.godot/imported/Office_Desk_Door.obj-f8e6caea7abab57f07376f2531b7245d.mesh", "res://.godot/imported/Office_Desk_Door.obj-f8e6caea7abab57f07376f2531b7245d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

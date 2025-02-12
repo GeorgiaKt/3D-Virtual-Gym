@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://oo4wgxknyeuf"
+path="res://.godot/imported/TrashBin_Small.obj-221be4b82aef5af3ffe43ad5086445f3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/TrashBin_Small.obj-221be4b82aef5af3ffe43ad5086445f3.mesh"]
+
+source_file="res://assets/VNB Low Poly Office Set Updated/OBJ/Separated/TrashBin_Small.obj"
+dest_files=["res://.godot/imported/TrashBin_Small.obj-221be4b82aef5af3ffe43ad5086445f3.mesh", "res://.godot/imported/TrashBin_Small.obj-221be4b82aef5af3ffe43ad5086445f3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

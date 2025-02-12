@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cldfoee4q225e"
+path="res://.godot/imported/Fruit_Plate2.obj-e478d90bc41008a9dd02cdd43d7c2ba9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Fruit_Plate2.obj-e478d90bc41008a9dd02cdd43d7c2ba9.mesh"]
+
+source_file="res://assets/VNB Low Poly Office Set Updated/OBJ/Separated/Fruit_Plate2.obj"
+dest_files=["res://.godot/imported/Fruit_Plate2.obj-e478d90bc41008a9dd02cdd43d7c2ba9.mesh", "res://.godot/imported/Fruit_Plate2.obj-e478d90bc41008a9dd02cdd43d7c2ba9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

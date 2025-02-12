@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://diy0ujo0ehdb4"
+path="res://.godot/imported/Food_CheeseSlice_Copy.obj-4f2dd9f2f47526704df803a2f71eb741.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Food_CheeseSlice_Copy.obj-4f2dd9f2f47526704df803a2f71eb741.mesh"]
+
+source_file="res://assets/VNB Low Poly Office Set Updated/OBJ/Separated/Food_CheeseSlice_Copy.obj"
+dest_files=["res://.godot/imported/Food_CheeseSlice_Copy.obj-4f2dd9f2f47526704df803a2f71eb741.mesh", "res://.godot/imported/Food_CheeseSlice_Copy.obj-4f2dd9f2f47526704df803a2f71eb741.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

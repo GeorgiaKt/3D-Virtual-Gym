@@ -1564,7 +1564,7 @@ script = ExtResource("31_tcl7n")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 0.224679)
 
 [node name="megan_sitting" parent="." instance=ExtResource("32_ehcr2")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3.58542, 0.225444, 10.6311)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3.413, 0.225, 10.631)
 
 [node name="Megan Area3D" type="Area3D" parent="megan_sitting"]
 monitorable = false
@@ -1574,7 +1574,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.325958, 0.302944, 0.729523
 shape = SubResource("BoxShape3D_qfx0v")
 
 [node name="jody_typing" parent="." instance=ExtResource("33_agu3e")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -4.797, 0.28, 10.44)
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -4.625, 0.28, 10.44)
 
 [node name="Jody Area3D" type="Area3D" parent="jody_typing"]
 monitorable = false

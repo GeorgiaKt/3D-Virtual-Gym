@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c71gobdad0qtf"
+path="res://.godot/imported/Notepad.obj-3d1086de7abf324740bd93ee9d6822b9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Notepad.obj-3d1086de7abf324740bd93ee9d6822b9.mesh"]
+
+source_file="res://assets/VNB Low Poly Office Set Updated/OBJ/Separated/Notepad.obj"
+dest_files=["res://.godot/imported/Notepad.obj-3d1086de7abf324740bd93ee9d6822b9.mesh", "res://.godot/imported/Notepad.obj-3d1086de7abf324740bd93ee9d6822b9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

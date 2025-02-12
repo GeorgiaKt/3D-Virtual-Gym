@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dqld14jsc7jd"
+path="res://.godot/imported/Nature_Deco_Small.obj-49af89ed3971c21f1680dbcf69b9e9db.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Nature_Deco_Small.obj-49af89ed3971c21f1680dbcf69b9e9db.mesh"]
+
+source_file="res://assets/VNB Low Poly Office Set Updated/OBJ/Separated/Nature_Deco_Small.obj"
+dest_files=["res://.godot/imported/Nature_Deco_Small.obj-49af89ed3971c21f1680dbcf69b9e9db.mesh", "res://.godot/imported/Nature_Deco_Small.obj-49af89ed3971c21f1680dbcf69b9e9db.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

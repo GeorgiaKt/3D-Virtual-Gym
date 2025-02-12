@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c6hdaijjpa1br"
+path="res://.godot/imported/Table_Box.obj-6dd4103d0e4612bc4a84f1c3e11f571f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Table_Box.obj-6dd4103d0e4612bc4a84f1c3e11f571f.mesh"]
+
+source_file="res://assets/VNB Low Poly Office Set Updated/OBJ/Separated/Table_Box.obj"
+dest_files=["res://.godot/imported/Table_Box.obj-6dd4103d0e4612bc4a84f1c3e11f571f.mesh", "res://.godot/imported/Table_Box.obj-6dd4103d0e4612bc4a84f1c3e11f571f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

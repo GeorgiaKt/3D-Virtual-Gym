@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cbmfq0hipecmy"
+path="res://.godot/imported/AirConditioner_A.obj-12a1cf7fa519cbe24134b8616c448ed9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/AirConditioner_A.obj-12a1cf7fa519cbe24134b8616c448ed9.mesh"]
+
+source_file="res://assets/VNB Low Poly Office Set Updated/OBJ/Separated/AirConditioner_A.obj"
+dest_files=["res://.godot/imported/AirConditioner_A.obj-12a1cf7fa519cbe24134b8616c448ed9.mesh", "res://.godot/imported/AirConditioner_A.obj-12a1cf7fa519cbe24134b8616c448ed9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

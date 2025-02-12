@@ -24,12 +24,12 @@ Global="*res://scripts/Global.gd"
 [dialogic]
 
 directories/dch_directory={
-"jody_character": "res://dialog/jody_character.dch",
-"megan_character": "res://dialog/megan_character.dch"
+"jody_character": "res://dialogue/jody_character.dch",
+"megan_character": "res://dialogue/megan_character.dch"
 }
 directories/dtl_directory={
-"jody_trainer_timeline": "res://dialog/jody_trainer_timeline.dtl",
-"megan_dietitian_timeline": "res://dialog/megan_dietitian_timeline.dtl"
+"jody_trainer_timeline": "res://dialogue/jody_trainer_timeline.dtl",
+"megan_dietitian_timeline": "res://dialogue/megan_dietitian_timeline.dtl"
 }
 layout/style_list=[]
 layout/default_style="Default"

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dbkkj7uybaeqe"
+path="res://.godot/imported/Rug_B.obj-c2d9728ca4afec5c3bb01cc60fee22ca.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Rug_B.obj-c2d9728ca4afec5c3bb01cc60fee22ca.mesh"]
+
+source_file="res://assets/VNB Low Poly Office Set Updated/OBJ/Separated/Rug_B.obj"
+dest_files=["res://.godot/imported/Rug_B.obj-c2d9728ca4afec5c3bb01cc60fee22ca.mesh", "res://.godot/imported/Rug_B.obj-c2d9728ca4afec5c3bb01cc60fee22ca.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

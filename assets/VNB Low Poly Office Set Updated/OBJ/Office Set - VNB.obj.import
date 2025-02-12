@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://4aulvunjn04m"
+path="res://.godot/imported/Office Set - VNB.obj-ab6e1e8852f2a8c000d17fc14f2b43cc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Office Set - VNB.obj-ab6e1e8852f2a8c000d17fc14f2b43cc.mesh"]
+
+source_file="res://assets/VNB Low Poly Office Set Updated/OBJ/Office Set - VNB.obj"
+dest_files=["res://.godot/imported/Office Set - VNB.obj-ab6e1e8852f2a8c000d17fc14f2b43cc.mesh", "res://.godot/imported/Office Set - VNB.obj-ab6e1e8852f2a8c000d17fc14f2b43cc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dgo2t1cyetnaw"
+path="res://.godot/imported/Book_Big.obj-3bdf483d95486ae0e40719f4baa42b5e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Book_Big.obj-3bdf483d95486ae0e40719f4baa42b5e.mesh"]
+
+source_file="res://assets/VNB Low Poly Office Set Updated/OBJ/Separated/Book_Big.obj"
+dest_files=["res://.godot/imported/Book_Big.obj-3bdf483d95486ae0e40719f4baa42b5e.mesh", "res://.godot/imported/Book_Big.obj-3bdf483d95486ae0e40719f4baa42b5e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
