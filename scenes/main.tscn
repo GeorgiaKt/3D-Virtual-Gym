@@ -1,4 +1,4 @@
-[gd_scene load_steps=53 format=4 uid="uid://dmx2s3wkg85b8"]
+[gd_scene load_steps=54 format=4 uid="uid://dmx2s3wkg85b8"]
 
 [ext_resource type="PackedScene" uid="uid://bmv0mjcuveeim" path="res://scenes/gymroom.tscn" id="1_2n2os"]
 [ext_resource type="Texture2D" uid="uid://2o8ntqnnh5dh" path="res://assets/gym equipment/simple_low_poly_calisthenics_gltf/textures/Palette256_baseColor.png" id="2_5mis7"]
@@ -29,6 +29,7 @@
 [ext_resource type="PackedScene" uid="uid://dj22c0lrra2ec" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/EzBar.fbx" id="26_d8cb1"]
 [ext_resource type="PackedScene" uid="uid://dxtkapdoy2sxc" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Weight_Stand_2.fbx" id="27_bou5w"]
 [ext_resource type="PackedScene" uid="uid://bvrjf1bywj11i" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Weight_Bar_C.fbx" id="28_0h8g7"]
+[ext_resource type="Script" path="res://addons/Mirror/Mirror/Mirror.gd" id="29_jvn4a"]
 [ext_resource type="PackedScene" uid="uid://dou5mqswecegh" path="res://scenes/ui.tscn" id="30_tgxrq"]
 [ext_resource type="Script" path="res://scripts/ui.gd" id="31_tcl7n"]
 [ext_resource type="PackedScene" uid="uid://cqvhwxgf7gywy" path="res://scenes/megan_sitting.tscn" id="32_ehcr2"]
@@ -1537,6 +1538,20 @@ transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 10.798
 [node name="Dumbbells_17" parent="GymRoom/Muscle Gain Area/extra equipment for muscle gain group/Small Dumbbells" instance=ExtResource("7_jr6l7")]
 transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 10.7982, 0.180734, -1.56054)
 
+[node name="Mirrors" type="Node3D" parent="GymRoom"]
+
+[node name="MirrorA" type="Node3D" parent="GymRoom/Mirrors"]
+transform = Transform3D(4.76971, 0, 0, 0, 1.52962, 0, 0, 0, 1, -6.88081, 1.60626, -15.9031)
+script = ExtResource("29_jvn4a")
+ResolutionPerUnit = 700
+MainCamPath = NodePath("../../../Player/PlayerCamera")
+
+[node name="MirrorB" type="Node3D" parent="GymRoom/Mirrors"]
+transform = Transform3D(4.76971, 0, 0, 0, 1.52962, 0, 0, 0, 1, 6.93465, 1.60626, -15.9031)
+script = ExtResource("29_jvn4a")
+ResolutionPerUnit = -130
+MainCamPath = NodePath("../../../Player/PlayerCamera")
+
 [node name="Player" parent="." instance=ExtResource("2_lfp2a")]
 transform = Transform3D(-0.429991, 0, 0.902833, 0, 1, 0, -0.902833, 0, -0.429991, -2.06634, 0, 9.42405)
 speed = 4.0
@@ -1544,6 +1559,9 @@ acceleration = 25.0
 
 [node name="UI" parent="Player" instance=ExtResource("30_tgxrq")]
 script = ExtResource("31_tcl7n")
+
+[node name="PlayerCamera" type="Camera3D" parent="Player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 0.224679)
 
 [node name="megan_sitting" parent="." instance=ExtResource("32_ehcr2")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3.58542, 0.225444, 10.6311)
