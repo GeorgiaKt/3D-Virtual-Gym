@@ -6,16 +6,16 @@
 [ext_resource type="Texture2D" uid="uid://r3n4cv4as0ed" path="res://textures/plastered_wall_4k/plastered_wall_diff_4k.png" id="4_tyxlr"]
 [ext_resource type="Texture2D" uid="uid://68pnnimgy55y" path="res://textures/plastered_wall_4k/plastered_wall_nor_gl_4k.png" id="5_hvrr2"]
 [ext_resource type="Texture2D" uid="uid://cd7g10dwi5q0w" path="res://textures/plastered_wall_4k/plastered_wall_rough_4k.png" id="6_ficrx"]
+[ext_resource type="PackedScene" uid="uid://dls3ixab1ng7v" path="res://scenes/assets_scenes/corner_sofa.tscn" id="7_ijhu1"]
 [ext_resource type="PackedScene" uid="uid://o8cbarwqn7xw" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Drawer_2.fbx" id="7_l5iae"]
+[ext_resource type="PackedScene" uid="uid://cugbdlngw85yi" path="res://assets/green_sofa/scene.gltf" id="8_j2uem"]
 [ext_resource type="PackedScene" uid="uid://bb4fcwgwyarsn" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Drawer_D.fbx" id="8_xnacc"]
+[ext_resource type="PackedScene" uid="uid://b2bltx80wlxxv" path="res://assets/cream_sofa/scene.gltf" id="9_tgpv3"]
+[ext_resource type="PackedScene" uid="uid://b01n0chlh76p1" path="res://assets/ring_round_table/scene.gltf" id="10_bhmyl"]
 [ext_resource type="PackedScene" uid="uid://dlx23g2ps4l1s" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Chair_B.fbx" id="10_xixeb"]
-[ext_resource type="PackedScene" uid="uid://dftts84gx5to" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Sofa_1.fbx" id="11_n116d"]
-[ext_resource type="PackedScene" uid="uid://b8egp0rbho0ja" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Sofa_2.fbx" id="12_ag2wv"]
 [ext_resource type="PackedScene" uid="uid://cwt57qwlg6jnt" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Office_Desk_4_Two.fbx" id="12_y3ufi"]
 [ext_resource type="PackedScene" uid="uid://d2raxviu4twck" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/CoffeeCup.fbx" id="13_mldhh"]
-[ext_resource type="PackedScene" uid="uid://kily4ym56ci4" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Sofa_3.fbx" id="13_vnh7s"]
 [ext_resource type="PackedScene" uid="uid://bih1tcodchryh" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Fruit_Apple.fbx" id="14_5fn81"]
-[ext_resource type="PackedScene" uid="uid://cd5sfwveeo216" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/CTable_2.fbx" id="14_qb8rb"]
 [ext_resource type="PackedScene" uid="uid://bc0u7a4ttvvtc" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Lamp_1_Small.fbx" id="15_i5ruy"]
 [ext_resource type="PackedScene" uid="uid://h5kktqawjmrv" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Notepad.fbx" id="16_e6qvi"]
 [ext_resource type="PackedScene" uid="uid://dw28lcvqxkf6e" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Painting.fbx" id="17_lj61m"]
@@ -211,20 +211,17 @@ mesh = SubResource("BoxMesh_copof")
 
 [node name="Lobby" type="Node3D" parent="."]
 
-[node name="Sofa_1" parent="Lobby" instance=ExtResource("11_n116d")]
-transform = Transform3D(1.15845, 0, 0, 0, 1, 0, 0, 0, 1, 2.48304, 3.7998e-07, 11.3717)
+[node name="Corner_Sofa" parent="Lobby" instance=ExtResource("7_ijhu1")]
+transform = Transform3D(0.03, 0, 0, 0, 0.03, 0, 0, 0, 0.03, 4.65109, 0, 10.0895)
 
-[node name="Sofa_2" parent="Lobby" instance=ExtResource("12_ag2wv")]
-transform = Transform3D(-1.46309, 0, -8.74228e-08, 0, 1, 0, 1.27907e-07, 0, -1, 2.87801, -9.68575e-08, 15.2962)
+[node name="Green_Sofa" parent="Lobby" instance=ExtResource("8_j2uem")]
+transform = Transform3D(-1.2, 0, -1.81195e-07, 0, 1.2, 0, 1.81195e-07, 0, -1.2, 3.97208, 3.30806e-06, 15.211)
 
-[node name="Sofa_3" parent="Lobby" instance=ExtResource("13_vnh7s")]
-transform = Transform3D(-0.766044, 0, -0.642788, 0, 1, 0, 0.642788, 0, -0.766044, 5.71552, 3.7998e-07, 15.0001)
+[node name="Cream_Sofa" parent="Lobby" instance=ExtResource("9_tgpv3")]
+transform = Transform3D(0.741733, 0, 0.812301, 0, 1.1, 0, -0.812301, 0, 0.741733, 0.922, 0, 11.232)
 
-[node name="CTable_2" parent="Lobby" instance=ExtResource("14_qb8rb")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.79102, 1.41561e-07, 13.3446)
-
-[node name="Sofa_4" parent="Lobby" instance=ExtResource("13_vnh7s")]
-transform = Transform3D(0.96803, 0, -0.250836, 0, 1, 0, 0.250836, 0, 0.96803, 5.12681, 3.7998e-07, 11.5232)
+[node name="Round_Table" parent="Lobby" instance=ExtResource("10_bhmyl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.56956, 0, 12.5642)
 
 [node name="Painting" parent="Lobby" instance=ExtResource("17_lj61m")]
 transform = Transform3D(-1.87159, 0, 3.17865e-08, 0, 1.79691, 0, -5.94914e-08, 0, -1, 3.07376, 2.37718, 15.9228)

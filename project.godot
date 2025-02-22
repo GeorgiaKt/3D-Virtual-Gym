@@ -130,3 +130,7 @@ flap_minigame={
 2d_physics/layer_2="moving_body"
 3d_physics/layer_2="world"
 2d_physics/layer_3="boundaries"
+
+[rendering]
+
+anti_aliasing/quality/use_taa=true

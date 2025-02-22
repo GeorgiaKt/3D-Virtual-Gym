@@ -1,0 +1,11 @@
+Model Information:
+* title:	Johnny Sofa with Removable Chaise Longue
+* source:	https://sketchfab.com/3d-models/johnny-sofa-with-removable-chaise-longue-2813d31494c54eb4b45df5875c381162
+* author:	BertO (https://sketchfab.com/bertosalotti)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Johnny Sofa with Removable Chaise Longue" (https://sketchfab.com/3d-models/johnny-sofa-with-removable-chaise-longue-2813d31494c54eb4b45df5875c381162) by BertO (https://sketchfab.com/bertosalotti) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
