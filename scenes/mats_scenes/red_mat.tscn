@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dl0qf3paq7m6g"]
+
+[ext_resource type="PackedScene" uid="uid://c2ktorkp6au62" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Sp_Mat_1.fbx" id="1_aijgt"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cj47a"]
+albedo_color = Color(0.42, 0.1428, 0.1428, 1)
+
+[node name="Sp_Mat_1" instance=ExtResource("1_aijgt")]
+
+[node name="Sp_Mat_1" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_cj47a")

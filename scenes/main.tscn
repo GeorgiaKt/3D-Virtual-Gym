@@ -1,12 +1,15 @@
-[gd_scene load_steps=54 format=4 uid="uid://dmx2s3wkg85b8"]
+[gd_scene load_steps=57 format=4 uid="uid://dmx2s3wkg85b8"]
 
 [ext_resource type="PackedScene" uid="uid://bmv0mjcuveeim" path="res://scenes/gymroom.tscn" id="1_2n2os"]
 [ext_resource type="Texture2D" uid="uid://2o8ntqnnh5dh" path="res://assets/gym equipment/simple_low_poly_calisthenics_gltf/textures/Palette256_baseColor.png" id="2_5mis7"]
 [ext_resource type="PackedScene" uid="uid://cdjskgse7rw33" path="res://scenes/player.tscn" id="2_lfp2a"]
-[ext_resource type="PackedScene" uid="uid://c2ktorkp6au62" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Sp_Mat_1.fbx" id="3_u0uot"]
 [ext_resource type="PackedScene" uid="uid://inxwkr0rdj4e" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Flat_Bench.fbx" id="4_7oekf"]
+[ext_resource type="PackedScene" uid="uid://c325ixum7vcn2" path="res://scenes/mats_scenes/blue_mat.tscn" id="4_a4yik"]
+[ext_resource type="PackedScene" uid="uid://dq83ui1c2jv7y" path="res://scenes/mats_scenes/green_mat.tscn" id="4_f2xxr"]
 [ext_resource type="PackedScene" uid="uid://p5mkr3ypnnkg" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Kettlebell.fbx" id="5_anvs2"]
+[ext_resource type="PackedScene" uid="uid://dl0qf3paq7m6g" path="res://scenes/mats_scenes/red_mat.tscn" id="5_wef3p"]
 [ext_resource type="PackedScene" uid="uid://buaiim2sgnqev" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Dumbbells_2.fbx" id="6_iorct"]
+[ext_resource type="PackedScene" uid="uid://3ux0pgui5qax" path="res://scenes/mats_scenes/purple_mat.tscn" id="6_siv2n"]
 [ext_resource type="PackedScene" uid="uid://c7h6noypelp75" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Dumbbells_1.fbx" id="7_jr6l7"]
 [ext_resource type="PackedScene" uid="uid://7tqopcacuwfo" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Treadmill_1_Main.fbx" id="8_huvjs"]
 [ext_resource type="PackedScene" uid="uid://b1tra5kcvdeti" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Exercise_Bike.fbx" id="9_esdcq"]
@@ -241,11 +244,8 @@ transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -8.719
 mesh = SubResource("ArrayMesh_3vhey")
 skeleton = NodePath("")
 
-[node name="Sp_Mat_1" parent="GymRoom/Calisthenics Area" instance=ExtResource("3_u0uot")]
-transform = Transform3D(7.6643, 0, 0, 0, 1, 0, 0, 0, 1.83051, -6.85789, -2.44156e-05, 4.85252)
-
-[node name="Sp_Mat_2" parent="GymRoom/Calisthenics Area" instance=ExtResource("3_u0uot")]
-transform = Transform3D(5.70727, 0, 0, 0, 1, 0, 0, 0, 3.22956, -4.10095, -2.44156e-05, -2.64069)
+[node name="Sp_Mat_1" parent="GymRoom/Calisthenics Area" instance=ExtResource("5_wef3p")]
+transform = Transform3D(5.707, 0, 0, 0, 1, 0, 0, 0, 3.23, -4.30807, 0, -3.16778)
 
 [node name="Calisthenics Area3D" type="Area3D" parent="GymRoom/Calisthenics Area"]
 monitorable = false
@@ -254,43 +254,46 @@ monitorable = false
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.54226, 1.38133, 0.261788)
 shape = SubResource("BoxShape3D_eius7")
 
+[node name="Sp_Mat_2" parent="GymRoom/Calisthenics Area" instance=ExtResource("4_a4yik")]
+transform = Transform3D(7.664, 0, 0, 0, 1, 0, 0, 0, 1.831, -6.858, 0, 4.853)
+
 [node name="Group Fitness Class A" type="Node3D" parent="GymRoom"]
 
-[node name="Sp_Mat_1" parent="GymRoom/Group Fitness Class A" instance=ExtResource("3_u0uot")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 7.79655, -1.52737e-06, -14.8434)
+[node name="Sp_Mat_1" parent="GymRoom/Group Fitness Class A" instance=ExtResource("6_siv2n")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 7.797, 0, -14.843)
 
-[node name="Sp_Mat_2" parent="GymRoom/Group Fitness Class A" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.628, 0, -12)
+[node name="Sp_Mat_2" parent="GymRoom/Group Fitness Class A" instance=ExtResource("6_siv2n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.405, 0, -12)
 
-[node name="Sp_Mat_3" parent="GymRoom/Group Fitness Class A" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.26, 0, -12)
+[node name="Sp_Mat_3" parent="GymRoom/Group Fitness Class A" instance=ExtResource("6_siv2n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.9987, 0, -12)
 
-[node name="Sp_Mat_4" parent="GymRoom/Group Fitness Class A" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.855, 0, -12)
+[node name="Sp_Mat_4" parent="GymRoom/Group Fitness Class A" instance=ExtResource("6_siv2n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.53076, 0, -12)
 
-[node name="Sp_Mat_5" parent="GymRoom/Group Fitness Class A" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.385, 0, -12)
+[node name="Sp_Mat_5" parent="GymRoom/Group Fitness Class A" instance=ExtResource("6_siv2n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.06553, 0, -12)
 
-[node name="Sp_Mat_6" parent="GymRoom/Group Fitness Class A" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.837, 0, -12)
+[node name="Sp_Mat_6" parent="GymRoom/Group Fitness Class A" instance=ExtResource("6_siv2n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.53294, 0, -12)
 
-[node name="Sp_Mat_7" parent="GymRoom/Group Fitness Class A" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.991, 0, -9.5)
+[node name="Sp_Mat_7" parent="GymRoom/Group Fitness Class A" instance=ExtResource("6_siv2n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.05086, 0, -12)
 
-[node name="Sp_Mat_8" parent="GymRoom/Group Fitness Class A" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.535, 0, -9.5)
+[node name="Sp_Mat_8" parent="GymRoom/Group Fitness Class A" instance=ExtResource("6_siv2n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.74971, 0, -9.52456)
 
-[node name="Sp_Mat_9" parent="GymRoom/Group Fitness Class A" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.051, 0, -9.5)
+[node name="Sp_Mat_9" parent="GymRoom/Group Fitness Class A" instance=ExtResource("6_siv2n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.27343, 0, -9.52456)
 
-[node name="Sp_Mat_10" parent="GymRoom/Group Fitness Class A" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.521, 0, -9.5)
+[node name="Sp_Mat_10" parent="GymRoom/Group Fitness Class A" instance=ExtResource("6_siv2n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.79714, 0, -9.52456)
 
-[node name="Sp_Mat_11" parent="GymRoom/Group Fitness Class A" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.064, 0, -9.5)
+[node name="Sp_Mat_11" parent="GymRoom/Group Fitness Class A" instance=ExtResource("6_siv2n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.28648, 0, -9.52456)
 
-[node name="Sp_Mat_12" parent="GymRoom/Group Fitness Class A" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.404, 0, -9.5)
+[node name="Sp_Mat_12" parent="GymRoom/Group Fitness Class A" instance=ExtResource("6_siv2n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.7644, 0, -9.52456)
 
 [node name="GroupFitnessClassA Area3D" type="Area3D" parent="GymRoom/Group Fitness Class A"]
 monitorable = false
@@ -301,59 +304,59 @@ shape = SubResource("BoxShape3D_c201u")
 
 [node name="Group Fitness Class B" type="Node3D" parent="GymRoom"]
 
-[node name="Sp_Mat_1" parent="GymRoom/Group Fitness Class B" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.76725, 3.7998e-07, -14.0052)
+[node name="Sp_Mat_1" parent="GymRoom/Group Fitness Class B" instance=ExtResource("4_f2xxr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.767, 0, -14)
 
 [node name="Flat_Bench" parent="GymRoom/Group Fitness Class B/Sp_Mat_1" instance=ExtResource("4_7oekf")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10008, 0, -0.0384121)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10033, 3.7998e-07, -0.0436125)
 
-[node name="Sp_Mat_2" parent="GymRoom/Group Fitness Class B" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.046, 0, -11)
+[node name="Sp_Mat_2" parent="GymRoom/Group Fitness Class B" instance=ExtResource("4_f2xxr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.74247, 0, -11.0044)
 
 [node name="Flat_Bench" parent="GymRoom/Group Fitness Class B/Sp_Mat_2" instance=ExtResource("4_7oekf")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10008, 0, -0.0384121)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10033, 3.7998e-07, -0.0436125)
 
-[node name="Sp_Mat_3" parent="GymRoom/Group Fitness Class B" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.63594, 0, -11)
+[node name="Sp_Mat_3" parent="GymRoom/Group Fitness Class B" instance=ExtResource("4_f2xxr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.14138, 0, -11.0044)
 
 [node name="Flat_Bench" parent="GymRoom/Group Fitness Class B/Sp_Mat_3" instance=ExtResource("4_7oekf")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10008, 0, -0.0384121)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10033, 3.7998e-07, -0.0436125)
 
-[node name="Sp_Mat_4" parent="GymRoom/Group Fitness Class B" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.12395, 0, -11)
+[node name="Sp_Mat_4" parent="GymRoom/Group Fitness Class B" instance=ExtResource("4_f2xxr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.65495, 0, -11.0044)
 
 [node name="Flat_Bench" parent="GymRoom/Group Fitness Class B/Sp_Mat_4" instance=ExtResource("4_7oekf")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10008, 0, -0.0384121)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10033, 3.7998e-07, -0.0436125)
 
-[node name="Sp_Mat_5" parent="GymRoom/Group Fitness Class B" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.73587, 0, -11)
+[node name="Sp_Mat_5" parent="GymRoom/Group Fitness Class B" instance=ExtResource("4_f2xxr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.0715, 0, -11.0044)
 
 [node name="Flat_Bench" parent="GymRoom/Group Fitness Class B/Sp_Mat_5" instance=ExtResource("4_7oekf")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10008, 0, -0.0384121)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10033, 3.7998e-07, -0.0436125)
 
-[node name="Sp_Mat_6" parent="GymRoom/Group Fitness Class B" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.736, 0, -8.5)
+[node name="Sp_Mat_6" parent="GymRoom/Group Fitness Class B" instance=ExtResource("4_f2xxr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.0715, 0, -8.52609)
 
 [node name="Flat_Bench" parent="GymRoom/Group Fitness Class B/Sp_Mat_6" instance=ExtResource("4_7oekf")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10008, 0, -0.0384121)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10033, 3.7998e-07, -0.0436125)
 
-[node name="Sp_Mat_7" parent="GymRoom/Group Fitness Class B" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.12942, 0, -8.5)
+[node name="Sp_Mat_7" parent="GymRoom/Group Fitness Class B" instance=ExtResource("4_f2xxr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.66377, 0, -8.52609)
 
 [node name="Flat_Bench" parent="GymRoom/Group Fitness Class B/Sp_Mat_7" instance=ExtResource("4_7oekf")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10008, 0, -0.0384121)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10033, 3.7998e-07, -0.0436125)
 
-[node name="Sp_Mat_8" parent="GymRoom/Group Fitness Class B" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.65295, 0, -8.5)
+[node name="Sp_Mat_8" parent="GymRoom/Group Fitness Class B" instance=ExtResource("4_f2xxr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.15902, 0, -8.52609)
 
 [node name="Flat_Bench" parent="GymRoom/Group Fitness Class B/Sp_Mat_8" instance=ExtResource("4_7oekf")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10008, 0, -0.0384121)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10033, 3.7998e-07, -0.0436125)
 
-[node name="Sp_Mat_9" parent="GymRoom/Group Fitness Class B" instance=ExtResource("3_u0uot")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.0512, 0, -8.5)
+[node name="Sp_Mat_9" parent="GymRoom/Group Fitness Class B" instance=ExtResource("4_f2xxr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.74246, 0, -8.52609)
 
 [node name="Flat_Bench" parent="GymRoom/Group Fitness Class B/Sp_Mat_9" instance=ExtResource("4_7oekf")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10008, 0, -0.0384121)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.10033, 3.7998e-07, -0.0436125)
 
 [node name="GroupFitnessClassB Area3D" type="Area3D" parent="GymRoom/Group Fitness Class B"]
 monitorable = false
@@ -982,9 +985,6 @@ shape = SubResource("BoxShape3D_yb1q7")
 [node name="Sm_Machine" parent="GymRoom/Muscle Gain Area/Sm_Machines" instance=ExtResource("23_i8qhu")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 10.9555, 3.7998e-07, 0.0279965)
 
-[node name="Sp_Mat_1" parent="GymRoom/Muscle Gain Area/Sm_Machines/Sm_Machine" instance=ExtResource("3_u0uot")]
-transform = Transform3D(-2.15699, 0, -1.24314e-07, 0, 1, 0, 1.8857e-07, 0, -1.42199, 0.00327492, 0, 0.479817)
-
 [node name="Barbell_1" parent="GymRoom/Muscle Gain Area/Sm_Machines/Sm_Machine" instance=ExtResource("18_2iara")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00164223, 1.68156, 0.585383)
 
@@ -1062,11 +1062,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.689854, 1.45, -0.589)
 [node name="Weight_B10" parent="GymRoom/Muscle Gain Area/Sm_Machines/Sm_Machine/weights" instance=ExtResource("19_gewai")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.756588, 1.45, -0.589)
 
+[node name="Sp_Mat_1" parent="GymRoom/Muscle Gain Area/Sm_Machines/Sm_Machine" instance=ExtResource("5_wef3p")]
+transform = Transform3D(2.157, 0, 0, 0, 1, 0, 0, 0, 1.422, 0.003, 0, 0.48)
+
 [node name="Sm_Machine2" parent="GymRoom/Muscle Gain Area/Sm_Machines" instance=ExtResource("23_i8qhu")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 10.9555, 3.7998e-07, 2.36059)
-
-[node name="Sp_Mat_1" parent="GymRoom/Muscle Gain Area/Sm_Machines/Sm_Machine2" instance=ExtResource("3_u0uot")]
-transform = Transform3D(-2.15699, 0, -1.24314e-07, 0, 1, 0, 1.8857e-07, 0, -1.42199, 0.00327492, 0, 0.479817)
 
 [node name="Barbell_1" parent="GymRoom/Muscle Gain Area/Sm_Machines/Sm_Machine2" instance=ExtResource("18_2iara")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00164223, 1.68156, 0.585383)
@@ -1144,6 +1144,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.689854, 1.45, -0.589)
 
 [node name="Weight_B10" parent="GymRoom/Muscle Gain Area/Sm_Machines/Sm_Machine2/weights" instance=ExtResource("19_gewai")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.756588, 1.45, -0.589)
+
+[node name="Sp_Mat_1" parent="GymRoom/Muscle Gain Area/Sm_Machines/Sm_Machine2" instance=ExtResource("5_wef3p")]
+transform = Transform3D(2.157, 0, 0, 0, 1, 0, 0, 0, 1.422, 0.003, 0, 0.48)
 
 [node name="Sm_Machines Area3D" type="Area3D" parent="GymRoom/Muscle Gain Area/Sm_Machines"]
 monitorable = false
