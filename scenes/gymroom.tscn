@@ -1,4 +1,4 @@
-[gd_scene load_steps=52 format=3 uid="uid://bmv0mjcuveeim"]
+[gd_scene load_steps=57 format=3 uid="uid://bmv0mjcuveeim"]
 
 [ext_resource type="Texture2D" uid="uid://cqjbj2x45qx3w" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_diff_4k.png" id="1_0k5q7"]
 [ext_resource type="Texture2D" uid="uid://dkwpfx433ulrm" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_nor_gl_4k.png" id="2_1myl3"]
@@ -90,6 +90,21 @@ font_color = Color(0, 0, 0, 1)
 [sub_resource type="LabelSettings" id="LabelSettings_0h5va"]
 font_size = 25
 font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_j1bfu"]
+size = Vector3(5.66394, 1.80188, 0.43985)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ex1ey"]
+size = Vector3(5.65552, 1.80127, 0.433716)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_civgt"]
+size = Vector3(6.08008, 1.77264, 0.436523)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_x73ry"]
+size = Vector3(4.84424, 1.79187, 0.425781)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_sh7xg"]
+size = Vector3(5.65796, 1.80847, 0.44519)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_7om2x"]
 size = Vector3(6.4, 2.4, 0.2)
@@ -317,6 +332,7 @@ transform = Transform3D(0.123324, 0, -0.992366, 0, 1, 0, 0.992366, 0, 0.123324, 
 [node name="Lockers" type="Node3D" parent="LockerRoom"]
 
 [node name="group1" type="Node3D" parent="LockerRoom/Lockers"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0510874)
 
 [node name="Drawer_3" parent="LockerRoom/Lockers/group1" instance=ExtResource("7_l5iae")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -11.7321, 3.7998e-07, 15.7183)
@@ -401,6 +417,12 @@ transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.480
 
 [node name="Drawer_D" parent="LockerRoom/Lockers/group1/Drawer_16" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="LockerRoom/Lockers/group1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="LockerRoom/Lockers/group1/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.10731, 0.907965, 15.7126)
+shape = SubResource("BoxShape3D_j1bfu")
 
 [node name="group2" type="Node3D" parent="LockerRoom/Lockers"]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -21.713, 0, 0.837)
@@ -489,6 +511,12 @@ transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.480
 [node name="Drawer_D" parent="LockerRoom/Lockers/group2/Drawer_16" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
+[node name="StaticBody3D" type="StaticBody3D" parent="LockerRoom/Lockers/group2"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="LockerRoom/Lockers/group2/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.10103, 0.910221, 15.7132)
+shape = SubResource("BoxShape3D_ex1ey")
+
 [node name="group3" type="Node3D" parent="LockerRoom/Lockers"]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -18.1481, 0, 23.0343)
 
@@ -576,6 +604,12 @@ transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.480
 [node name="Drawer_D" parent="LockerRoom/Lockers/group3/Drawer_16" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
+[node name="StaticBody3D" type="StaticBody3D" parent="LockerRoom/Lockers/group3"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="LockerRoom/Lockers/group3/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.32495, 0.907805, 15.7196)
+shape = SubResource("BoxShape3D_civgt")
+
 [node name="group4" type="Node3D" parent="LockerRoom/Lockers"]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -25.0971, 0, 1.90305)
 
@@ -651,6 +685,12 @@ transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.290
 [node name="Drawer_D" parent="LockerRoom/Lockers/group4/Drawer_14" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
 
+[node name="StaticBody3D" type="StaticBody3D" parent="LockerRoom/Lockers/group4"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="LockerRoom/Lockers/group4/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.51065, 0.913852, 15.7147)
+shape = SubResource("BoxShape3D_x73ry")
+
 [node name="group5" type="Node3D" parent="LockerRoom/Lockers"]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 6.764, 0, 20.923)
 
@@ -725,6 +765,12 @@ transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.290
 
 [node name="Drawer_D" parent="LockerRoom/Lockers/group5/Drawer_14" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="LockerRoom/Lockers/group5"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="LockerRoom/Lockers/group5/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.51065, 0.913852, 15.7147)
+shape = SubResource("BoxShape3D_x73ry")
 
 [node name="group6" type="Node3D" parent="LockerRoom/Lockers"]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 3.95592, 0, 20.7594)
@@ -812,6 +858,12 @@ transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -6.480
 
 [node name="Drawer_D" parent="LockerRoom/Lockers/group6/Drawer_16" instance=ExtResource("8_xnacc")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183113, -4.76837e-07, 0.200715)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="LockerRoom/Lockers/group6"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="LockerRoom/Lockers/group6/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.10374, 0.908312, 15.7191)
+shape = SubResource("BoxShape3D_sh7xg")
 
 [node name="LockerRoomWalls" type="Node3D" parent="LockerRoom"]
 
