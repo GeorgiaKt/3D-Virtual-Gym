@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbgnuxbteulds"]
+
+[ext_resource type="PackedScene" uid="uid://djsu4y41tayks" path="res://assets/fire_escape__exit_doors/scene.gltf" id="1_5l0ki"]
+
+[node name="Sketchfab_Scene" instance=ExtResource("1_5l0ki")]
+
+[node name="316313476cfe2ddee7782e7855b64367_0" parent="Sketchfab_model/root/GLTF_SceneRootNode" index="0"]
+visible = false
+
+[node name="c790c7f50dab9e8a5c5f82b94b61fbc8_4" parent="Sketchfab_model/root/GLTF_SceneRootNode" index="4"]
+visible = false

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fire Escape / Exit Doors
+* source:	https://sketchfab.com/3d-models/fire-escape-exit-doors-4ad9f395571a4dfaadce33dfeccc7a53
+* author:	blue man group (https://sketchfab.com/bloobloo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fire Escape / Exit Doors" (https://sketchfab.com/3d-models/fire-escape-exit-doors-4ad9f395571a4dfaadce33dfeccc7a53) by blue man group (https://sketchfab.com/bloobloo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

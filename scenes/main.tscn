@@ -1,6 +1,6 @@
 [gd_scene load_steps=57 format=4 uid="uid://dmx2s3wkg85b8"]
 
-[ext_resource type="PackedScene" uid="uid://bmv0mjcuveeim" path="res://scenes/gymroom.tscn" id="1_2n2os"]
+[ext_resource type="PackedScene" uid="uid://bmv0mjcuveeim" path="res://scenes/gym_room.tscn" id="1_2n2os"]
 [ext_resource type="Texture2D" uid="uid://2o8ntqnnh5dh" path="res://assets/gym equipment/simple_low_poly_calisthenics_gltf/textures/Palette256_baseColor.png" id="2_5mis7"]
 [ext_resource type="PackedScene" uid="uid://cdjskgse7rw33" path="res://scenes/player.tscn" id="2_lfp2a"]
 [ext_resource type="PackedScene" uid="uid://inxwkr0rdj4e" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Flat_Bench.fbx" id="4_7oekf"]

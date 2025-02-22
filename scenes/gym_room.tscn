@@ -1,4 +1,4 @@
-[gd_scene load_steps=57 format=3 uid="uid://bmv0mjcuveeim"]
+[gd_scene load_steps=58 format=3 uid="uid://bmv0mjcuveeim"]
 
 [ext_resource type="Texture2D" uid="uid://cqjbj2x45qx3w" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_diff_4k.png" id="1_0k5q7"]
 [ext_resource type="Texture2D" uid="uid://dkwpfx433ulrm" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_nor_gl_4k.png" id="2_1myl3"]
@@ -30,6 +30,7 @@
 [ext_resource type="Texture2D" uid="uid://b81o1g44pmn1x" path="res://textures/plastered_wall_04_4k/plastered_wall_04_nor_gl_4k.png" id="28_nh61p"]
 [ext_resource type="Texture2D" uid="uid://ml4xpfr6q8oa" path="res://textures/plastered_wall_04_4k/plastered_wall_04_rough_4k.png" id="29_lidnv"]
 [ext_resource type="PackedScene" uid="uid://ovlub8v0nd2n" path="res://assets/ceiling_lamp_/scene.gltf" id="30_6c3au"]
+[ext_resource type="PackedScene" uid="uid://cbgnuxbteulds" path="res://scenes/exit_door.tscn" id="32_8277m"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_6l572"]
 size = Vector3(24, 0.2, 32)
@@ -964,3 +965,6 @@ omni_range = 10.0
 
 [node name="light8" parent="Roof/Lights/OmniLight3D8" instance=ExtResource("30_6c3au")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.0590277, 0.690083, -0.0231667)
+
+[node name="ExitDoor" parent="." instance=ExtResource("32_8277m")]
+transform = Transform3D(-7.43094e-08, 0, -1.7, 0, 1.7, 0, 1.7, 0, -7.43094e-08, 9, -0.426091, 16.1685)
