@@ -57,7 +57,7 @@ normal_enabled = true
 normal_texture = ExtResource("5_hvrr2")
 heightmap_enabled = true
 heightmap_scale = 16.0
-uv1_scale = Vector3(5, 5, 5)
+uv1_scale = Vector3(20, 2, 5)
 
 [sub_resource type="BoxMesh" id="BoxMesh_fn0hq"]
 material = SubResource("StandardMaterial3D_inojq")
@@ -74,7 +74,7 @@ normal_enabled = true
 normal_texture = ExtResource("5_hvrr2")
 heightmap_enabled = true
 heightmap_scale = 16.0
-uv1_scale = Vector3(5, 5, 5)
+uv1_scale = Vector3(20, 2, 5)
 
 [sub_resource type="BoxMesh" id="BoxMesh_copof"]
 lightmap_size_hint = Vector2i(124, 166)
@@ -117,7 +117,7 @@ normal_enabled = true
 normal_texture = ExtResource("5_hvrr2")
 heightmap_enabled = true
 heightmap_scale = 16.0
-uv1_scale = Vector3(2, 2, 2)
+uv1_scale = Vector3(5, 2, 2)
 
 [sub_resource type="BoxMesh" id="BoxMesh_5u2ec"]
 material = SubResource("StandardMaterial3D_i8vus")
@@ -133,7 +133,7 @@ normal_enabled = true
 normal_texture = ExtResource("5_hvrr2")
 heightmap_enabled = true
 heightmap_scale = 16.0
-uv1_scale = Vector3(3, 3, 3)
+uv1_scale = Vector3(5, 2, 2)
 
 [sub_resource type="BoxMesh" id="BoxMesh_nxswc"]
 material = SubResource("StandardMaterial3D_wne1e")
