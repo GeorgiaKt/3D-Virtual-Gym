@@ -1,4 +1,4 @@
-[gd_scene load_steps=58 format=3 uid="uid://bmv0mjcuveeim"]
+[gd_scene load_steps=66 format=3 uid="uid://bmv0mjcuveeim"]
 
 [ext_resource type="Texture2D" uid="uid://cqjbj2x45qx3w" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_diff_4k.png" id="1_0k5q7"]
 [ext_resource type="Texture2D" uid="uid://dkwpfx433ulrm" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_nor_gl_4k.png" id="2_1myl3"]
@@ -15,8 +15,7 @@
 [ext_resource type="PackedScene" uid="uid://dlx23g2ps4l1s" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Chair_B.fbx" id="10_xixeb"]
 [ext_resource type="PackedScene" uid="uid://cwt57qwlg6jnt" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Office_Desk_4_Two.fbx" id="12_y3ufi"]
 [ext_resource type="PackedScene" uid="uid://d2raxviu4twck" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/CoffeeCup.fbx" id="13_mldhh"]
-[ext_resource type="PackedScene" uid="uid://bih1tcodchryh" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Fruit_Apple.fbx" id="14_5fn81"]
-[ext_resource type="PackedScene" uid="uid://bc0u7a4ttvvtc" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Lamp_1_Small.fbx" id="15_i5ruy"]
+[ext_resource type="PackedScene" uid="uid://cdws2113q5bsj" path="res://assets/delicious_red_apple/scene.gltf" id="15_vhtyi"]
 [ext_resource type="PackedScene" uid="uid://h5kktqawjmrv" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Notepad.fbx" id="16_e6qvi"]
 [ext_resource type="PackedScene" uid="uid://dw28lcvqxkf6e" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Painting.fbx" id="17_lj61m"]
 [ext_resource type="PackedScene" uid="uid://bhbdwmnv87888" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Office_Files_A.fbx" id="18_7yhvr"]
@@ -25,12 +24,21 @@
 [ext_resource type="PackedScene" uid="uid://df8oc8hpcg244" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/PC_Screen.fbx" id="23_mkxlh"]
 [ext_resource type="PackedScene" uid="uid://b8ksqpn61rgxf" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Keyboard.fbx" id="24_0fe1a"]
 [ext_resource type="PackedScene" uid="uid://bg4378ohxw336" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Mouse.fbx" id="25_pw4ys"]
+[ext_resource type="PackedScene" uid="uid://bv3k87io6ldmx" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Painting_Small.fbx" id="25_q7n06"]
 [ext_resource type="Texture2D" uid="uid://ic7xpge1yd8h" path="res://textures/plastered_wall_04_4k/plastered_wall_04_diff_4k.png" id="27_hq5tp"]
 [ext_resource type="PackedScene" uid="uid://p5mkr3ypnnkg" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Kettlebell.fbx" id="27_yt6ac"]
 [ext_resource type="Texture2D" uid="uid://b81o1g44pmn1x" path="res://textures/plastered_wall_04_4k/plastered_wall_04_nor_gl_4k.png" id="28_nh61p"]
+[ext_resource type="PackedScene" uid="uid://din3mafmtrnvc" path="res://assets/cupboard_innova-h07/scene.gltf" id="29_0akof"]
 [ext_resource type="Texture2D" uid="uid://ml4xpfr6q8oa" path="res://textures/plastered_wall_04_4k/plastered_wall_04_rough_4k.png" id="29_lidnv"]
 [ext_resource type="PackedScene" uid="uid://ovlub8v0nd2n" path="res://assets/ceiling_lamp_/scene.gltf" id="30_6c3au"]
+[ext_resource type="PackedScene" uid="uid://wvy1f41lshn0" path="res://assets/flowers_with_the_vase/scene.gltf" id="30_yv4lr"]
 [ext_resource type="PackedScene" uid="uid://cbgnuxbteulds" path="res://scenes/exit_door.tscn" id="32_8277m"]
+[ext_resource type="PackedScene" uid="uid://btrdinprdddx3" path="res://assets/plant/scene.gltf" id="33_nok0s"]
+[ext_resource type="PackedScene" uid="uid://ctym1e7a7uemm" path="res://assets/vase_and_flowers/scene.gltf" id="34_p6egw"]
+[ext_resource type="PackedScene" uid="uid://cb5jmfotmuaa2" path="res://assets/garbage_can__trashcan__bin/scene.gltf" id="35_hwkkv"]
+[ext_resource type="PackedScene" uid="uid://btrchmi0d77nx" path="res://assets/pencil_cup_and_pencils/scene.gltf" id="36_xbu7o"]
+[ext_resource type="PackedScene" uid="uid://cfgjsg54y1bu0" path="res://assets/plant_ficus_lyrata_type3/scene.gltf" id="37_hhqcu"]
+[ext_resource type="PackedScene" uid="uid://icts4m0b2ehx" path="res://assets/table_lamp_black/scene.gltf" id="37_t7707"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_6l572"]
 size = Vector3(24, 0.2, 32)
@@ -223,8 +231,14 @@ transform = Transform3D(0.741733, 0, 0.812301, 0, 1.1, 0, -0.812301, 0, 0.741733
 [node name="Round_Table" parent="Lobby" instance=ExtResource("10_bhmyl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.56956, 0, 12.5642)
 
-[node name="Painting" parent="Lobby" instance=ExtResource("17_lj61m")]
-transform = Transform3D(-1.87159, 0, 3.17865e-08, 0, 1.79691, 0, -5.94914e-08, 0, -1, 3.07376, 2.37718, 15.9228)
+[node name="Vase_with_Flowers" parent="Lobby/Round_Table" instance=ExtResource("34_p6egw")]
+transform = Transform3D(0.02, 0, 0, 0, 0.02, 0, 0, 0, 0.02, -0.0133557, 0.748073, -0.0458651)
+
+[node name="Painting_1" parent="Lobby" instance=ExtResource("17_lj61m")]
+transform = Transform3D(-3, 0, 4.52987e-07, 0, 3, 0, -4.52987e-07, 0, -3, 3.92554, 2.37718, 15.9228)
+
+[node name="Painting_2" parent="Lobby" instance=ExtResource("25_q7n06")]
+transform = Transform3D(-3.0598e-07, 0, -4, 0, 7, 0, 7, 0, -1.74846e-07, 11.8715, 2.33847, -3.0967)
 
 [node name="Office_Desk_4_Two" parent="Lobby" instance=ExtResource("12_y3ufi")]
 transform = Transform3D(1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, -2.54762, -9.68575e-08, 10.5546)
@@ -238,19 +252,11 @@ transform = Transform3D(-4.37114e-08, 0, -1, 0, 1.10059, 0, 1, 0, -4.37114e-08, 
 [node name="CoffeeCup" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("13_mldhh")]
 transform = Transform3D(0.890499, 0, -0.454986, 0, 1, 0, 0.454986, 0, 0.890499, 0.886112, 0.953123, 0.0241077)
 
-[node name="Fruit_Apple" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("14_5fn81")]
-transform = Transform3D(1.19249e-08, 0, 1, 0, 1, 0, -1, 0, 1.19249e-08, 1.0703, 0.955952, -0.191747)
+[node name="Apple" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("15_vhtyi")]
+transform = Transform3D(-8.74228e-10, 0, 0.02, 0, 0.02, 0, -0.02, 0, -8.74228e-10, 0.934938, 0.95053, -0.243135)
 
-[node name="Fruit_Apple2" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("14_5fn81")]
-transform = Transform3D(1.19249e-08, 0, 1, 0, 1, 0, -1, 0, 1.19249e-08, 0.972409, 0.955952, -0.241477)
-
-[node name="Lamp_1_Small" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("15_i5ruy")]
-transform = Transform3D(1.19249e-08, 0, 1, 0, 1, 0, -1, 0, 1.19249e-08, -1.07106, 0.951362, 0.41491)
-
-[node name="OmniLight3D" type="OmniLight3D" parent="Lobby/Office_Desk_4_Two/Lamp_1_Small"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.371891, 0)
-light_energy = 0.7
-omni_range = 0.6
+[node name="Apple2" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("15_vhtyi")]
+transform = Transform3D(0.02, 0, 0, 0, 0.02, 0, 0, 0, 0.02, 1.04429, 0.95053, -0.197054)
 
 [node name="Notepad" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("16_e6qvi")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0658731, 0.955526, 0.144754)
@@ -324,6 +330,24 @@ transform = Transform3D(1.19249e-08, 0, 1, 0, 1, 0, -1, 0, 1.19249e-08, -0.66233
 
 [node name="Mouse" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("25_pw4ys")]
 transform = Transform3D(0.123324, 0, -0.992366, 0, 1, 0, 0.992366, 0, 0.123324, -0.729291, 0.952, 1.82023)
+
+[node name="Table_Lamp" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("37_t7707")]
+transform = Transform3D(-0.00222995, 0, -0.0097482, 0, 0.01, 0, 0.0097482, 0, -0.00222995, -0.985991, 0.953696, 0.522668)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Lobby/Office_Desk_4_Two/Table_Lamp"]
+transform = Transform3D(100, 0, 0, 0, 100, 0, 0, 0, 100, -0.551041, 48.4279, -17.4041)
+
+[node name="Pencil_cup" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("36_xbu7o")]
+transform = Transform3D(4.76996e-10, 0, 0.04, 0, 0.04, 0, -0.04, 0, 4.76996e-10, -0.552214, 0.951655, -0.160914)
+
+[node name="Trash_Can" parent="Lobby" instance=ExtResource("35_hwkkv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.32047, 0.00257906, 13.4714)
+
+[node name="Cupboard" parent="Lobby" instance=ExtResource("29_0akof")]
+transform = Transform3D(-0.002, 0, -3.01992e-10, 0, 0.002, 0, 3.01992e-10, 0, -0.002, -0.716488, 0.0133579, 15.194)
+
+[node name="Vase_with_Flowers" parent="Lobby" instance=ExtResource("30_yv4lr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.666007, 1.21694, 15.596)
 
 [node name="LockerRoom" type="Node3D" parent="."]
 
@@ -964,4 +988,10 @@ omni_range = 10.0
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.0590277, 0.690083, -0.0231667)
 
 [node name="ExitDoor" parent="." instance=ExtResource("32_8277m")]
-transform = Transform3D(-7.43094e-08, 0, -1.7, 0, 1.7, 0, 1.7, 0, -7.43094e-08, 9, -0.426091, 16.1685)
+transform = Transform3D(-7.43094e-08, 0, -1.7, 0, 1.7, 0, 1.7, 0, -7.43094e-08, 8.87652, -0.426091, 16.1685)
+
+[node name="Plant" parent="." instance=ExtResource("33_nok0s")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 10.8591, -9.68575e-08, 14.8724)
+
+[node name="Plant_2" parent="." instance=ExtResource("37_hhqcu")]
+transform = Transform3D(0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 2.30137, 0.254283, 15.3554)

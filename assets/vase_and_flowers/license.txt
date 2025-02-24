@@ -1,0 +1,11 @@
+Model Information:
+* title:	Vase and Flowers
+* source:	https://sketchfab.com/3d-models/vase-and-flowers-3b204e1c8fa34183821cf925128f545c
+* author:	abdillaamy (https://sketchfab.com/abdillaamy)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Vase and Flowers" (https://sketchfab.com/3d-models/vase-and-flowers-3b204e1c8fa34183821cf925128f545c) by abdillaamy (https://sketchfab.com/abdillaamy) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

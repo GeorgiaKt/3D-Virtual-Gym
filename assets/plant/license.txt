@@ -1,0 +1,11 @@
+Model Information:
+* title:	Plant
+* source:	https://sketchfab.com/3d-models/plant-6ca018d9886941aa8a63cf2236216762
+* author:	Boxroom 3D (https://sketchfab.com/Boxroom_3D)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Plant" (https://sketchfab.com/3d-models/plant-6ca018d9886941aa8a63cf2236216762) by Boxroom 3D (https://sketchfab.com/Boxroom_3D) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

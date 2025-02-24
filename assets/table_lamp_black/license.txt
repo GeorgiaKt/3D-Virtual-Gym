@@ -1,0 +1,11 @@
+Model Information:
+* title:	table_lamp_black
+* source:	https://sketchfab.com/3d-models/table-lamp-black-4e0bc639cbdc498d8fb5a93766cb27b3
+* author:	clon6767 (https://sketchfab.com/clon6767)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "table_lamp_black" (https://sketchfab.com/3d-models/table-lamp-black-4e0bc639cbdc498d8fb5a93766cb27b3) by clon6767 (https://sketchfab.com/clon6767) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
