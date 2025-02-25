@@ -1,0 +1,11 @@
+Model Information:
+* title:	White shelf
+* source:	https://sketchfab.com/3d-models/white-shelf-785079b837c246deb7cf61efcfb40482
+* author:	antontomilenko19 (https://sketchfab.com/antontomilenko4)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "White shelf" (https://sketchfab.com/3d-models/white-shelf-785079b837c246deb7cf61efcfb40482) by antontomilenko19 (https://sketchfab.com/antontomilenko4) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)

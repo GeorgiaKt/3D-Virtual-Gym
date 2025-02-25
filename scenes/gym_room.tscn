@@ -1,4 +1,4 @@
-[gd_scene load_steps=66 format=3 uid="uid://bmv0mjcuveeim"]
+[gd_scene load_steps=69 format=3 uid="uid://bmv0mjcuveeim"]
 
 [ext_resource type="Texture2D" uid="uid://cqjbj2x45qx3w" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_diff_4k.png" id="1_0k5q7"]
 [ext_resource type="Texture2D" uid="uid://dkwpfx433ulrm" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_nor_gl_4k.png" id="2_1myl3"]
@@ -32,8 +32,11 @@
 [ext_resource type="Texture2D" uid="uid://ml4xpfr6q8oa" path="res://textures/plastered_wall_04_4k/plastered_wall_04_rough_4k.png" id="29_lidnv"]
 [ext_resource type="PackedScene" uid="uid://ovlub8v0nd2n" path="res://assets/ceiling_lamp_/scene.gltf" id="30_6c3au"]
 [ext_resource type="PackedScene" uid="uid://wvy1f41lshn0" path="res://assets/flowers_with_the_vase/scene.gltf" id="30_yv4lr"]
+[ext_resource type="PackedScene" uid="uid://bk1e4ccq8ir4s" path="res://assets/copper_and_matt_teal_decoration_vases/scene.gltf" id="31_0clwx"]
+[ext_resource type="PackedScene" uid="uid://cd34iifoneaa1" path="res://assets/white_shelf/scene.gltf" id="32_2pwq5"]
 [ext_resource type="PackedScene" uid="uid://cbgnuxbteulds" path="res://scenes/exit_door.tscn" id="32_8277m"]
 [ext_resource type="PackedScene" uid="uid://btrdinprdddx3" path="res://assets/plant/scene.gltf" id="33_nok0s"]
+[ext_resource type="PackedScene" uid="uid://cpltughynw0l5" path="res://assets/vogue_magazines/scene.gltf" id="33_rcx1j"]
 [ext_resource type="PackedScene" uid="uid://ctym1e7a7uemm" path="res://assets/vase_and_flowers/scene.gltf" id="34_p6egw"]
 [ext_resource type="PackedScene" uid="uid://cb5jmfotmuaa2" path="res://assets/garbage_can__trashcan__bin/scene.gltf" id="35_hwkkv"]
 [ext_resource type="PackedScene" uid="uid://btrchmi0d77nx" path="res://assets/pencil_cup_and_pencils/scene.gltf" id="36_xbu7o"]
@@ -346,8 +349,17 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.32047, 0.00257906, 13.4714
 [node name="Cupboard" parent="Lobby" instance=ExtResource("29_0akof")]
 transform = Transform3D(-0.002, 0, -3.01992e-10, 0, 0.002, 0, 3.01992e-10, 0, -0.002, -0.716488, 0.0133579, 15.194)
 
-[node name="Vase_with_Flowers" parent="Lobby" instance=ExtResource("30_yv4lr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.666007, 1.21694, 15.596)
+[node name="Vase_with_Flowers" parent="Lobby/Cupboard" instance=ExtResource("30_yv4lr")]
+transform = Transform3D(-500, 0, 7.5498e-05, 0, 500, 0, -7.5498e-05, 0, -500, -691.247, 601.791, -201)
+
+[node name="copper_and_matt_teal_decoration_vases" parent="Lobby/Cupboard" instance=ExtResource("31_0clwx")]
+transform = Transform3D(250, 0, 1.59162e-11, 0, 250, 0, -1.59162e-11, 0, 250, 576.431, 600.91, -83.1919)
+
+[node name="vogue_magazines" parent="Lobby/Cupboard" instance=ExtResource("33_rcx1j")]
+transform = Transform3D(750, 0, -4.76799e-05, 0, 750, 0, 4.76799e-05, 0, 750, -258.813, 606.622, -276.431)
+
+[node name="white_self" parent="Lobby" instance=ExtResource("32_2pwq5")]
+transform = Transform3D(-8.74228e-08, 0, 1.5, 0, 1.5, 0, -2, 0, -6.55671e-08, 11.4996, 1.57281, 12.2414)
 
 [node name="LockerRoom" type="Node3D" parent="."]
 

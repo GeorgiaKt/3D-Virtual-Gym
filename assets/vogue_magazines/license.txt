@@ -1,0 +1,11 @@
+Model Information:
+* title:	VOGUE Magazines
+* source:	https://sketchfab.com/3d-models/vogue-magazines-bf47eea601784059aa52f2929a0c9ada
+* author:	mfb64 (https://sketchfab.com/mfb64)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "VOGUE Magazines" (https://sketchfab.com/3d-models/vogue-magazines-bf47eea601784059aa52f2929a0c9ada) by mfb64 (https://sketchfab.com/mfb64) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
