@@ -127,6 +127,8 @@ func handle_interaction():
 		prepareForMiniGame()
 	elif pullDownMachines_entered or benchPresses_entered or benches_entered or smMachines_entered:
 		prepareForMiniGame()
+	else:
+		has_interacted = false
 
 
 
