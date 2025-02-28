@@ -1,0 +1,11 @@
+Model Information:
+* title:	Eucalyptus
+* source:	https://sketchfab.com/3d-models/eucalyptus-ed7b963343244f2daa7916ac37c05b21
+* author:	newmag2207 (https://sketchfab.com/newmag2207)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Eucalyptus" (https://sketchfab.com/3d-models/eucalyptus-ed7b963343244f2daa7916ac37c05b21) by newmag2207 (https://sketchfab.com/newmag2207) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

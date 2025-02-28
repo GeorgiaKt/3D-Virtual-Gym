@@ -1,4 +1,4 @@
-[gd_scene load_steps=69 format=3 uid="uid://bmv0mjcuveeim"]
+[gd_scene load_steps=80 format=3 uid="uid://bmv0mjcuveeim"]
 
 [ext_resource type="Texture2D" uid="uid://cqjbj2x45qx3w" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_diff_4k.png" id="1_0k5q7"]
 [ext_resource type="Texture2D" uid="uid://dkwpfx433ulrm" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_nor_gl_4k.png" id="2_1myl3"]
@@ -14,11 +14,10 @@
 [ext_resource type="PackedScene" uid="uid://b01n0chlh76p1" path="res://assets/ring_round_table/scene.gltf" id="10_bhmyl"]
 [ext_resource type="PackedScene" uid="uid://dlx23g2ps4l1s" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Chair_B.fbx" id="10_xixeb"]
 [ext_resource type="PackedScene" uid="uid://cwt57qwlg6jnt" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Office_Desk_4_Two.fbx" id="12_y3ufi"]
-[ext_resource type="PackedScene" uid="uid://d2raxviu4twck" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/CoffeeCup.fbx" id="13_mldhh"]
 [ext_resource type="PackedScene" uid="uid://cdws2113q5bsj" path="res://assets/delicious_red_apple/scene.gltf" id="15_vhtyi"]
 [ext_resource type="PackedScene" uid="uid://h5kktqawjmrv" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Notepad.fbx" id="16_e6qvi"]
 [ext_resource type="PackedScene" uid="uid://dw28lcvqxkf6e" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Painting.fbx" id="17_lj61m"]
-[ext_resource type="PackedScene" uid="uid://bhbdwmnv87888" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Office_Files_A.fbx" id="18_7yhvr"]
+[ext_resource type="PackedScene" uid="uid://t8ru8u7mu7da" path="res://assets/notebook/scene.gltf" id="18_nwhhj"]
 [ext_resource type="PackedScene" uid="uid://br0au4assfrjw" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Phone_A Base.fbx" id="20_reenb"]
 [ext_resource type="PackedScene" uid="uid://bdr1s7s553ee1" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Phone_B.fbx" id="21_vcjn4"]
 [ext_resource type="PackedScene" uid="uid://df8oc8hpcg244" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/PC_Screen.fbx" id="23_mkxlh"]
@@ -27,6 +26,7 @@
 [ext_resource type="PackedScene" uid="uid://bv3k87io6ldmx" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Painting_Small.fbx" id="25_q7n06"]
 [ext_resource type="Texture2D" uid="uid://ic7xpge1yd8h" path="res://textures/plastered_wall_04_4k/plastered_wall_04_diff_4k.png" id="27_hq5tp"]
 [ext_resource type="PackedScene" uid="uid://p5mkr3ypnnkg" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Kettlebell.fbx" id="27_yt6ac"]
+[ext_resource type="PackedScene" uid="uid://dv3sr0uqjns3p" path="res://assets/table_sm_lamp/scene.gltf" id="28_3ur72"]
 [ext_resource type="Texture2D" uid="uid://b81o1g44pmn1x" path="res://textures/plastered_wall_04_4k/plastered_wall_04_nor_gl_4k.png" id="28_nh61p"]
 [ext_resource type="PackedScene" uid="uid://din3mafmtrnvc" path="res://assets/cupboard_innova-h07/scene.gltf" id="29_0akof"]
 [ext_resource type="Texture2D" uid="uid://ml4xpfr6q8oa" path="res://textures/plastered_wall_04_4k/plastered_wall_04_rough_4k.png" id="29_lidnv"]
@@ -35,13 +35,24 @@
 [ext_resource type="PackedScene" uid="uid://bk1e4ccq8ir4s" path="res://assets/copper_and_matt_teal_decoration_vases/scene.gltf" id="31_0clwx"]
 [ext_resource type="PackedScene" uid="uid://cd34iifoneaa1" path="res://assets/white_shelf/scene.gltf" id="32_2pwq5"]
 [ext_resource type="PackedScene" uid="uid://cbgnuxbteulds" path="res://scenes/exit_door.tscn" id="32_8277m"]
+[ext_resource type="PackedScene" uid="uid://bxbkefx5gyq7s" path="res://assets/water_cooler/scene.gltf" id="33_g2byr"]
 [ext_resource type="PackedScene" uid="uid://btrdinprdddx3" path="res://assets/plant/scene.gltf" id="33_nok0s"]
 [ext_resource type="PackedScene" uid="uid://cpltughynw0l5" path="res://assets/vogue_magazines/scene.gltf" id="33_rcx1j"]
 [ext_resource type="PackedScene" uid="uid://ctym1e7a7uemm" path="res://assets/vase_and_flowers/scene.gltf" id="34_p6egw"]
 [ext_resource type="PackedScene" uid="uid://cb5jmfotmuaa2" path="res://assets/garbage_can__trashcan__bin/scene.gltf" id="35_hwkkv"]
+[ext_resource type="PackedScene" uid="uid://bnp2g7nyjma2d" path="res://assets/towel/scene.gltf" id="36_uviwq"]
 [ext_resource type="PackedScene" uid="uid://btrchmi0d77nx" path="res://assets/pencil_cup_and_pencils/scene.gltf" id="36_xbu7o"]
 [ext_resource type="PackedScene" uid="uid://cfgjsg54y1bu0" path="res://assets/plant_ficus_lyrata_type3/scene.gltf" id="37_hhqcu"]
-[ext_resource type="PackedScene" uid="uid://icts4m0b2ehx" path="res://assets/table_lamp_black/scene.gltf" id="37_t7707"]
+[ext_resource type="PackedScene" uid="uid://5h0ld1pwlq0q" path="res://assets/protein_sachet/scene.gltf" id="38_rubao"]
+[ext_resource type="PackedScene" uid="uid://bks28gi11awn3" path="res://assets/cup_of_coffee/scene.gltf" id="39_a8a0m"]
+[ext_resource type="PackedScene" uid="uid://d3uxkwtan43hs" path="res://assets/lima_protein/scene.gltf" id="39_ownja"]
+[ext_resource type="PackedScene" uid="uid://ga2cuahoanuc" path="res://assets/thermos_water_bottle/scene.gltf" id="40_xyju6"]
+[ext_resource type="PackedScene" uid="uid://djkwod8t5nmqh" path="res://assets/waterbottle/scene.gltf" id="41_m74al"]
+[ext_resource type="PackedScene" uid="uid://dm08ku70c3iwi" path="res://assets/water_bottles/scene.gltf" id="44_h1yic"]
+[ext_resource type="PackedScene" uid="uid://b2t2e608dgcyy" path="res://assets/logitech_audio_speaker/scene.gltf" id="44_u213q"]
+[ext_resource type="PackedScene" uid="uid://bm5vqnjoilhct" path="res://assets/red_bull_energy_drink_can/scene.gltf" id="46_8rodj"]
+[ext_resource type="PackedScene" uid="uid://dsfc8mvmba748" path="res://assets/eucalyptus/scene.gltf" id="46_tfa08"]
+[ext_resource type="PackedScene" uid="uid://te7spxk8d7lj" path="res://assets/decor_picture/scene.gltf" id="53_djoio"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_6l572"]
 size = Vector3(24, 0.2, 32)
@@ -93,7 +104,7 @@ material = SubResource("StandardMaterial3D_qp63w")
 size = Vector3(24, 5, 0.1)
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_rvv8s"]
-viewport_path = NodePath("Lobby/Office_Desk_4_Two/Office_Files_A/Sprite3D/SubViewport")
+viewport_path = NodePath("Lobby/Office_Desk_4_Two/Notebooks/notebook3/Sprite3D/SubViewport")
 
 [sub_resource type="LabelSettings" id="LabelSettings_74fys"]
 font_size = 40
@@ -238,10 +249,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.56956, 0, 12.5642)
 transform = Transform3D(0.02, 0, 0, 0, 0.02, 0, 0, 0, 0.02, -0.0133557, 0.748073, -0.0458651)
 
 [node name="Painting_1" parent="Lobby" instance=ExtResource("17_lj61m")]
-transform = Transform3D(-3, 0, 4.52987e-07, 0, 3, 0, -4.52987e-07, 0, -3, 3.92554, 2.37718, 15.9228)
+transform = Transform3D(-6.11959e-08, 0, 1.4, 0, 1.4, 0, -1.4, 0, -6.11959e-08, -5.56389, 1.7781, 11.9279)
 
 [node name="Painting_2" parent="Lobby" instance=ExtResource("25_q7n06")]
 transform = Transform3D(-3.0598e-07, 0, -4, 0, 7, 0, 7, 0, -1.74846e-07, 11.8715, 2.33847, -3.0967)
+
+[node name="decor_picture" parent="Lobby" instance=ExtResource("53_djoio")]
+transform = Transform3D(-0.006, 0, -4.52987e-10, 0, 0.004, 0, 9.05975e-10, 0, -0.003, 8.90635, 3.34016, 16.0036)
 
 [node name="Office_Desk_4_Two" parent="Lobby" instance=ExtResource("12_y3ufi")]
 transform = Transform3D(1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, -2.54762, -9.68575e-08, 10.5546)
@@ -252,9 +266,6 @@ transform = Transform3D(-1, 0, 8.74228e-08, 0, 1.09744, 0, -8.74228e-08, 0, -1, 
 [node name="Chair_B2" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("10_xixeb")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1.10059, 0, 1, 0, -4.37114e-08, -0.09, 0, 2.057)
 
-[node name="CoffeeCup" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("13_mldhh")]
-transform = Transform3D(0.890499, 0, -0.454986, 0, 1, 0, 0.454986, 0, 0.890499, 0.886112, 0.953123, 0.0241077)
-
 [node name="Apple" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("15_vhtyi")]
 transform = Transform3D(-8.74228e-10, 0, 0.02, 0, 0.02, 0, -0.02, 0, -8.74228e-10, 0.934938, 0.95053, -0.243135)
 
@@ -264,19 +275,28 @@ transform = Transform3D(0.02, 0, 0, 0, 0.02, 0, 0, 0, 0.02, 1.04429, 0.95053, -0
 [node name="Notepad" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("16_e6qvi")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0658731, 0.955526, 0.144754)
 
-[node name="Office_Files_A" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("18_7yhvr")]
-transform = Transform3D(1.1782, 0, 0.549403, 0, 1.3, 0, -0.549403, 0, 1.1782, -0.867389, 0.95347, 0.0234625)
+[node name="Notebooks" type="Node3D" parent="Lobby/Office_Desk_4_Two"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0877955)
 
-[node name="Sprite3D" type="Sprite3D" parent="Lobby/Office_Desk_4_Two/Office_Files_A"]
-transform = Transform3D(0.032564, 0.00229165, -1.79157e-09, 2.85071e-17, -2.44401e-09, -1, -0.0013358, 0.0558653, -4.36747e-08, -0.000920296, 0.145622, -0.000425816)
+[node name="notebook1" parent="Lobby/Office_Desk_4_Two/Notebooks" instance=ExtResource("18_nwhhj")]
+transform = Transform3D(0.0246627, 0, 0.00823099, 0, 0.026, 0, -0.00823099, 0, 0.0246627, -0.805515, 0.95557, 0.133469)
+
+[node name="notebook2" parent="Lobby/Office_Desk_4_Two/Notebooks" instance=ExtResource("18_nwhhj")]
+transform = Transform3D(0.0253625, 0, 0.0057222, 0, 0.026, 0, -0.0057222, 0, 0.0253625, -0.805515, 0.969494, 0.114597)
+
+[node name="notebook3" parent="Lobby/Office_Desk_4_Two/Notebooks" instance=ExtResource("18_nwhhj")]
+transform = Transform3D(0.0255702, 0, 0.00470778, 0, 0.026, 0, -0.00470778, 0, 0.0255702, -0.805515, 0.983395, 0.133468)
+
+[node name="Sprite3D" type="Sprite3D" parent="Lobby/Office_Desk_4_Two/Notebooks/notebook3"]
+transform = Transform3D(1.63993, 0.0347185, -2.98282e-08, -1.82214e-15, -1.11196e-07, -49.9999, -0.0223833, 2.54364, -2.18537e-06, 0.703552, 0.327305, -7.60593)
 flip_h = true
 texture = SubResource("ViewportTexture_rvv8s")
 
-[node name="SubViewport" type="SubViewport" parent="Lobby/Office_Desk_4_Two/Office_Files_A/Sprite3D"]
+[node name="SubViewport" type="SubViewport" parent="Lobby/Office_Desk_4_Two/Notebooks/notebook3/Sprite3D"]
 transparent_bg = true
 size = Vector2i(800, 512)
 
-[node name="Label" type="Label" parent="Lobby/Office_Desk_4_Two/Office_Files_A/Sprite3D/SubViewport"]
+[node name="Label" type="Label" parent="Lobby/Office_Desk_4_Two/Notebooks/notebook3/Sprite3D/SubViewport"]
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
@@ -293,7 +313,7 @@ label_settings = SubResource("LabelSettings_74fys")
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Label2" type="Label" parent="Lobby/Office_Desk_4_Two/Office_Files_A/Sprite3D/SubViewport"]
+[node name="Label2" type="Label" parent="Lobby/Office_Desk_4_Two/Notebooks/notebook3/Sprite3D/SubViewport"]
 anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
@@ -334,14 +354,17 @@ transform = Transform3D(1.19249e-08, 0, 1, 0, 1, 0, -1, 0, 1.19249e-08, -0.66233
 [node name="Mouse" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("25_pw4ys")]
 transform = Transform3D(0.123324, 0, -0.992366, 0, 1, 0, 0.992366, 0, 0.123324, -0.729291, 0.952, 1.82023)
 
-[node name="Table_Lamp" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("37_t7707")]
-transform = Transform3D(-0.00222995, 0, -0.0097482, 0, 0.01, 0, 0.0097482, 0, -0.00222995, -0.985991, 0.953696, 0.522668)
-
-[node name="OmniLight3D" type="OmniLight3D" parent="Lobby/Office_Desk_4_Two/Table_Lamp"]
-transform = Transform3D(100, 0, 0, 0, 100, 0, 0, 0, 100, -0.551041, 48.4279, -17.4041)
-
 [node name="Pencil_cup" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("36_xbu7o")]
 transform = Transform3D(4.76996e-10, 0, 0.04, 0, 0.04, 0, -0.04, 0, 4.76996e-10, -0.552214, 0.951655, -0.160914)
+
+[node name="cup_of_coffee" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("39_a8a0m")]
+transform = Transform3D(-0.0125864, 0, -0.0155429, 0, 0.02, 0, 0.0155429, 0, -0.0125864, 1.60566, -0.56296, 0.64377)
+
+[node name="Table_sm_lamp" parent="Lobby/Office_Desk_4_Two" instance=ExtResource("28_3ur72")]
+transform = Transform3D(-0.00937501, 0, 0.00347983, 0, 0.01, 0, -0.00347983, 0, -0.00937501, -1.04739, 0.948151, 0.407619)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Lobby/Office_Desk_4_Two/Table_sm_lamp"]
+transform = Transform3D(-13.0163, 0, 99.1493, 0, 100, 0, -99.1493, 0, -13.0163, -33.5244, 47.22, 0.0394897)
 
 [node name="Trash_Can" parent="Lobby" instance=ExtResource("35_hwkkv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.32047, 0.00257906, 13.4714)
@@ -358,8 +381,244 @@ transform = Transform3D(250, 0, 1.59162e-11, 0, 250, 0, -1.59162e-11, 0, 250, 57
 [node name="vogue_magazines" parent="Lobby/Cupboard" instance=ExtResource("33_rcx1j")]
 transform = Transform3D(750, 0, -4.76799e-05, 0, 750, 0, 4.76799e-05, 0, 750, -258.813, 606.622, -276.431)
 
-[node name="white_self" parent="Lobby" instance=ExtResource("32_2pwq5")]
-transform = Transform3D(-8.74228e-08, 0, 1.5, 0, 1.5, 0, -2, 0, -6.55671e-08, 11.4996, 1.57281, 12.2414)
+[node name="White_Self" parent="Lobby" instance=ExtResource("32_2pwq5")]
+transform = Transform3D(-1.00536e-07, 0, 1.5, 0, 1.5, 0, -2.3, 0, -6.55671e-08, 11.5, 1.573, 12.686)
+
+[node name="towels" parent="Lobby/White_Self" instance=ExtResource("36_uviwq")]
+transform = Transform3D(-2.33127e-10, 0, -0.00347826, 0, 0.00533333, 0, 0.00533333, 0, -3.57462e-10, -0.0144176, -0.95, -0.0237403)
+
+[node name="Drinks" type="Node3D" parent="Lobby/White_Self"]
+transform = Transform3D(-2.18557e-08, 0, -0.5, 0, 0.666667, 0, 0.666667, 0, -2.91409e-08, 6.1207, -1.04854, -7.6664)
+
+[node name="Bottled_Waters" type="Node3D" parent="Lobby/White_Self/Drinks"]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 11.7534, 1.53471, 13.9424)
+
+[node name="bottled_water_1" parent="Lobby/White_Self/Drinks/Bottled_Waters" instance=ExtResource("44_h1yic")]
+
+[node name="bottled_water_2" parent="Lobby/White_Self/Drinks/Bottled_Waters" instance=ExtResource("44_h1yic")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.229719, 0, 0)
+
+[node name="Energy_Drinks" type="Node3D" parent="Lobby/White_Self/Drinks"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.76446e-10, 0, 0.133672)
+
+[node name="red_bull_energy_drink" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.7289, 1.65448, 11.5029)
+
+[node name="red_bull_energy_drink2" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.7289, 1.65448, 11.5936)
+
+[node name="red_bull_energy_drink3" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.7289, 1.65448, 11.6807)
+
+[node name="red_bull_energy_drink4" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.7289, 1.65448, 11.7696)
+
+[node name="red_bull_energy_drink5" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.7289, 1.65448, 11.8647)
+
+[node name="red_bull_energy_drink6" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.6417, 1.65448, 11.8647)
+
+[node name="red_bull_energy_drink7" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.6417, 1.65448, 11.7693)
+
+[node name="red_bull_energy_drink8" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.6417, 1.65448, 11.6864)
+
+[node name="red_bull_energy_drink9" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.6417, 1.65448, 11.6042)
+
+[node name="red_bull_energy_drink10" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.6417, 1.65448, 11.5144)
+
+[node name="red_bull_energy_drink11" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.5458, 1.65448, 11.5144)
+
+[node name="red_bull_energy_drink12" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.5458, 1.65448, 11.6032)
+
+[node name="red_bull_energy_drink13" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.5458, 1.65448, 11.693)
+
+[node name="red_bull_energy_drink14" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.5458, 1.65448, 11.7792)
+
+[node name="red_bull_energy_drink15" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.5458, 1.65448, 11.8661)
+
+[node name="red_bull_energy_drink16" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.4582, 1.65448, 11.8661)
+
+[node name="red_bull_energy_drink17" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.4582, 1.65448, 11.7769)
+
+[node name="red_bull_energy_drink18" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.4582, 1.65448, 11.6876)
+
+[node name="red_bull_energy_drink19" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.4582, 1.65448, 11.6007)
+
+[node name="red_bull_energy_drink20" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.4582, 1.65448, 11.5089)
+
+[node name="red_bull_energy_drink21" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.3575, 1.65448, 11.5089)
+
+[node name="red_bull_energy_drink22" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.3575, 1.65448, 11.6049)
+
+[node name="red_bull_energy_drink23" parent="Lobby/White_Self/Drinks/Energy_Drinks" instance=ExtResource("46_8rodj")]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 11.3575, 1.65448, 11.7035)
+
+[node name="Supplements" type="Node3D" parent="Lobby/White_Self"]
+
+[node name="protein_sachet" parent="Lobby/White_Self/Supplements" instance=ExtResource("38_rubao")]
+transform = Transform3D(-4.37114e-11, 0, 0.001, 0, 0.002, 0, -0.001, 0, -4.37114e-11, 0.299985, -0.489326, 0.253538)
+
+[node name="protein_sachet2" parent="Lobby/White_Self/Supplements" instance=ExtResource("38_rubao")]
+transform = Transform3D(-4.37114e-11, 0, 0.001, 0, 0.002, 0, -0.001, 0, -4.37114e-11, 0.123891, -0.489326, 0.253538)
+
+[node name="protein_sachet3" parent="Lobby/White_Self/Supplements" instance=ExtResource("38_rubao")]
+transform = Transform3D(-4.37114e-11, 0, 0.001, 0, 0.002, 0, -0.001, 0, -4.37114e-11, 0.123892, -0.489326, 0.182455)
+
+[node name="protein_sachet4" parent="Lobby/White_Self/Supplements" instance=ExtResource("38_rubao")]
+transform = Transform3D(-4.37114e-11, 0, 0.001, 0, 0.002, 0, -0.001, 0, -4.37114e-11, 0.299459, -0.489326, 0.182455)
+
+[node name="protein_sachet5" parent="Lobby/White_Self/Supplements" instance=ExtResource("38_rubao")]
+transform = Transform3D(-4.37114e-11, 0, 0.001, 0, 0.002, 0, -0.001, 0, -4.37114e-11, 0.29946, -0.489326, 0.111891)
+
+[node name="protein_sachet6" parent="Lobby/White_Self/Supplements" instance=ExtResource("38_rubao")]
+transform = Transform3D(-4.37114e-11, 0, 0.001, 0, 0.002, 0, -0.001, 0, -4.37114e-11, 0.121062, -0.489326, 0.111891)
+
+[node name="protein_sachet7" parent="Lobby/White_Self/Supplements" instance=ExtResource("38_rubao")]
+transform = Transform3D(-4.37114e-11, 0, 0.001, 0, 0.002, 0, -0.001, 0, -4.37114e-11, 0.121063, -0.489326, 0.0414968)
+
+[node name="protein_sachet8" parent="Lobby/White_Self/Supplements" instance=ExtResource("38_rubao")]
+transform = Transform3D(-4.37114e-11, 0, 0.001, 0, 0.002, 0, -0.001, 0, -4.37114e-11, 0.298522, -0.489326, 0.0414968)
+
+[node name="protein_sachet9" parent="Lobby/White_Self/Supplements" instance=ExtResource("38_rubao")]
+transform = Transform3D(-4.37114e-11, 0, 0.001, 0, 0.002, 0, -0.001, 0, -4.37114e-11, 0.295947, -0.489326, -0.0329928)
+
+[node name="protein_sachet10" parent="Lobby/White_Self/Supplements" instance=ExtResource("38_rubao")]
+transform = Transform3D(-4.37114e-11, 0, 0.001, 0, 0.002, 0, -0.001, 0, -4.37114e-11, 0.123104, -0.489326, -0.0329928)
+
+[node name="protein_sachet11" parent="Lobby/White_Self/Supplements" instance=ExtResource("38_rubao")]
+transform = Transform3D(-4.37114e-11, 0, 0.001, 0, 0.002, 0, -0.001, 0, -4.37114e-11, 0.123104, -0.489326, -0.105379)
+
+[node name="protein" parent="Lobby/White_Self/Supplements" instance=ExtResource("39_ownja")]
+transform = Transform3D(-4.37114e-08, 0, 0.7, 0, 1, 0, -1, 0, -3.0598e-08, -1.00912, -0.367227, 0.436056)
+
+[node name="protein2" parent="Lobby/White_Self/Supplements" instance=ExtResource("39_ownja")]
+transform = Transform3D(-4.37114e-08, 0, 0.7, 0, 1, 0, -1, 0, -3.0598e-08, -1.12346, -0.367227, 0.436057)
+
+[node name="protein3" parent="Lobby/White_Self/Supplements" instance=ExtResource("39_ownja")]
+transform = Transform3D(-4.37114e-08, 0, 0.7, 0, 1, 0, -1, 0, -3.0598e-08, -1.2351, -0.367227, 0.436058)
+
+[node name="protein4" parent="Lobby/White_Self/Supplements" instance=ExtResource("39_ownja")]
+transform = Transform3D(-4.37114e-08, 0, 0.7, 0, 1, 0, -1, 0, -3.0598e-08, -1.36138, -0.367227, 0.43606)
+
+[node name="protein5" parent="Lobby/White_Self/Supplements" instance=ExtResource("39_ownja")]
+transform = Transform3D(-4.37114e-08, 0, 0.7, 0, 1, 0, -1, 0, -3.0598e-08, -1.36138, -0.367227, 0.250242)
+
+[node name="protein6" parent="Lobby/White_Self/Supplements" instance=ExtResource("39_ownja")]
+transform = Transform3D(-4.37114e-08, 0, 0.7, 0, 1, 0, -1, 0, -3.0598e-08, -1.24566, -0.367227, 0.250242)
+
+[node name="protein7" parent="Lobby/White_Self/Supplements" instance=ExtResource("39_ownja")]
+transform = Transform3D(-4.37114e-08, 0, 0.7, 0, 1, 0, -1, 0, -3.0598e-08, -1.13016, -0.367227, 0.250242)
+
+[node name="protein8" parent="Lobby/White_Self/Supplements" instance=ExtResource("39_ownja")]
+transform = Transform3D(-4.37114e-08, 0, 0.7, 0, 1, 0, -1, 0, -3.0598e-08, -1.01482, -0.367227, 0.250242)
+
+[node name="protein9" parent="Lobby/White_Self/Supplements" instance=ExtResource("39_ownja")]
+transform = Transform3D(-4.37114e-08, 0, 0.7, 0, 1, 0, -1, 0, -3.0598e-08, -1.01482, -0.367227, 0.0755229)
+
+[node name="protein10" parent="Lobby/White_Self/Supplements" instance=ExtResource("39_ownja")]
+transform = Transform3D(-4.37114e-08, 0, 0.7, 0, 1, 0, -1, 0, -3.0598e-08, -1.12952, -0.367227, 0.0755229)
+
+[node name="protein11" parent="Lobby/White_Self/Supplements" instance=ExtResource("39_ownja")]
+transform = Transform3D(-4.37114e-08, 0, 0.7, 0, 1, 0, -1, 0, -3.0598e-08, -1.25686, -0.367227, 0.0755229)
+
+[node name="Thermos" type="Node3D" parent="Lobby/White_Self"]
+
+[node name="thermos_water_bottle" parent="Lobby/White_Self/Thermos" instance=ExtResource("40_xyju6")]
+transform = Transform3D(-1.45705e-07, 0, -2.17391, 0, 3.33333, 0, 3.33333, 0, -9.50248e-08, 0.355218, 0.41426, 0.171043)
+
+[node name="thermos_water_bottle2" parent="Lobby/White_Self/Thermos" instance=ExtResource("40_xyju6")]
+transform = Transform3D(-9.50248e-08, 0, -2.17391, 0, 3.33333, 0, 3.33333, 0, -1.45704e-07, 0.279213, 0.41426, 0.171043)
+
+[node name="thermos_water_bottle3" parent="Lobby/White_Self/Thermos" instance=ExtResource("40_xyju6")]
+transform = Transform3D(-9.50248e-08, 0, -2.17391, 0, 3.33333, 0, 3.33333, 0, -1.45704e-07, 0.202124, 0.41426, 0.171043)
+
+[node name="thermos_water_bottle4" parent="Lobby/White_Self/Thermos" instance=ExtResource("40_xyju6")]
+transform = Transform3D(-9.50248e-08, 0, -2.17391, 0, 3.33333, 0, 3.33333, 0, -1.45704e-07, 0.123374, 0.41426, 0.171043)
+
+[node name="thermos_water_bottle5" parent="Lobby/White_Self/Thermos" instance=ExtResource("40_xyju6")]
+transform = Transform3D(-9.50248e-08, 0, -2.17391, 0, 3.33333, 0, 3.33333, 0, -1.45704e-07, 0.123374, 0.41426, 0.0356326)
+
+[node name="thermos_water_bottle6" parent="Lobby/White_Self/Thermos" instance=ExtResource("40_xyju6")]
+transform = Transform3D(-9.50248e-08, 0, -2.17391, 0, 3.33333, 0, 3.33333, 0, -1.45704e-07, 0.198701, 0.41426, 0.0356326)
+
+[node name="thermos_water_bottle7" parent="Lobby/White_Self/Thermos" instance=ExtResource("40_xyju6")]
+transform = Transform3D(-9.50248e-08, 0, -2.17391, 0, 3.33333, 0, 3.33333, 0, -1.45704e-07, 0.274264, 0.41426, 0.0356326)
+
+[node name="thermos_water_bottle8" parent="Lobby/White_Self/Thermos" instance=ExtResource("40_xyju6")]
+transform = Transform3D(-9.50248e-08, 0, -2.17391, 0, 3.33333, 0, 3.33333, 0, -1.45704e-07, 0.347498, 0.41426, 0.0356326)
+
+[node name="thermos_water_bottle9" parent="Lobby/White_Self/Thermos" instance=ExtResource("40_xyju6")]
+transform = Transform3D(-9.50248e-08, 0, -2.17391, 0, 3.33333, 0, 3.33333, 0, -1.45704e-07, 0.347498, 0.41426, -0.0821528)
+
+[node name="thermos_water_bottle10" parent="Lobby/White_Self/Thermos" instance=ExtResource("40_xyju6")]
+transform = Transform3D(-1.45705e-07, 0, -2.17391, 0, 3.33333, 0, 3.33333, 0, -9.50248e-08, 0.270043, 0.41426, -0.0821528)
+
+[node name="Waterbottles" type="Node3D" parent="Lobby/White_Self"]
+
+[node name="waterbottle" parent="Lobby/White_Self/Waterbottles" instance=ExtResource("41_m74al")]
+transform = Transform3D(-6.55671e-08, 0, -0.978, 0, 1.5, 0, 1.5, 0, -4.27497e-08, -0.0139651, 0.437912, 0.156971)
+
+[node name="waterbottle2" parent="Lobby/White_Self/Waterbottles" instance=ExtResource("41_m74al")]
+transform = Transform3D(-6.55671e-08, 0, -0.978, 0, 1.5, 0, 1.5, 0, -4.27497e-08, -0.0861335, 0.437912, 0.156971)
+
+[node name="waterbottle3" parent="Lobby/White_Self/Waterbottles" instance=ExtResource("41_m74al")]
+transform = Transform3D(-6.55671e-08, 0, -0.978, 0, 1.5, 0, 1.5, 0, -4.27497e-08, -0.157957, 0.437912, 0.156971)
+
+[node name="waterbottle4" parent="Lobby/White_Self/Waterbottles" instance=ExtResource("41_m74al")]
+transform = Transform3D(-6.55671e-08, 0, -0.978, 0, 1.5, 0, 1.5, 0, -4.27497e-08, -0.231651, 0.437912, 0.156971)
+
+[node name="waterbottle5" parent="Lobby/White_Self/Waterbottles" instance=ExtResource("41_m74al")]
+transform = Transform3D(-6.55671e-08, 0, -0.978, 0, 1.5, 0, 1.5, 0, -4.27497e-08, -0.231651, 0.437912, 0.0423121)
+
+[node name="waterbottle6" parent="Lobby/White_Self/Waterbottles" instance=ExtResource("41_m74al")]
+transform = Transform3D(-6.55671e-08, 0, -0.978, 0, 1.5, 0, 1.5, 0, -4.27497e-08, -0.15831, 0.437912, 0.0423121)
+
+[node name="waterbottle7" parent="Lobby/White_Self/Waterbottles" instance=ExtResource("41_m74al")]
+transform = Transform3D(-6.55671e-08, 0, -0.978, 0, 1.5, 0, 1.5, 0, -4.27497e-08, -0.0861955, 0.437912, 0.0423121)
+
+[node name="waterbottle8" parent="Lobby/White_Self/Waterbottles" instance=ExtResource("41_m74al")]
+transform = Transform3D(-6.55671e-08, 0, -0.978, 0, 1.5, 0, 1.5, 0, -4.27497e-08, -0.0175428, 0.437912, 0.0423121)
+
+[node name="waterbottle9" parent="Lobby/White_Self/Waterbottles" instance=ExtResource("41_m74al")]
+transform = Transform3D(-6.55671e-08, 0, -0.978, 0, 1.5, 0, 1.5, 0, -4.27497e-08, -0.0175419, 0.437912, -0.0707126)
+
+[node name="waterbottle10" parent="Lobby/White_Self/Waterbottles" instance=ExtResource("41_m74al")]
+transform = Transform3D(-6.55671e-08, 0, -0.978, 0, 1.5, 0, 1.5, 0, -4.27497e-08, -0.0856347, 0.437912, -0.0707126)
+
+[node name="waterbottle11" parent="Lobby/White_Self/Waterbottles" instance=ExtResource("41_m74al")]
+transform = Transform3D(-6.55671e-08, 0, -0.978, 0, 1.5, 0, 1.5, 0, -4.27497e-08, -0.15312, 0.437912, -0.0707126)
+
+[node name="waterbottle12" parent="Lobby/White_Self/Waterbottles" instance=ExtResource("41_m74al")]
+transform = Transform3D(-6.55671e-08, 0, -0.978, 0, 1.5, 0, 1.5, 0, -4.27497e-08, -0.220068, 0.437912, -0.0707126)
+
+[node name="eucalyptus" parent="Lobby/White_Self" instance=ExtResource("46_tfa08")]
+transform = Transform3D(0.869565, 0, -1.06581e-14, 0, 1.33333, 0, -1.10134e-13, 0, 1.33333, -0.0271297, 0.940017, 0.0548196)
+
+[node name="water_cooler" parent="Lobby" instance=ExtResource("33_g2byr")]
+transform = Transform3D(2.7259e-09, 0, -0.014, 0, 0.014, 0, 0.014, 0, 2.7259e-09, 11.5802, 0.0133579, 11.0205)
+
+[node name="Plant" parent="Lobby" instance=ExtResource("33_nok0s")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 10.8591, -9.68575e-08, 14.8724)
+
+[node name="Plant_2" parent="Lobby" instance=ExtResource("37_hhqcu")]
+transform = Transform3D(0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 2.30137, 0.254283, 15.3554)
 
 [node name="LockerRoom" type="Node3D" parent="."]
 
@@ -1002,8 +1261,16 @@ transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.0590277, 0.690083, -0
 [node name="ExitDoor" parent="." instance=ExtResource("32_8277m")]
 transform = Transform3D(-7.43094e-08, 0, -1.7, 0, 1.7, 0, 1.7, 0, -7.43094e-08, 8.87652, -0.426091, 16.1685)
 
-[node name="Plant" parent="." instance=ExtResource("33_nok0s")]
-transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 10.8591, -9.68575e-08, 14.8724)
+[node name="Audio_Speakers" type="Node3D" parent="."]
 
-[node name="Plant_2" parent="." instance=ExtResource("37_hhqcu")]
-transform = Transform3D(0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 2.30137, 0.254283, 15.3554)
+[node name="audio_speaker_1" parent="Audio_Speakers" instance=ExtResource("44_u213q")]
+transform = Transform3D(2.82843, -1.41421, -2.44949, 0, 3.4641, -2, 2.82843, 1.41421, 2.44949, 11.7136, 3.99599, -15.7211)
+
+[node name="audio_speaker_2" parent="Audio_Speakers" instance=ExtResource("44_u213q")]
+transform = Transform3D(2.82843, 1.41421, 2.44949, 0, 3.4641, -2, -2.82843, 1.41421, 2.44949, -11.7048, 3.99599, -15.7053)
+
+[node name="audio_speaker_3" parent="Audio_Speakers" instance=ExtResource("44_u213q")]
+transform = Transform3D(-2.82843, 1.41421, 2.44949, 0, 3.4641, -2, -2.82843, -1.41421, -2.44949, -11.7132, 3.99599, 15.7268)
+
+[node name="audio_speaker_4" parent="Audio_Speakers" instance=ExtResource("44_u213q")]
+transform = Transform3D(-2.82843, -1.41421, -2.44949, 0, 3.4641, -2, 2.82843, -1.41421, -2.44949, 11.7224, 3.99599, 15.7195)

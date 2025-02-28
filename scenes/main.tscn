@@ -1558,7 +1558,7 @@ ResolutionPerUnit = 700
 MainCamPath = NodePath("../../../Player/PlayerCamera")
 
 [node name="Player" parent="." instance=ExtResource("2_lfp2a")]
-transform = Transform3D(-0.429991, 0, 0.902833, 0, 1, 0, -0.902833, 0, -0.429991, -2.06634, 0, 9.42405)
+transform = Transform3D(-0.218875, 0, 0.975753, 0, 1, 0, -0.975753, 0, -0.218875, -1.67473, 0, 9.46168)
 speed = 4.0
 acceleration = 25.0
 

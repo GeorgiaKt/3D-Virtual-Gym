@@ -1,0 +1,11 @@
+Model Information:
+* title:	decor_picture
+* source:	https://sketchfab.com/3d-models/decor-picture-3b7d199307034a70bfbafbe5d0817f29
+* author:	Furniture (https://sketchfab.com/hung.t33)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "decor_picture" (https://sketchfab.com/3d-models/decor-picture-3b7d199307034a70bfbafbe5d0817f29) by Furniture (https://sketchfab.com/hung.t33) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

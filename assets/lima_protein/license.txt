@@ -1,0 +1,11 @@
+Model Information:
+* title:	Chase It Lima protein
+* source:	https://sketchfab.com/3d-models/chase-it-lima-protein-657efac482ed4b4ca4c59083383b0d43
+* author:	KSFX.NO (https://sketchfab.com/KSFX)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Chase It Lima protein" (https://sketchfab.com/3d-models/chase-it-lima-protein-657efac482ed4b4ca4c59083383b0d43) by KSFX.NO (https://sketchfab.com/KSFX) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

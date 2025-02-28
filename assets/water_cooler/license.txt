@@ -1,0 +1,11 @@
+Model Information:
+* title:	Water cooler
+* source:	https://sketchfab.com/3d-models/water-cooler-4b88c4c4e94c497ca39f831f374e89fc
+* author:	tboiston (https://sketchfab.com/tboiston)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Water cooler" (https://sketchfab.com/3d-models/water-cooler-4b88c4c4e94c497ca39f831f374e89fc) by tboiston (https://sketchfab.com/tboiston) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
