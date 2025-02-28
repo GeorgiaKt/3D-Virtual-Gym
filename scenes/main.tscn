@@ -1301,6 +1301,7 @@ transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0.4
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0.468049, -0.13381)
 
 [node name="WeightBars" type="Node3D" parent="GymRoom/Muscle Gain Area/extra equipment for muscle gain group"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.123497, 0, 0)
 
 [node name="Weight_Bar_C" parent="GymRoom/Muscle Gain Area/extra equipment for muscle gain group/WeightBars" instance=ExtResource("28_0h8g7")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 11.6067, 0.126992, -4.39517)
@@ -1411,7 +1412,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.132756, -0.000782013, 0.00
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.131463, -0.000782013, 0.000497341)
 
 [node name="Kettlebells" type="Node3D" parent="GymRoom/Muscle Gain Area/extra equipment for muscle gain group"]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -4.09763, 0, -1.87122)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -4.09763, 0, -2.14712)
 
 [node name="Kettlebell" parent="GymRoom/Muscle Gain Area/extra equipment for muscle gain group/Kettlebells" instance=ExtResource("5_anvs2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.16327, 0.0994512, -15.8249)
@@ -1444,7 +1445,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.16688, 0.0994512, -14.836)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.918767, 0.0994512, -14.836)
 
 [node name="Big Dumbbells" type="Node3D" parent="GymRoom/Muscle Gain Area/extra equipment for muscle gain group"]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -4.10429, 0, -2.32919)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -4.10429, 0, -2.64797)
 
 [node name="Dumbbells_2" parent="GymRoom/Muscle Gain Area/extra equipment for muscle gain group/Big Dumbbells" instance=ExtResource("6_iorct")]
 transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, -0.128229, 0.203995, -15.8168)
@@ -1489,6 +1490,7 @@ transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, -0.020
 transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 0.234313, 0.203995, -14.8051)
 
 [node name="Small Dumbbells" type="Node3D" parent="GymRoom/Muscle Gain Area/extra equipment for muscle gain group"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.324825, 0, -0.297014)
 
 [node name="Dumbbells_1" parent="GymRoom/Muscle Gain Area/extra equipment for muscle gain group/Small Dumbbells" instance=ExtResource("7_jr6l7")]
 transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 11.7364, 0.180734, -1.66573)

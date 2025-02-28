@@ -1320,7 +1320,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, -1.2)
 mesh = SubResource("BoxMesh_yqnee")
 
 [node name="ExitDoor" parent="." instance=ExtResource("32_8277m")]
-transform = Transform3D(-7.43094e-08, 0, -1.7, 0, 1.7, 0, 1.7, 0, -7.43094e-08, 8.87652, -0.426091, 16.1685)
+transform = Transform3D(-8.30516e-08, 0, -1.9, 0, 1.9, 0, 1.9, 0, -8.30516e-08, 8.87652, -0.467633, 16.1685)
 
 [node name="Audio_Speakers" type="Node3D" parent="."]
 
