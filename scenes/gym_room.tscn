@@ -1,4 +1,4 @@
-[gd_scene load_steps=80 format=3 uid="uid://bmv0mjcuveeim"]
+[gd_scene load_steps=86 format=3 uid="uid://bmv0mjcuveeim"]
 
 [ext_resource type="Texture2D" uid="uid://cqjbj2x45qx3w" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_diff_4k.png" id="1_0k5q7"]
 [ext_resource type="Texture2D" uid="uid://dkwpfx433ulrm" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_nor_gl_4k.png" id="2_1myl3"]
@@ -103,6 +103,20 @@ lightmap_size_hint = Vector2i(124, 166)
 material = SubResource("StandardMaterial3D_qp63w")
 size = Vector3(24, 5, 0.1)
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_lkke0"]
+size = Vector3(1, 4.5, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ookjh"]
+albedo_texture = ExtResource("27_hq5tp")
+roughness_texture = ExtResource("29_lidnv")
+normal_enabled = true
+normal_texture = ExtResource("28_nh61p")
+uv1_scale = Vector3(1, 4, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_f76cy"]
+material = SubResource("StandardMaterial3D_ookjh")
+size = Vector3(1, 4.5, 1)
+
 [sub_resource type="ViewportTexture" id="ViewportTexture_rvv8s"]
 viewport_path = NodePath("Lobby/Office_Desk_4_Two/Notebooks/notebook3/Sprite3D/SubViewport")
 
@@ -177,6 +191,20 @@ uv1_scale = Vector3(2, 2, 2)
 material = SubResource("StandardMaterial3D_sqauo")
 size = Vector2(24, 32)
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_8aotv"]
+size = Vector3(24, 1, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fat8e"]
+albedo_texture = ExtResource("27_hq5tp")
+roughness_texture = ExtResource("29_lidnv")
+normal_enabled = true
+normal_texture = ExtResource("28_nh61p")
+uv1_scale = Vector3(7, 0.5, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_yqnee"]
+material = SubResource("StandardMaterial3D_fat8e")
+size = Vector3(24, 1, 1)
+
 [node name="GymRoom" type="Node3D"]
 
 [node name="Floor" type="StaticBody3D" parent="."]
@@ -231,6 +259,28 @@ shape = SubResource("BoxShape3D_w3vcf")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, -16)
 mesh = SubResource("BoxMesh_copof")
 
+[node name="Pillar1" type="StaticBody3D" parent="Walls"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.446984)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/Pillar1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 2.25, -1.2)
+shape = SubResource("BoxShape3D_lkke0")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Walls/Pillar1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 2.25, -1.2)
+mesh = SubResource("BoxMesh_f76cy")
+
+[node name="Pillar2" type="StaticBody3D" parent="Walls"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.446984)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/Pillar2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 2.25, -1.2)
+shape = SubResource("BoxShape3D_lkke0")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Walls/Pillar2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 2.25, -1.2)
+mesh = SubResource("BoxMesh_f76cy")
+
 [node name="Lobby" type="Node3D" parent="."]
 
 [node name="Corner_Sofa" parent="Lobby" instance=ExtResource("7_ijhu1")]
@@ -252,7 +302,7 @@ transform = Transform3D(0.02, 0, 0, 0, 0.02, 0, 0, 0, 0.02, -0.0133557, 0.748073
 transform = Transform3D(-6.11959e-08, 0, 1.4, 0, 1.4, 0, -1.4, 0, -6.11959e-08, -5.56389, 1.7781, 11.9279)
 
 [node name="Painting_2" parent="Lobby" instance=ExtResource("25_q7n06")]
-transform = Transform3D(-3.0598e-07, 0, -4, 0, 7, 0, 7, 0, -1.74846e-07, 11.8715, 2.33847, -3.0967)
+transform = Transform3D(-3.0598e-07, 0, -4, 0, 7, 0, 7, 0, -1.74846e-07, 11.8715, 2.33847, -3.63751)
 
 [node name="decor_picture" parent="Lobby" instance=ExtResource("53_djoio")]
 transform = Transform3D(-0.006, 0, -4.52987e-10, 0, 0.004, 0, 9.05975e-10, 0, -0.003, 8.41968, 3.48647, 16.0036)
@@ -1257,6 +1307,17 @@ omni_range = 13.0
 
 [node name="light8" parent="Roof/Lights/OmniLight3D8" instance=ExtResource("30_6c3au")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.0590277, 0.690083, -0.0231667)
+
+[node name="Beam" type="StaticBody3D" parent="Roof"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.446984)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Roof/Beam"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, -1.2)
+shape = SubResource("BoxShape3D_8aotv")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Roof/Beam"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, -1.2)
+mesh = SubResource("BoxMesh_yqnee")
 
 [node name="ExitDoor" parent="." instance=ExtResource("32_8277m")]
 transform = Transform3D(-7.43094e-08, 0, -1.7, 0, 1.7, 0, 1.7, 0, -7.43094e-08, 8.87652, -0.426091, 16.1685)
