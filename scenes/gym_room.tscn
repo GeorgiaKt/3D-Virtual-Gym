@@ -255,7 +255,7 @@ transform = Transform3D(-6.11959e-08, 0, 1.4, 0, 1.4, 0, -1.4, 0, -6.11959e-08, 
 transform = Transform3D(-3.0598e-07, 0, -4, 0, 7, 0, 7, 0, -1.74846e-07, 11.8715, 2.33847, -3.0967)
 
 [node name="decor_picture" parent="Lobby" instance=ExtResource("53_djoio")]
-transform = Transform3D(-0.006, 0, -4.52987e-10, 0, 0.004, 0, 9.05975e-10, 0, -0.003, 8.90635, 3.34016, 16.0036)
+transform = Transform3D(-0.006, 0, -4.52987e-10, 0, 0.004, 0, 9.05975e-10, 0, -0.003, 8.41968, 3.48647, 16.0036)
 
 [node name="Office_Desk_4_Two" parent="Lobby" instance=ExtResource("12_y3ufi")]
 transform = Transform3D(1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, -2.54762, -9.68575e-08, 10.5546)
@@ -1196,64 +1196,64 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.84094)
 
 [node name="OmniLight3D" type="OmniLight3D" parent="Roof/Lights"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.96371, 3.30968, 11.9409)
-light_energy = 5.0
-omni_range = 10.0
+light_energy = 4.0
+omni_range = 13.0
 
 [node name="light1" parent="Roof/Lights/OmniLight3D" instance=ExtResource("30_6c3au")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0129986, 0.690083, 0)
 
 [node name="OmniLight3D2" type="OmniLight3D" parent="Roof/Lights"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.261, 3.31, 11.941)
-light_energy = 5.0
-omni_range = 10.0
+light_energy = 4.0
+omni_range = 13.0
 
 [node name="light2" parent="Roof/Lights/OmniLight3D2" instance=ExtResource("30_6c3au")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0983009, 0.690083, 0)
 
 [node name="OmniLight3D3" type="OmniLight3D" parent="Roof/Lights"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.261, 3.31, 4.715)
-light_energy = 5.0
-omni_range = 10.0
+light_energy = 4.0
+omni_range = 13.0
 
 [node name="light3" parent="Roof/Lights/OmniLight3D3" instance=ExtResource("30_6c3au")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0983009, 0.690083, 0.023386)
 
 [node name="OmniLight3D4" type="OmniLight3D" parent="Roof/Lights"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.921, 3.31, 4.715)
-light_energy = 5.0
-omni_range = 10.0
+light_energy = 4.0
+omni_range = 13.0
 
 [node name="light4" parent="Roof/Lights/OmniLight3D4" instance=ExtResource("30_6c3au")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.0300217, 0.690083, 0.0682869)
 
 [node name="OmniLight3D5" type="OmniLight3D" parent="Roof/Lights"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.008, 3.31, -2.559)
-light_energy = 5.0
-omni_range = 10.0
+light_energy = 4.0
+omni_range = 13.0
 
 [node name="light5" parent="Roof/Lights/OmniLight3D5" instance=ExtResource("30_6c3au")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0569925, 0.690083, 0.0520329)
 
 [node name="OmniLight3D6" type="OmniLight3D" parent="Roof/Lights"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.348, 3.31, -2.559)
-light_energy = 5.0
-omni_range = 10.0
+light_energy = 4.0
+omni_range = 13.0
 
 [node name="light6" parent="Roof/Lights/OmniLight3D6" instance=ExtResource("30_6c3au")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0038271, 0.690083, 0.0520329)
 
 [node name="OmniLight3D7" type="OmniLight3D" parent="Roof/Lights"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.348, 3.31, -9.578)
-light_energy = 5.0
-omni_range = 10.0
+light_energy = 4.0
+omni_range = 13.0
 
 [node name="light7" parent="Roof/Lights/OmniLight3D7" instance=ExtResource("30_6c3au")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0038271, 0.690083, -0.0231667)
 
 [node name="OmniLight3D8" type="OmniLight3D" parent="Roof/Lights"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.892, 3.31, -9.578)
-light_energy = 5.0
-omni_range = 10.0
+light_energy = 4.0
+omni_range = 13.0
 
 [node name="light8" parent="Roof/Lights/OmniLight3D8" instance=ExtResource("30_6c3au")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.0590277, 0.690083, -0.0231667)
