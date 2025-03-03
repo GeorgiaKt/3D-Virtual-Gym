@@ -65,7 +65,7 @@ window/size/mode=2
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/Mirror/plugin.cfg", "res://addons/dialogic/plugin.cfg")
+enabled=PackedStringArray("res://addons/dialogic/plugin.cfg")
 
 [input]
 
@@ -132,6 +132,11 @@ flap_minigame={
 3d_physics/layer_2="world"
 2d_physics/layer_3="boundaries"
 
+[physics]
+
+common/physics_ticks_per_second=144
+
 [rendering]
 
 anti_aliasing/quality/use_taa=true
+anti_aliasing/physics_ticks_per_second=144

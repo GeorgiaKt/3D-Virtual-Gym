@@ -78,7 +78,6 @@ albedo_texture = ExtResource("4_tyxlr")
 roughness_texture = ExtResource("6_ficrx")
 normal_enabled = true
 normal_texture = ExtResource("5_hvrr2")
-heightmap_enabled = true
 heightmap_scale = 16.0
 uv1_scale = Vector3(20, 2, 5)
 
@@ -95,7 +94,6 @@ roughness_texture = ExtResource("6_ficrx")
 emission_energy_multiplier = 13.66
 normal_enabled = true
 normal_texture = ExtResource("5_hvrr2")
-heightmap_enabled = true
 heightmap_scale = 16.0
 uv1_scale = Vector3(20, 2, 5)
 
@@ -154,7 +152,6 @@ albedo_texture = ExtResource("4_tyxlr")
 roughness_texture = ExtResource("6_ficrx")
 normal_enabled = true
 normal_texture = ExtResource("5_hvrr2")
-heightmap_enabled = true
 heightmap_scale = 16.0
 uv1_scale = Vector3(5, 2, 2)
 
@@ -170,7 +167,6 @@ albedo_texture = ExtResource("4_tyxlr")
 roughness_texture = ExtResource("6_ficrx")
 normal_enabled = true
 normal_texture = ExtResource("5_hvrr2")
-heightmap_enabled = true
 heightmap_scale = 16.0
 uv1_scale = Vector3(5, 2, 2)
 
@@ -1244,73 +1240,6 @@ shape = SubResource("BoxShape3D_xalst")
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 5, 0)
 mesh = SubResource("QuadMesh_swpea")
 
-[node name="Lights" type="Node3D" parent="Roof"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.84094)
-
-[node name="OmniLight3D" type="OmniLight3D" parent="Roof/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.96371, 3.30968, 11.9409)
-light_energy = 4.0
-omni_range = 13.0
-
-[node name="light1" parent="Roof/Lights/OmniLight3D" instance=ExtResource("30_6c3au")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0129986, 0.690083, 0)
-
-[node name="OmniLight3D2" type="OmniLight3D" parent="Roof/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.261, 3.31, 11.941)
-light_energy = 4.0
-omni_range = 13.0
-
-[node name="light2" parent="Roof/Lights/OmniLight3D2" instance=ExtResource("30_6c3au")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0983009, 0.690083, 0)
-
-[node name="OmniLight3D3" type="OmniLight3D" parent="Roof/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.261, 3.31, 4.715)
-light_energy = 4.0
-omni_range = 13.0
-
-[node name="light3" parent="Roof/Lights/OmniLight3D3" instance=ExtResource("30_6c3au")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0983009, 0.690083, 0.023386)
-
-[node name="OmniLight3D4" type="OmniLight3D" parent="Roof/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.921, 3.31, 4.715)
-light_energy = 4.0
-omni_range = 13.0
-
-[node name="light4" parent="Roof/Lights/OmniLight3D4" instance=ExtResource("30_6c3au")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.0300217, 0.690083, 0.0682869)
-
-[node name="OmniLight3D5" type="OmniLight3D" parent="Roof/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.008, 3.31, -2.559)
-light_energy = 4.0
-omni_range = 13.0
-
-[node name="light5" parent="Roof/Lights/OmniLight3D5" instance=ExtResource("30_6c3au")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0569925, 0.690083, 0.0520329)
-
-[node name="OmniLight3D6" type="OmniLight3D" parent="Roof/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.348, 3.31, -2.559)
-light_energy = 4.0
-omni_range = 13.0
-
-[node name="light6" parent="Roof/Lights/OmniLight3D6" instance=ExtResource("30_6c3au")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0038271, 0.690083, 0.0520329)
-
-[node name="OmniLight3D7" type="OmniLight3D" parent="Roof/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.348, 3.31, -9.578)
-light_energy = 4.0
-omni_range = 13.0
-
-[node name="light7" parent="Roof/Lights/OmniLight3D7" instance=ExtResource("30_6c3au")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0038271, 0.690083, -0.0231667)
-
-[node name="OmniLight3D8" type="OmniLight3D" parent="Roof/Lights"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.892, 3.31, -9.578)
-light_energy = 4.0
-omni_range = 13.0
-
-[node name="light8" parent="Roof/Lights/OmniLight3D8" instance=ExtResource("30_6c3au")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.0590277, 0.690083, -0.0231667)
-
 [node name="Beam" type="StaticBody3D" parent="Roof"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.446984)
 
@@ -1321,6 +1250,97 @@ shape = SubResource("BoxShape3D_8aotv")
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Roof/Beam"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, -1.2)
 mesh = SubResource("BoxMesh_yqnee")
+
+[node name="Lights" type="Node3D" parent="Roof"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.84094)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Roof/Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.96371, 3.30968, 11.9409)
+light_energy = 4.0
+shadow_enabled = true
+shadow_normal_bias = 4.0
+shadow_opacity = 0.75
+omni_range = 13.0
+
+[node name="light1" parent="Roof/Lights/OmniLight3D" instance=ExtResource("30_6c3au")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.013, 0.69008, 0)
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="Roof/Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.261, 3.31, 11.941)
+light_energy = 4.0
+shadow_enabled = true
+shadow_normal_bias = 4.0
+shadow_opacity = 0.75
+omni_range = 13.0
+
+[node name="light2" parent="Roof/Lights/OmniLight3D2" instance=ExtResource("30_6c3au")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0983009, 0.690083, 0)
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="Roof/Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.261, 3.31, 4.715)
+light_energy = 4.0
+shadow_enabled = true
+shadow_normal_bias = 4.0
+shadow_opacity = 0.75
+omni_range = 13.0
+
+[node name="light3" parent="Roof/Lights/OmniLight3D3" instance=ExtResource("30_6c3au")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0983009, 0.690083, 0.023386)
+
+[node name="OmniLight3D4" type="OmniLight3D" parent="Roof/Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.921, 3.31, 4.715)
+light_energy = 4.0
+shadow_enabled = true
+shadow_normal_bias = 4.0
+shadow_opacity = 0.75
+omni_range = 13.0
+
+[node name="light4" parent="Roof/Lights/OmniLight3D4" instance=ExtResource("30_6c3au")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.0300217, 0.690083, 0.0682869)
+
+[node name="OmniLight3D5" type="OmniLight3D" parent="Roof/Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.008, 3.31, -2.559)
+light_energy = 4.0
+shadow_enabled = true
+shadow_normal_bias = 4.0
+shadow_opacity = 0.75
+omni_range = 13.0
+
+[node name="light5" parent="Roof/Lights/OmniLight3D5" instance=ExtResource("30_6c3au")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0569925, 0.690083, 0.0520329)
+
+[node name="OmniLight3D6" type="OmniLight3D" parent="Roof/Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.348, 3.31, -2.559)
+light_energy = 4.0
+shadow_enabled = true
+shadow_normal_bias = 4.0
+shadow_opacity = 0.75
+omni_range = 13.0
+
+[node name="light6" parent="Roof/Lights/OmniLight3D6" instance=ExtResource("30_6c3au")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0038271, 0.690083, 0.0520329)
+
+[node name="OmniLight3D7" type="OmniLight3D" parent="Roof/Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.348, 3.31, -9.578)
+light_energy = 4.0
+shadow_enabled = true
+shadow_normal_bias = 4.0
+shadow_opacity = 0.75
+omni_range = 13.0
+
+[node name="light7" parent="Roof/Lights/OmniLight3D7" instance=ExtResource("30_6c3au")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.0038271, 0.690083, -0.0231667)
+
+[node name="OmniLight3D8" type="OmniLight3D" parent="Roof/Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.892, 3.31, -9.578)
+light_energy = 4.0
+shadow_enabled = true
+shadow_normal_bias = 4.0
+shadow_opacity = 0.75
+omni_range = 13.0
+
+[node name="light8" parent="Roof/Lights/OmniLight3D8" instance=ExtResource("30_6c3au")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0.0590277, 0.690083, -0.0231667)
 
 [node name="ExitDoor" parent="." instance=ExtResource("32_8277m")]
 transform = Transform3D(-8.30516e-08, 0, -1.9, 0, 1.9, 0, 1.9, 0, -8.30516e-08, 8.87652, -0.467633, 16.1685)
