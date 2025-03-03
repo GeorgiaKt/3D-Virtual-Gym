@@ -1,4 +1,4 @@
-[gd_scene load_steps=86 format=3 uid="uid://bmv0mjcuveeim"]
+[gd_scene load_steps=87 format=3 uid="uid://bmv0mjcuveeim"]
 
 [ext_resource type="Texture2D" uid="uid://cqjbj2x45qx3w" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_diff_4k.png" id="1_0k5q7"]
 [ext_resource type="Texture2D" uid="uid://dkwpfx433ulrm" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_nor_gl_4k.png" id="2_1myl3"]
@@ -21,6 +21,7 @@
 [ext_resource type="PackedScene" uid="uid://br0au4assfrjw" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Phone_A Base.fbx" id="20_reenb"]
 [ext_resource type="PackedScene" uid="uid://bdr1s7s553ee1" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Phone_B.fbx" id="21_vcjn4"]
 [ext_resource type="PackedScene" uid="uid://df8oc8hpcg244" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/PC_Screen.fbx" id="23_mkxlh"]
+[ext_resource type="FontFile" uid="uid://gdnofyqepro2" path="res://fonts/Rowdies/Rowdies-Light.ttf" id="23_y6haq"]
 [ext_resource type="PackedScene" uid="uid://b8ksqpn61rgxf" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Keyboard.fbx" id="24_0fe1a"]
 [ext_resource type="PackedScene" uid="uid://bg4378ohxw336" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Mouse.fbx" id="25_pw4ys"]
 [ext_resource type="PackedScene" uid="uid://bv3k87io6ldmx" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Painting_Small.fbx" id="25_q7n06"]
@@ -121,11 +122,13 @@ size = Vector3(1, 4.5, 1)
 viewport_path = NodePath("Lobby/Office_Desk_4_Two/Notebooks/notebook3/Sprite3D/SubViewport")
 
 [sub_resource type="LabelSettings" id="LabelSettings_74fys"]
-font_size = 40
+font = ExtResource("23_y6haq")
+font_size = 44
 font_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_0h5va"]
-font_size = 25
+font = ExtResource("23_y6haq")
+font_size = 27
 font_color = Color(0, 0, 0, 1)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_j1bfu"]
