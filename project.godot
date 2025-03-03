@@ -55,6 +55,7 @@ save/encryption_on_exports_only=true
 variables={
 "score_perc": 0
 }
+text/autopauses={}
 
 [display]
 

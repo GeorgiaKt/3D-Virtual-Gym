@@ -1,21 +1,38 @@
-[gd_scene load_steps=8 format=3 uid="uid://dou5mqswecegh"]
+[gd_scene load_steps=13 format=3 uid="uid://dou5mqswecegh"]
 
 [ext_resource type="PackedScene" uid="uid://joxy2716q7mc" path="res://scenes/mini_game.tscn" id="1_661u0"]
+[ext_resource type="FontFile" uid="uid://bpwqtcipje52n" path="res://fonts/Dangrek/Dangrek-Regular.ttf" id="1_udksv"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_i3sok"]
-font_size = 32
+font = ExtResource("1_udksv")
+font_size = 37
+font_color = Color(0.890196, 0.894118, 1, 1)
 outline_size = 5
 outline_color = Color(0.0117647, 0, 0, 1)
 
+[sub_resource type="FontVariation" id="FontVariation_pelov"]
+base_font = ExtResource("1_udksv")
+
 [sub_resource type="LabelSettings" id="LabelSettings_caobq"]
-font_size = 32
+font = SubResource("FontVariation_pelov")
+font_size = 37
+font_color = Color(0.890196, 0.894118, 1, 1)
 outline_size = 5
 outline_color = Color(0, 0, 0, 1)
 
+[sub_resource type="FontVariation" id="FontVariation_4xr6d"]
+base_font = ExtResource("1_udksv")
+
 [sub_resource type="LabelSettings" id="LabelSettings_7314i"]
-font_size = 25
+font = SubResource("FontVariation_4xr6d")
+font_size = 29
+font_color = Color(0.45, 0.468333, 1, 0.882353)
 outline_size = 5
 outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="FontVariation" id="FontVariation_x8qiy"]
+base_font = ExtResource("1_udksv")
+spacing_glyph = 1
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oja4k"]
 bg_color = Color(0.510933, 0.525332, 1, 0.698039)
@@ -42,8 +59,13 @@ corner_radius_top_right = 10
 corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
 
+[sub_resource type="FontVariation" id="FontVariation_v46bg"]
+base_font = ExtResource("1_udksv")
+
 [sub_resource type="LabelSettings" id="LabelSettings_2d1bq"]
-font_size = 20
+font = SubResource("FontVariation_v46bg")
+font_size = 23
+font_color = Color(0.7, 0.71, 1, 0.807843)
 outline_size = 5
 outline_color = Color(0, 0, 0, 1)
 
@@ -147,6 +169,8 @@ offset_right = 281.0
 offset_bottom = 15.0
 grow_horizontal = 0
 grow_vertical = 2
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = SubResource("FontVariation_x8qiy")
 theme_override_styles/background = SubResource("StyleBoxFlat_oja4k")
 theme_override_styles/fill = SubResource("StyleBoxFlat_b5jek")
 
