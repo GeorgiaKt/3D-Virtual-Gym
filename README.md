@@ -7,6 +7,7 @@
 - [Godot Mirror](https://github.com/Norodix/GodotMirror)
 ### Also
  - Icons by [SVG repo](https://www.svgrepo.com/)
+ - Fonts by [Google Fonts](https://fonts.google.com/)
  - Textures by [Poly Haven](https://polyhaven.com/textures)
  - Characters by [Mixamo](https://www.mixamo.com)
  - Assets by [Sketchfab](https://sketchfab.com) and [Itch.io](https://itch.io/)
