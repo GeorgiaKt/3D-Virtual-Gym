@@ -1560,7 +1560,7 @@ ResolutionPerUnit = 700
 MainCamPath = NodePath("../../../Player/PlayerCamera")
 
 [node name="Player" parent="." instance=ExtResource("2_lfp2a")]
-transform = Transform3D(-0.218875, 0, 0.975753, 0, 1, 0, -0.975753, 0, -0.218875, -1.67473, 0, 9.46168)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -2.35942, 0, 9.61325)
 speed = 4.0
 acceleration = 25.0
 
@@ -1568,7 +1568,7 @@ acceleration = 25.0
 script = ExtResource("31_tcl7n")
 
 [node name="PlayerCamera" type="Camera3D" parent="Player"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 0.224679)
+transform = Transform3D(1, 2.85342e-08, 1.05982e-08, -2.85342e-08, 0.757542, 0.652786, 1.05981e-08, -0.652786, 0.757542, -2.86102e-06, 1.7, 0.224679)
 
 [node name="megan_sitting" parent="." instance=ExtResource("32_ehcr2")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -3.413, 0.225, 10.631)

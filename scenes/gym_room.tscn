@@ -299,7 +299,7 @@ transform = Transform3D(0.741733, 0, 0.812301, 0, 1.1, 0, -0.812301, 0, 0.741733
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.56956, 0, 12.5642)
 
 [node name="Vase_with_Flowers" parent="Lobby/Round_Table" instance=ExtResource("34_p6egw")]
-transform = Transform3D(0.02, 0, 0, 0, 0.02, 0, 0, 0, 0.02, -0.0133557, 0.748073, -0.0458651)
+transform = Transform3D(0.02, 0, 0, 0, 0.02, 0, 0, 0, 0.02, 0.00288939, 0.748073, 0.00867939)
 
 [node name="Painting_1" parent="Lobby" instance=ExtResource("17_lj61m")]
 transform = Transform3D(-6.11959e-08, 0, 1.4, 0, 1.4, 0, -1.4, 0, -6.11959e-08, -5.56389, 1.7781, 11.9279)
@@ -375,7 +375,7 @@ offset_top = -87.0
 grow_horizontal = 2
 grow_vertical = 0
 text = "How to Play:
-Exercise with gym equipment to increase your Fitness Score!
+Exercise with gym equipment to increase your Fitness!
 Personal Trainer and Dietitian are at your disposal!
 
 *Arrow keys can be used as well"
