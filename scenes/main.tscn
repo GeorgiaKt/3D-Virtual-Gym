@@ -1545,18 +1545,11 @@ transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 10.798
 
 [node name="Mirrors" type="Node3D" parent="GymRoom"]
 
-[node name="MirrorA" type="Node3D" parent="GymRoom/Mirrors"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.88081, 1.60626, -15.9031)
+[node name="Mirror" type="Node3D" parent="GymRoom/Mirrors"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.606, -15.903)
 script = ExtResource("29_jvn4a")
-size = Vector2(10, 3)
-ResolutionPerUnit = 700
-MainCamPath = NodePath("../../../Player/PlayerCamera")
-
-[node name="MirrorB" type="Node3D" parent="GymRoom/Mirrors"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.89877, 1.60626, -15.9031)
-script = ExtResource("29_jvn4a")
-size = Vector2(10, 3)
-ResolutionPerUnit = 700
+size = Vector2(23.6, 3)
+ResolutionPerUnit = 500
 MainCamPath = NodePath("../../../Player/PlayerCamera")
 
 [node name="Player" parent="." instance=ExtResource("2_lfp2a")]
