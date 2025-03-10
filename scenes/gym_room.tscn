@@ -1,4 +1,4 @@
-[gd_scene load_steps=87 format=3 uid="uid://bmv0mjcuveeim"]
+[gd_scene load_steps=86 format=3 uid="uid://bmv0mjcuveeim"]
 
 [ext_resource type="Texture2D" uid="uid://cqjbj2x45qx3w" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_diff_4k.png" id="1_0k5q7"]
 [ext_resource type="Texture2D" uid="uid://dkwpfx433ulrm" path="res://textures/rubber_tiles_4k_texture/rubber_tiles_nor_gl_4k.png" id="2_1myl3"]
@@ -10,7 +10,6 @@
 [ext_resource type="PackedScene" uid="uid://o8cbarwqn7xw" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Drawer_2.fbx" id="7_l5iae"]
 [ext_resource type="PackedScene" uid="uid://cugbdlngw85yi" path="res://assets/green_sofa/scene.gltf" id="8_j2uem"]
 [ext_resource type="PackedScene" uid="uid://bb4fcwgwyarsn" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Drawer_D.fbx" id="8_xnacc"]
-[ext_resource type="PackedScene" uid="uid://b2bltx80wlxxv" path="res://assets/cream_sofa/scene.gltf" id="9_tgpv3"]
 [ext_resource type="PackedScene" uid="uid://b01n0chlh76p1" path="res://assets/ring_round_table/scene.gltf" id="10_bhmyl"]
 [ext_resource type="PackedScene" uid="uid://dlx23g2ps4l1s" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Chair_B.fbx" id="10_xixeb"]
 [ext_resource type="PackedScene" uid="uid://cwt57qwlg6jnt" path="res://assets/VNB Low Poly Office Set Updated/FBX/Separated/Office_Desk_4_Two.fbx" id="12_y3ufi"]
@@ -74,6 +73,7 @@ size = Vector3(24, 0.2, 32)
 size = Vector3(0.1, 5, 32)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_inojq"]
+albedo_color = Color(0.176471, 0.352941, 0.431373, 1)
 albedo_texture = ExtResource("4_tyxlr")
 roughness_texture = ExtResource("6_ficrx")
 normal_enabled = true
@@ -89,6 +89,7 @@ size = Vector3(0.1, 5, 32)
 size = Vector3(24, 5, 0.1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qp63w"]
+albedo_color = Color(0.243137, 0.305882, 0.533333, 1)
 albedo_texture = ExtResource("4_tyxlr")
 roughness_texture = ExtResource("6_ficrx")
 emission_energy_multiplier = 13.66
@@ -148,6 +149,7 @@ size = Vector3(5.65796, 1.80847, 0.44519)
 size = Vector3(6.4, 2.4, 0.2)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i8vus"]
+albedo_color = Color(0.243137, 0.305882, 0.533333, 1)
 albedo_texture = ExtResource("4_tyxlr")
 roughness_texture = ExtResource("6_ficrx")
 normal_enabled = true
@@ -163,6 +165,7 @@ size = Vector3(6.4, 2.4, 0.2)
 size = Vector3(7, 2.4, 0.2)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wne1e"]
+albedo_color = Color(0.243137, 0.305882, 0.533333, 1)
 albedo_texture = ExtResource("4_tyxlr")
 roughness_texture = ExtResource("6_ficrx")
 normal_enabled = true
@@ -286,13 +289,10 @@ mesh = SubResource("BoxMesh_f76cy")
 transform = Transform3D(0.03, 0, 0, 0, 0.03, 0, 0, 0, 0.03, 4.65109, 0, 10.0895)
 
 [node name="Green_Sofa" parent="Lobby" instance=ExtResource("8_j2uem")]
-transform = Transform3D(-1.2, 0, -1.81195e-07, 0, 1.2, 0, 1.81195e-07, 0, -1.2, 3.97208, 3.30806e-06, 15.211)
-
-[node name="Cream_Sofa" parent="Lobby" instance=ExtResource("9_tgpv3")]
-transform = Transform3D(0.741733, 0, 0.812301, 0, 1.1, 0, -0.812301, 0, 0.741733, 0.922, 0, 11.232)
+transform = Transform3D(-1.2, 0, -1.81195e-07, 0, 1.2, 0, 1.81195e-07, 0, -1.2, 3.95781, 3.30806e-06, 15.211)
 
 [node name="Round_Table" parent="Lobby" instance=ExtResource("10_bhmyl")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.56956, 0, 12.5642)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.86723, 0, 12.6144)
 
 [node name="Vase_with_Flowers" parent="Lobby/Round_Table" instance=ExtResource("34_p6egw")]
 transform = Transform3D(0.02, 0, 0, 0, 0.02, 0, 0, 0, 0.02, 0.00288939, 0.748073, 0.00867939)
