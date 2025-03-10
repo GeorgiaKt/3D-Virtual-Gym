@@ -64,6 +64,7 @@ roughness_texture = ExtResource("3_1js67")
 normal_enabled = true
 normal_texture = ExtResource("2_1myl3")
 uv1_scale = Vector3(12, 12, 12)
+texture_filter = 5
 
 [sub_resource type="BoxMesh" id="BoxMesh_blrrn"]
 material = SubResource("StandardMaterial3D_370wi")
@@ -80,6 +81,7 @@ normal_enabled = true
 normal_texture = ExtResource("5_hvrr2")
 heightmap_scale = 16.0
 uv1_scale = Vector3(20, 2, 5)
+texture_filter = 5
 
 [sub_resource type="BoxMesh" id="BoxMesh_fn0hq"]
 material = SubResource("StandardMaterial3D_inojq")
@@ -97,6 +99,7 @@ normal_enabled = true
 normal_texture = ExtResource("5_hvrr2")
 heightmap_scale = 16.0
 uv1_scale = Vector3(20, 2, 5)
+texture_filter = 5
 
 [sub_resource type="BoxMesh" id="BoxMesh_copof"]
 lightmap_size_hint = Vector2i(124, 166)
@@ -112,6 +115,7 @@ roughness_texture = ExtResource("29_lidnv")
 normal_enabled = true
 normal_texture = ExtResource("28_nh61p")
 uv1_scale = Vector3(1, 4, 1)
+texture_filter = 5
 
 [sub_resource type="BoxMesh" id="BoxMesh_f76cy"]
 material = SubResource("StandardMaterial3D_ookjh")
@@ -156,6 +160,7 @@ normal_enabled = true
 normal_texture = ExtResource("5_hvrr2")
 heightmap_scale = 16.0
 uv1_scale = Vector3(5, 2, 2)
+texture_filter = 5
 
 [sub_resource type="BoxMesh" id="BoxMesh_5u2ec"]
 material = SubResource("StandardMaterial3D_i8vus")
@@ -172,6 +177,7 @@ normal_enabled = true
 normal_texture = ExtResource("5_hvrr2")
 heightmap_scale = 16.0
 uv1_scale = Vector3(5, 2, 2)
+texture_filter = 5
 
 [sub_resource type="BoxMesh" id="BoxMesh_nxswc"]
 material = SubResource("StandardMaterial3D_wne1e")
@@ -188,6 +194,7 @@ normal_texture = ExtResource("28_nh61p")
 heightmap_enabled = true
 heightmap_scale = 16.0
 uv1_scale = Vector3(2, 2, 2)
+texture_filter = 5
 
 [sub_resource type="QuadMesh" id="QuadMesh_swpea"]
 material = SubResource("StandardMaterial3D_sqauo")
