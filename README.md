@@ -1,6 +1,6 @@
 # 3D Virtual Gym
 ## Description
-This project is an interactive interface system for a 3d virtual gym, in which the user can:
+This project is an interactive application for a 3d virtual gym, in which the user can:
 - navigate and interact with gym equipment
 - consult a virtual dietitian and personal trainer, through dialogue
 - play a mini game, while exercising
