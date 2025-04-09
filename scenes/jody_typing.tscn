@@ -741,8 +741,8 @@ tracks/51/keys = PackedFloat32Array(0, 1, 0.0865183, -0.00011361, 0.00674936, 0.
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_p246a"]
 _data = {
-"Take 001": SubResource("Animation_6ld2v"),
-"mixamo_com": SubResource("Animation_e8mht")
+&"Take 001": SubResource("Animation_6ld2v"),
+&"mixamo_com": SubResource("Animation_e8mht")
 }
 
 [node name="jody_trainer" instance=ExtResource("1_1yoql")]

@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cw8kmknyi4b0b"
-path.s3tc="res://.godot/imported/palette1.png-7b35ee2cd3e1f525d8f70ff4112fb5f8.s3tc.ctex"
+uid="uid://dm23iwd5ij3u3"
+path.s3tc="res://.godot/imported/palette1.png-f4178acfda651064019fbf9c979101c8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/VNB Low Poly Office Set Updated/Textures/palette1.png"
-dest_files=["res://.godot/imported/palette1.png-7b35ee2cd3e1f525d8f70ff4112fb5f8.s3tc.ctex"]
+source_file="res://assets/VNB Low Poly Office Set Updated/textures/palette1.png"
+dest_files=["res://.godot/imported/palette1.png-f4178acfda651064019fbf9c979101c8.s3tc.ctex"]
 
 [params]
 

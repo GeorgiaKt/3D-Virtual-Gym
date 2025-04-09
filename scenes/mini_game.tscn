@@ -1,10 +1,10 @@
 [gd_scene load_steps=14 format=3 uid="uid://joxy2716q7mc"]
 
-[ext_resource type="Script" path="res://scripts/mini game/mini_game.gd" id="1_8ll55"]
+[ext_resource type="Script" uid="uid://cv7ehth1wcesi" path="res://scripts/mini game/mini_game.gd" id="1_8ll55"]
 [ext_resource type="Texture2D" uid="uid://yvp4wywbb7wb" path="res://icons/black-rounded-square.png" id="1_v68nw"]
-[ext_resource type="Script" path="res://scripts/mini game/player.gd" id="2_f3355"]
+[ext_resource type="Script" uid="uid://up202w6o11pn" path="res://scripts/mini game/player.gd" id="2_f3355"]
 [ext_resource type="Texture2D" uid="uid://cyhu8vlg8j8ok" path="res://icons/dumbbell.png" id="2_lraex"]
-[ext_resource type="Script" path="res://scripts/mini game/moving_body.gd" id="4_4diwg"]
+[ext_resource type="Script" uid="uid://2gxnk3b0iteo" path="res://scripts/mini game/moving_body.gd" id="4_4diwg"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_acpb0"]
 bg_color = Color(0.1944, 0.2808, 0.54, 1)

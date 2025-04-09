@@ -32,9 +32,9 @@
 [ext_resource type="PackedScene" uid="uid://dj22c0lrra2ec" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/EzBar.fbx" id="26_d8cb1"]
 [ext_resource type="PackedScene" uid="uid://dxtkapdoy2sxc" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Weight_Stand_2.fbx" id="27_bou5w"]
 [ext_resource type="PackedScene" uid="uid://bvrjf1bywj11i" path="res://assets/gym equipment/VNB Low Poly Gym Set/FBX/Weight_Bar_C.fbx" id="28_0h8g7"]
-[ext_resource type="Script" path="res://addons/Mirror/Mirror/Mirror.gd" id="29_jvn4a"]
+[ext_resource type="Script" uid="uid://br5as2185uvth" path="res://addons/Mirror/Mirror/Mirror.gd" id="29_jvn4a"]
 [ext_resource type="PackedScene" uid="uid://dou5mqswecegh" path="res://scenes/ui.tscn" id="30_tgxrq"]
-[ext_resource type="Script" path="res://scripts/ui.gd" id="31_tcl7n"]
+[ext_resource type="Script" uid="uid://b0u0dgt8rf2n0" path="res://scripts/ui.gd" id="31_tcl7n"]
 [ext_resource type="PackedScene" uid="uid://cqvhwxgf7gywy" path="res://scenes/megan_sitting.tscn" id="32_ehcr2"]
 [ext_resource type="PackedScene" uid="uid://bouyc3uw2b45h" path="res://scenes/jody_typing.tscn" id="33_agu3e"]
 

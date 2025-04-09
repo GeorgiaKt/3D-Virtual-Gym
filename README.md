@@ -29,7 +29,7 @@ Exercise, by interacting with gym equipment, to increase your Fitness.
 More screenshots can be found in [screenshots](https://github.com/GeorgiaKt/3D-Virtual-Gym/tree/main/screenshots) folder.
 
 ## Built With
-- Godot 4.3
+- Godot 4.4.1
 - [Dialogic 2.0 - Alpha 16](https://github.com/dialogic-godot/dialogic)
 - [Godot First Person Controller 3.1.1](https://github.com/rbarongr/GodotFirstPersonController)
 - [Godot Mirror](https://github.com/Norodix/GodotMirror)
